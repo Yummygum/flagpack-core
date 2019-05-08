@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="a" width="32" height="24"/>
+    <rect id="c" width="32" height="24"/>
+    <rect id="e" width="32" height="24"/>
+    <rect id="g" width="32" height="16"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#e"/>
+        <rect width="32" height="8" y="16" fill="#FECA00" mask="url(#f)"/>
+        <g mask="url(#f)">
+          <mask id="h" fill="white">
+            <use xlink:href="#g"/>
+          </mask>
+          <g mask="url(#h)">
+            <g transform="translate(-6 -2)">
+              <g transform="translate(2)">
+                <polygon fill="#FFFFFF" fill-rule="nonzero" points="1.738 2.278 8.081 .811 21.602 8.282 23.032 9.118 35.876 15.834 38.919 17.955 31.959 18.597 20.737 12.267 12.628 8.282" transform="matrix(1 0 0 -1 0 19.407)"/>
+                <polygon fill="#F50100" fill-rule="nonzero" points="2.295 2.306 5.71 1.186 37.649 19.139 32.854 19.139" transform="matrix(1 0 0 -1 0 20.325)"/>
+              </g>
+              <g transform="matrix(-1 0 0 1 42 0)">
+                <polygon fill="#FFFFFF" fill-rule="nonzero" points="1.629 2.673 1.377 1.163 8.081 .807 18.887 7.137 19.906 6.789 40.08 16.993 31.751 18.597 20.615 12.445 11.903 8.236" transform="matrix(1 0 0 -1 0 19.404)"/>
+                <polygon fill="#F50100" fill-rule="nonzero" points="1.606 2.582 5.021 1.462 18.621 9.149 22.653 10.008 39.259 18.757 34.464 18.757 17.867 10.215 13.459 9.186" transform="matrix(1 0 0 -1 0 20.22)"/>
+              </g>
+              <g transform="translate(4.77 .667)">
+                <path stroke="#FFFFFF" stroke-width="2.5" d="M15.6697725,7.33333333 L15.6697725,1.33333333 L18.8583183,1.33333333 L18.8583183,7.33333333 L33.2307692,7.33333333 L33.2307692,11.3333333 L18.8583183,11.3333333 L18.8583183,19.3333333 L15.6697725,19.3333333 L15.6697725,11.3333333 L1.23076923,11.3333333 L1.23076923,7.33333333 L15.6697725,7.33333333 Z"/>
+                <path fill="#F50100" d="M15.5384615,7.33333333 L15.5384615,0 L18.9230769,0 L18.9230769,7.33333333 L35.2307692,7.33333333 L35.2307692,11.3333333 L18.9230769,11.3333333 L18.9230769,20.6666667 L15.5384615,20.6666667 L15.5384615,11.3333333 L1.23076923,11.3333333 L1.23076923,7.33333333 L15.5384615,7.33333333 Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g mask="url(#f)">
+          <g transform="translate(4)">
+            <circle cx="12.05" cy="7.85" r="2.75" fill="#2E42A5"/>
+            <g transform="translate(0 1.2)">
+              <polygon fill="#FECA00" points="12.1 7.491 10.802 8.394 11.26 6.881 10 5.926 11.581 5.894 12.1 4.4 12.619 5.894 14.2 5.926 12.94 6.881 13.398 8.394"/>
+              <polygon fill="#FECA00" points="3.1 7.376 2.018 8.129 2.4 6.867 1.35 6.071 2.667 6.045 3.1 4.8 3.533 6.045 4.85 6.071 3.8 6.867 4.182 8.129"/>
+              <polygon fill="#FECA00" points="21.1 7.376 20.018 8.129 20.4 6.867 19.35 6.071 20.667 6.045 21.1 4.8 21.533 6.045 22.85 6.071 21.8 6.867 22.182 8.129"/>
+              <polygon fill="#FECA00" points="12.1 2.576 11.018 3.329 11.4 2.068 10.35 1.271 11.667 1.245 12.1 0 12.533 1.245 13.85 1.271 12.8 2.068 13.182 3.329"/>
+              <polygon fill="#FECA00" points="12.1 13.176 11.018 13.929 11.4 12.668 10.35 11.871 11.667 11.845 12.1 10.6 12.533 11.845 13.85 11.871 12.8 12.668 13.182 13.929"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

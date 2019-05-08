@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="a" width="32" height="24"/>
+    <rect id="c" width="32" height="24"/>
+    <rect id="e" width="32" height="24"/>
+    <path id="h" d="M25.3852436,11.808138 L25.37939,11.799298 L26.3141,11.808138 L27.03278,10.381596 L27.69236,11.798076 L29.15321,11.799298 L27.71915,12.929414 L28.56125,14.387104 L27.07871,13.535838 L25.70996,14.39441 L26.28344,13.164584 L24.809,11.808138 L25.3852436,11.808138 Z M8.85946285,18.554952 L10.8036,18.554952 L11.89671,16.385252 L12.89988,18.539638 L15.12204,18.541692 L12.94041,20.260578 L14.22171,22.478014 L11.9907514,21.5193493 L9.88416,22.489142 L10.75701,20.618442 L8.85946285,18.554952 Z M21.0788,21.7345659 L22.41062,21.7345659 L23.03273,20.381664 L23.78849,21.7245039 L25.15301,21.799132 L23.81528,22.8558419 L24.56117,24.387016 L23.0789,23.535854 L21.71012,24.394634 L22.37996,23.0911679 L21.0788,21.7345659 Z M21.0788,7.808038 L22.31429,7.808038 L23.03273,6.381756 L23.69216,7.798054 L25.15301,7.799354 L23.71895,8.929574 L24.56117,10.387238 L23.115905,9.68499308 L21.71012,10.394336 L22.28363,9.16464 L21.0788,7.808038 Z M18.9873301,13.808032 L20.31419,13.808032 L21.03299,12.381724 L21.69242,13.797892 L23.15315,13.799426 L21.71885,14.929386 L22.56146,16.387076 L21.0788,15.535732 L19.71002,16.394538 L20.31419,14.929386 L18.9873301,13.808032 Z M23.4482616,16.650326 L24.36158,16.650326 L24.78179,15.816376 L25.16789,16.644762 L26.0219,16.645386 L25.18301,17.306358 L25.6757,18.158508 L24.809,17.660634 L24.00833,18.162694 L24.34376,17.443846 L23.4482616,16.650326 Z"/>
+    <filter id="g" width="145.1%" height="150.4%" x="-21.1%" y="-23.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.13333334 0 0 0 0 0.21568628 0 0 0 0 0.41960785 0 0 0 0.59 0"/>
+    </filter>
+    <rect id="i" width="18" height="14"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#e"/>
+        <g mask="url(#f)">
+          <use fill="black" filter="url(#g)" xlink:href="#h"/>
+          <use fill="#EEEEF6" xlink:href="#h"/>
+        </g>
+        <g mask="url(#f)">
+          <mask id="j" fill="white">
+            <use xlink:href="#i"/>
+          </mask>
+          <use fill="#2B409A" xlink:href="#i"/>
+          <g mask="url(#j)">
+            <g transform="translate(-4 -2)">
+              <polygon fill="#FFFFFF" fill-rule="nonzero" points="1.996 2.464 5.957 .727 22.09 13.575 24.179 16.156 19.944 16.737 13.363 11.2 8.067 7.47" transform="matrix(1 0 0 -1 0 17.464)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="2.538 2.075 4.556 1.067 23.429 17.225 20.596 17.225" transform="matrix(1 0 0 -1 0 18.292)"/>
+              <g transform="matrix(-1 0 0 1 26 0)">
+                <polygon fill="#FFFFFF" fill-rule="nonzero" points="1.996 2.464 5.957 .727 22.09 13.575 24.179 16.156 19.944 16.737 13.363 11.2 8.067 7.47" transform="matrix(1 0 0 -1 0 17.464)"/>
+                <polygon fill="#F50100" fill-rule="nonzero" points="2.131 2.324 4.149 1.316 12.185 8.234 14.568 9.007 24.38 16.881 21.547 16.881 11.74 9.194 9.135 8.267" transform="matrix(1 0 0 -1 0 18.198)"/>
+              </g>
+              <path fill="#F50100" stroke="#F7FCFF" stroke-width="1.5" d="M7.23451152,5.25 L7.23451152,-0.75 L10.7345115,-0.75 L10.7345115,5.25 L18.75,5.25 L18.75,8.75 L10.7345115,8.75 L10.7345115,14.75 L7.23451152,14.75 L7.23451152,8.75 L-0.75,8.75 L-0.75,5.25 L7.23451152,5.25 Z" transform="translate(4 2)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
