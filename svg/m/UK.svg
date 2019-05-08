@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+    <rect id="g" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#e"/>
+        <g mask="url(#f)">
+          <mask id="h" fill="white">
+            <use xlink:href="#g"/>
+          </mask>
+          <g mask="url(#h)">
+            <g transform="translate(-3.194 -2.143)">
+              <polygon fill="#FFFFFF" fill-rule="nonzero" points=".967 2.64 5.369 .778 23.294 14.544 25.616 17.31 20.909 17.933 13.598 12 7.713 8.003" transform="matrix(1 0 0 -1 0 18.711)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="1.57 2.224 3.812 1.144 24.782 18.455 21.634 18.455" transform="matrix(1 0 0 -1 0 19.599)"/>
+              <g transform="matrix(-1 0 0 1 26.389 0)">
+                <polygon fill="#FFFFFF" fill-rule="nonzero" points=".967 2.64 5.369 .778 23.294 14.544 25.616 17.31 20.909 17.933 13.598 12 7.713 8.003" transform="matrix(1 0 0 -1 0 18.711)"/>
+                <polygon fill="#F50100" fill-rule="nonzero" points="1.118 2.49 3.36 1.41 12.289 8.822 14.936 9.65 25.839 18.087 22.691 18.087 11.794 9.851 8.9 8.858" transform="matrix(1 0 0 -1 0 19.497)"/>
+              </g>
+              <path fill="#F50100" stroke="#FFFFFF" stroke-width="1.25" d="M0.642209423,6.875 L0.642209423,10.625 L9.51388889,10.625 L9.51388889,16.875 L12.9861111,16.875 L12.9861111,10.625 L21.8922094,10.625 L21.8922094,6.875 L12.9861111,6.875 L12.9861111,0.625 L9.51388889,0.625 L9.51388889,6.875 L0.642209423,6.875 Z" transform="translate(1.944 .893)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

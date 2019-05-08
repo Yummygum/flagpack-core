@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#E31D1C" xlink:href="#e"/>
+        <circle cx="10" cy="7.5" r="5" fill="#F7FCFF" mask="url(#f)"/>
+        <path fill="#E31D1C" d="M8.24136839,7.45510505 C8.19198923,10.284035 10.8142785,11.0488852 10.8142785,11.0488852 C9.805918,11.477159 6.53911839,10.8104921 6.59818753,7.42642322 C6.65725667,4.0423543 9.85704248,3.45099863 10.9392077,3.89169884 C10.9392077,3.89169884 8.29074754,4.62617506 8.24136839,7.45510505 Z M9.42633969,7.33778606 L10.7418866,6.88297674 L10.74758,5.58693457 L11.5573887,6.63617275 L12.7593775,6.25481643 L12.1267437,7.44089197 L13.128045,8.2873407 L11.7199577,8.16265904 L10.8470811,9.16962728 L10.8227353,7.8534182 L9.42633969,7.33778606 Z" mask="url(#f)" transform="rotate(-1 9.863 7.464)"/>
+      </g>
+    </g>
+  </g>
+</svg>

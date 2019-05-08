@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+    <rect id="e" width="9" height="7"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#AF0100" xlink:href="#c"/>
+      <g mask="url(#d)">
+        <g transform="translate(11 5)">
+          <path fill="#F7FCFF" d="M0.00376141786,1 C0.00376488113,3.94339039 0.282330863,4.96564879 1.95990489,4.96564879 C3.63747891,4.96564879 4.0964347,3.48282439 3.95481039,1 L0.00376141786,1 Z"/>
+          <ellipse cx="2.05" cy="1.7" fill="#AF0100" rx="1" ry="1"/>
+          <path fill="#5EAA22" d="M0.396649221,4.15694925 C0.695496975,4.82361591 1.21829836,5.15694925 1.96505338,5.15694925 C2.70680273,5.15694925 3.23128782,4.82806976 3.53850865,4.17031078 L0.396649221,4.15694925 Z"/>
+          <path fill="#82B2CB" fill-rule="nonzero" d="M0.809596946,2.51532404 L0.530501296,1.81918783 C1.04273695,1.61382178 1.53660035,1.50980502 2.01110378,1.50980502 C2.48560721,1.50980502 2.97947061,1.61382178 3.49170626,1.81918783 L3.21261061,2.51532404 C2.78550611,2.34408886 2.38533307,2.25980502 2.01110378,2.25980502 C1.63687449,2.25980502 1.23670144,2.34408886 0.809596946,2.51532404 Z"/>
+          <circle cx="1.5" cy="2.5" r="1" fill="#FECA00"/>
+          <circle cx="1.8" cy="3.3" r="1" fill="#8A4E22"/>
+          <circle cx="1" cy="2.9" r="1" fill="#AF0100"/>
+          <circle cx="2.7" cy="2.9" r="1" fill="#AF0100"/>
+          <ellipse cx="2.35" cy="4" fill="#AF0100" rx="1" ry="1"/>
+          <ellipse cx="1.15" cy="4" fill="#AF0100" rx="1" ry="1"/>
+        </g>
+      </g>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#e"/>
+        <g mask="url(#f)">
+          <g transform="translate(-2 -1)">
+            <polygon fill="#FFFFFF" fill-rule="nonzero" points=".998 1.232 2.978 .363 11.045 6.787 12.09 8.078 9.972 8.369 6.682 5.6 4.033 3.735" transform="matrix(1 0 0 -1 0 8.732)"/>
+            <polygon fill="#F50100" fill-rule="nonzero" points="1.269 1.038 2.278 .534 11.714 8.613 10.298 8.613" transform="matrix(1 0 0 -1 0 9.146)"/>
+            <g transform="matrix(-1 0 0 1 13 0)">
+              <polygon fill="#FFFFFF" fill-rule="nonzero" points=".998 1.232 2.978 .363 11.045 6.787 12.09 8.078 9.972 8.369 6.682 5.6 4.033 3.735" transform="matrix(1 0 0 -1 0 8.732)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="1.065 1.162 2.074 .658 6.093 4.117 7.284 4.503 12.19 8.441 10.773 8.441 5.87 4.597 4.567 4.134" transform="matrix(1 0 0 -1 0 9.099)"/>
+            </g>
+            <g transform="translate(2 1)">
+              <path stroke="#FFFFFF" d="M4,2.53237154 L4,0 L5,0 L5,2.53237154 L9.00774424,2.53237154 L9.00774424,4.53237154 L5,4.53237154 L5,7 L4,7 L4,4.53237154 L0.00774424025,4.53237154 L0.00774424025,2.53237154 L4,2.53237154 Z"/>
+              <path fill="#F50100" d="M4,2.53237154 L4,0 L5,0 L5,2.53237154 L9.00774424,2.53237154 L9.00774424,4.53237154 L5,4.53237154 L5,7 L4,7 L4,4.53237154 L0.00774424025,4.53237154 L0.00774424025,2.53237154 L4,2.53237154 Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

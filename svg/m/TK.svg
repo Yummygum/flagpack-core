@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#e"/>
+        <polygon fill="#F7FCFF" points="2.059 6.29 1.506 6.632 1.72 6.057 1.25 5.622 1.821 5.622 2.059 5 2.241 5.622 2.813 5.622 2.401 6.057 2.602 6.632" mask="url(#f)"/>
+        <polygon fill="#F7FCFF" points="4.559 3.79 4.006 4.132 4.22 3.557 3.75 3.122 4.321 3.122 4.559 2.5 4.741 3.122 5.313 3.122 4.901 3.557 5.102 4.132" mask="url(#f)"/>
+        <polygon fill="#F7FCFF" points="7.059 6.29 6.506 6.632 6.72 6.057 6.25 5.622 6.821 5.622 7.059 5 7.241 5.622 7.813 5.622 7.401 6.057 7.602 6.632" mask="url(#f)"/>
+        <polygon fill="#F7FCFF" points="4.559 8.79 4.006 9.132 4.22 8.557 3.75 8.122 4.321 8.122 4.559 7.5 4.741 8.122 5.313 8.122 4.901 8.557 5.102 9.132" mask="url(#f)"/>
+        <path fill="#FECA00" d="M4.588266,10.3407389 C10.1788026,6.56367839 13.8247918,4.25490579 15.5262336,3.41442108 C14.6996103,4.65686802 14.6996103,6.10144537 15.5262336,7.74815314 C16.7661686,10.2182148 17.252387,10.0489803 18.557724,10.3407389 L4.588266,10.3407389 Z M3.94378392,11.703148 L4.13480398,11.2281869 L18.3558496,11.2532885 L18.75,11.7751594 L18.3558496,12.5 L4.13480398,12.225019 L3.94378392,11.703148 Z" mask="url(#f)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="21.25" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <g transform="translate(0 -1.25)">
+          <polygon fill="#2E42A5" points="0 1.25 20.25 1.25 20.25 16.25 0 16.25"/>
+          <polygon fill="#FECA00" points="6.25 1.25 19 1.25 19 16.25"/>
+          <g transform="translate(2.5)">
+            <polygon fill="#F7FCFF" points="1.943 2.996 1.208 3.382 1.348 2.564 .754 1.985 1.575 1.865 1.943 1.121 2.31 1.865 3.131 1.985 2.537 2.564 2.677 3.382"/>
+            <polygon fill="#F7FCFF" points="4.122 5.671 3.387 6.057 3.527 5.239 2.933 4.66 3.754 4.541 4.122 3.796 4.489 4.541 5.311 4.66 4.716 5.239 4.856 6.057"/>
+            <polygon fill="#F7FCFF" points="6.165 8.274 5.43 8.66 5.57 7.842 4.976 7.263 5.797 7.143 6.165 6.399 6.532 7.143 7.353 7.263 6.759 7.842 6.899 8.66"/>
+            <polygon fill="#F7FCFF" points="8.166 10.768 7.431 11.155 7.571 10.336 6.977 9.757 7.798 9.638 8.166 8.893 8.533 9.638 9.355 9.757 8.76 10.336 8.901 11.155"/>
+            <polygon fill="#F7FCFF" points="10.322 13.335 9.587 13.722 9.727 12.904 9.133 12.324 9.954 12.205 10.322 11.46 10.689 12.205 11.51 12.324 10.916 12.904 11.056 13.722"/>
+            <polygon fill="#F7FCFF" points="12.704 15.819 11.97 16.206 12.11 15.388 11.515 14.808 12.337 14.689 12.704 13.944 13.072 14.689 13.893 14.808 13.299 15.388 13.439 16.206"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

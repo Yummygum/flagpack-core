@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#0168B4" xlink:href="#c"/>
+      <rect width="16" height="2" fill="#E93C43" mask="url(#d)"/>
+      <rect width="16" height="2" y="10" fill="#E93C43" mask="url(#d)"/>
+      <g mask="url(#d)">
+        <g transform="translate(4 2)">
+          <path fill="#F7FCFF" fill-rule="nonzero" d="M4,7 C2.34314575,7 1,5.65685425 1,4 C1,2.34314575 2.34314575,1 4,1 C5.65685425,1 7,2.34314575 7,4 C7,5.65685425 5.65685425,7 4,7 Z"/>
+          <path fill="#FFFFFF" fill-rule="nonzero" d="M4,7 C5.65685425,7 7,5.65685425 7,4 C7,2.34314575 5.65685425,1 4,1 C2.34314575,1 1,2.34314575 1,4 C1,5.65685425 2.34314575,7 4,7 Z M4,7.5 C2.06700338,7.5 0.5,5.93299662 0.5,4 C0.5,2.06700338 2.06700338,0.5 4,0.5 C5.93299662,0.5 7.5,2.06700338 7.5,4 C7.5,5.93299662 5.93299662,7.5 4,7.5 Z"/>
+          <path fill="#5B8C39" fill-rule="nonzero" d="M4,7 C2.34314575,7 1,5.65685425 1,4 C1,2.34314575 2.34314575,1 4,1 C5.65685425,1 7,2.34314575 7,4 C7,5.65685425 5.65685425,7 4,7 Z M4,6.3 C5.27025492,6.3 6.3,5.27025492 6.3,4 C6.3,2.72974508 5.27025492,1.7 4,1.7 C2.72974508,1.7 1.7,2.72974508 1.7,4 C1.7,5.27025492 2.72974508,6.3 4,6.3 Z"/>
+          <polygon fill="#5B8C39" points="2.5 5 3.97 4.812 5.5 5 5.5 5.5 3.97 5.312 2.5 5.5"/>
+          <path fill="#769DF1" d="M3,3 L5,3 C5.09427503,5 4.7609417,6 4,6 C3.2390583,6 2.90572497,5 3,3 Z"/>
+          <rect width="1" height="1" x="4" y="3" fill="#FECA00"/>
+          <rect width="1" height="1" x="3" y="3" fill="#F6F7F8" opacity=".6"/>
+          <rect width="2" height="1" x="3" y="2" fill="#5B8C39" opacity=".66" rx=".5"/>
+          <ellipse cx="2.9" cy="3.4" fill="#E9AD35" rx="1" ry="1"/>
+          <ellipse cx="5.1" cy="3.4" fill="#5C2216" rx="1" ry="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

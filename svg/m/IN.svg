@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#F7FCFF" xlink:href="#e"/>
+        <rect width="20" height="5" fill="#FF8C1A" mask="url(#f)"/>
+        <rect width="20" height="5" y="10" fill="#5EAA22" mask="url(#f)"/>
+        <g fill="#3D58DB" mask="url(#f)">
+          <g transform="translate(7.5 5)">
+            <path fill-rule="nonzero" d="M2.5,4.375 C3.53553391,4.375 4.375,3.53553391 4.375,2.5 C4.375,1.46446609 3.53553391,0.625 2.5,0.625 C1.46446609,0.625 0.625,1.46446609 0.625,2.5 C0.625,3.53553391 1.46446609,4.375 2.5,4.375 Z M2.5,5 C1.11928813,5 0,3.88071187 0,2.5 C0,1.11928813 1.11928813,0 2.5,0 C3.88071187,0 5,1.11928813 5,2.5 C5,3.88071187 3.88071187,5 2.5,5 Z"/>
+            <polygon points="2.497 3.038 1.975 4.959 2.281 2.992 1.023 4.535 2.102 2.862 .326 3.76 1.992 2.671 .003 2.769 1.968 2.451 .112 1.732 2.037 2.241 .634 .829 2.184 2.077 1.477 .217 2.386 1.987 2.497 0 2.607 1.987 3.516 .217 2.809 2.077 4.36 .829 2.956 2.241 4.881 1.732 3.025 2.451 4.99 2.769 3.002 2.671 4.668 3.76 2.891 2.862 3.97 4.535 2.713 2.992 3.018 4.959"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+    <path id="h" d="M15.8657772,7.38008625 L15.8621188,7.37456125 L16.4463125,7.38008625 L16.8954875,6.4884975 L17.307725,7.3737975 L18.2207563,7.37456125 L17.3244688,8.08088375 L17.8507813,8.99194 L16.9241938,8.45989875 L16.068725,8.99650625 L16.42715,8.227865 L15.505625,7.38008625 L15.8657772,7.38008625 Z M5.53716428,11.596845 L6.75225,11.596845 L7.43544375,10.2407825 L8.062425,11.5872737 L9.451275,11.5885575 L8.08775625,12.6628612 L8.88856875,14.0487587 L7.49421964,13.4495933 L6.1776,14.0557137 L6.72313125,12.8865262 L5.53716428,11.596845 Z M13.17425,13.5841037 L14.0066375,13.5841037 L14.3954563,12.73854 L14.8678063,13.577815 L15.7206313,13.6244575 L14.88455,14.2849012 L15.3507313,15.241885 L14.4243125,14.7099088 L13.568825,15.2466463 L13.987475,14.43198 L13.17425,13.5841037 Z M13.17425,4.88002375 L13.9464312,4.88002375 L14.3954562,3.9885975 L14.8076,4.87378375 L15.7206312,4.87459625 L14.8243437,5.58098375 L15.3507312,6.49202375 L14.4474406,6.05312068 L13.568825,6.49646 L13.9272687,5.7279 L13.17425,4.88002375 Z M11.8670813,8.63002 L12.6963688,8.63002 L13.1456188,7.7385775 L13.5577625,8.6236825 L14.4707187,8.62464125 L13.5742812,9.33086625 L14.1009125,10.2419225 L13.17425,9.7098325 L12.3187625,10.2465863 L12.6963688,9.33086625 L11.8670813,8.63002 Z M14.6551635,10.4064538 L15.2259875,10.4064538 L15.4886188,9.885235 L15.7299312,10.4029763 L16.2636875,10.4033663 L15.7393813,10.8164738 L16.0473125,11.3490675 L15.505625,11.0378963 L15.0052063,11.3516838 L15.21485,10.9024038 L14.6551635,10.4064538 Z"/>
+    <filter id="g" width="172.2%" height="180.6%" x="-33.7%" y="-38.1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.13333334 0 0 0 0 0.21568628 0 0 0 0 0.41960785 0 0 0 0.59 0"/>
+    </filter>
+    <rect id="i" width="11" height="9"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#e"/>
+        <g mask="url(#f)">
+          <use fill="black" filter="url(#g)" xlink:href="#h"/>
+          <use fill="#EEEEF6" xlink:href="#h"/>
+        </g>
+        <g mask="url(#f)">
+          <mask id="j" fill="white">
+            <use xlink:href="#i"/>
+          </mask>
+          <use fill="#2E42A5" xlink:href="#i"/>
+          <g mask="url(#j)">
+            <g transform="translate(-2.5 -1.25)">
+              <polygon fill="#FFFFFF" fill-rule="nonzero" points="1.247 1.54 3.723 .454 13.806 8.484 15.112 10.098 12.465 10.461 8.352 7 5.042 4.669" transform="matrix(1 0 0 -1 0 10.915)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="1.586 1.297 2.847 .667 14.643 10.766 12.872 10.766" transform="matrix(1 0 0 -1 0 11.433)"/>
+              <g transform="matrix(-1 0 0 1 15.25 0)">
+                <polygon fill="#FFFFFF" fill-rule="nonzero" points=".247 1.85 2.444 .454 12.806 8.794 14.112 10.408 11.465 10.771 7.352 7.31 4.042 4.979" transform="matrix(1 0 0 -1 0 11.225)"/>
+                <polygon fill="#F50100" fill-rule="nonzero" points=".332 1.453 1.593 .823 6.616 5.146 8.105 5.629 14.238 10.551 12.467 10.551 6.337 5.746 4.709 5.167" transform="matrix(1 0 0 -1 0 11.373)"/>
+              </g>
+              <path fill="#F50100" stroke="#F7FCFF" stroke-width=".938" d="M4.53125,3.53125 L4.53125,-0.46875 L6.46875,-0.46875 L6.46875,3.53125 L11.46875,3.53125 L11.46875,5.46875 L6.46875,5.46875 L6.46875,9.46875 L4.53125,9.46875 L4.53125,5.46875 L-0.46875,5.46875 L-0.46875,3.53125 L4.53125,3.53125 Z" transform="translate(2.5 1.25)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

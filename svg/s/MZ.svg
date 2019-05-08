@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+    <polygon id="e" points="0 0 0 12 9 6"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#c"/>
+      <rect width="16" height="4" fill="#FECA00" mask="url(#d)"/>
+      <rect width="16" height="4" y="8" fill="#009933" mask="url(#d)"/>
+      <rect width="17" height="5" x="-.5" y="3.5" fill="#272727" stroke="#FFFFFF" mask="url(#d)"/>
+      <mask id="f" fill="white">
+        <use xlink:href="#e"/>
+      </mask>
+      <use fill="#F50100" xlink:href="#e"/>
+      <polygon fill="#FECA00" points="4.034 7.177 2.145 8.702 3.012 6.664 1.522 5.229 3.28 5.229 4.001 3.5 4.768 5.229 6.522 5.229 4.955 6.664 5.739 8.702" mask="url(#f)"/>
+      <g mask="url(#f)">
+        <g transform="translate(2 4)">
+          <path fill="#F7FCFF" d="M1.07799871,1.99210726 L0.757548185,3.06233096 C1.47876058,3.0551955 1.88267865,3.08806299 1.96930241,3.16093342 C2.23029989,2.99818575 2.62945791,2.96531827 3.16677648,3.06233096 L2.73809211,1.91696309 C2.37574165,1.75277354 2.11947841,1.71569133 1.96930241,1.80571645 C1.60120618,1.72256799 1.30410495,1.78469826 1.07799871,1.99210726 Z"/>
+          <path fill="#000000" fill-rule="nonzero" d="M3.7819009,3.60813881 C3.86495529,3.71843668 3.84287008,3.87517966 3.73257221,3.95823406 C3.62227434,4.04128845 3.46553136,4.01920324 3.38247697,3.90890537 L1.29243243,1.13328493 C1.20937804,1.02298706 1.23146325,0.86624408 1.34176112,0.783189688 C1.45205899,0.700135296 1.60880197,0.722220502 1.69185636,0.832518375 L3.7819009,3.60813881 Z"/>
+          <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M1.48701619,0.919871351 L1.28701619,0.679871351"/>
+          <polygon fill="#000000" points=".802 .681 .198 1.649 .5 2.172 1.191 1.145 1.316 .828 1.191 .681"/>
+          <polygon fill="#000000" points=".019 3.554 .484 4.094 3.998 .021 2.401 1.017"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

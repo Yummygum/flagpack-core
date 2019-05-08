@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12" rx="-1"/>
+    <rect id="c" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#3D58DB" xlink:href="#c"/>
+      <polygon fill="#F7FCFF" points="4 5.5 3.592 6.972 3.595 5.444 2.805 6.752 3.221 5.282 2.107 6.327 2.904 5.024 1.549 5.73 2.668 4.69 1.173 5.005 2.531 4.305 1.007 4.205 2.503 3.898 1.063 3.39 2.587 3.498 1.336 2.62 2.775 3.135 1.807 1.952 3.053 2.836 2.441 1.437 3.402 2.624 3.191 1.111 3.796 2.514 4 1 4.204 2.514 4.809 1.111 4.598 2.624 5.559 1.437 4.947 2.836 6.193 1.952 5.225 3.135 6.664 2.62 5.413 3.498 6.937 3.39 5.497 3.898 6.993 4.205 5.469 4.305 6.827 5.005 5.332 4.69 6.451 5.73 5.096 5.024 5.893 6.327 4.779 5.282 5.195 6.752 4.405 5.444 4.408 6.972" mask="url(#d)"/>
+      <polygon fill="#FFFFFF" fill-rule="nonzero" points="-.391 12.373 16.629 .607 16.629 4.443" mask="url(#d)"/>
+      <polygon fill="#E2AE57" fill-rule="nonzero" points="-.391 12.373 16.629 -2.393 16.629 1.443" mask="url(#d)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+    <path id="f" d="M2.3586739,2.94688 C2.3586739,2.94688 3.3907339,3.51312 3.5342659,3.66974 C3.6777379,3.82639 3.9077179,4.40162 4.2663619,4.07632 C4.6250659,3.75113 4.9837099,4.00395 4.9837099,3.48585 C4.9837099,2.96779 5.5192339,1.76602 6.2962819,2.06717 C7.0734019,2.36829 7.7123179,2.17991 7.8915739,2.3003 C8.0709499,2.42077 8.5013659,3.01901 8.8360819,3.01901 C9.1709299,3.01901 9.3381859,3.36835 9.3621739,3.87438 C9.3859699,4.38045 9.2546179,4.42878 9.5653579,4.48911 C9.8762779,4.54929 9.9957619,4.77831 9.8404939,5.07943 C9.6850339,5.38066 9.6968899,5.24811 9.7208179,5.56138 C9.7448059,5.87465 9.4100899,7.722 8.3816899,7.90292 C7.3534099,8.08353 6.3787579,7.98724 6.6419059,7.63768 C6.9049219,7.28838 7.2690139,6.88633 6.7311139,6.802 C6.1929619,6.71756 5.8538899,6.64577 5.3157979,6.79031 C4.7777059,6.93489 4.2158179,7.16372 3.8809099,6.73009 C3.5461939,6.29632 3.6180259,5.98305 3.3430099,5.77821 C3.0680659,5.57342 2.7331579,5.60953 3.0082939,5.21193 C3.2831179,4.81434 3.5102779,4.9628 3.2831179,4.64957 C3.0561379,4.33638 2.1986659,4.19991 2.1986659,3.88676 C2.1986659,3.57337 1.6532659,2.88662 2.3586739,2.94688 Z"/>
+    <filter id="e" width="85.8%" height="83.7%" x="7.6%" y="8.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".25" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".15"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.09411765 0 0 0 0 0.3254902 0 0 0 0 0.6392157 0 0 0 0.43 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#5196ED" xlink:href="#c"/>
+      <g mask="url(#d)">
+        <g transform="translate(2 1)">
+          <use fill="black" filter="url(#e)" xlink:href="#f"/>
+          <use fill="#FFFFFF" xlink:href="#f"/>
+          <use fill="#F5F8FB" xlink:href="#f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

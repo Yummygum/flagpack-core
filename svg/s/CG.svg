@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12" rx=".25"/>
+    <polygon id="c" points="15.746 .1 .5 14.788 3.526 16.294 18.32 2.894"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <g transform="translate(-1 -3)">
+        <polygon fill="#FA1111" points="17 3 17 15 1 15"/>
+        <polygon fill="#07A907" points="17 3 17 15 1 15" transform="rotate(180 9 9)"/>
+        <use fill="#FBCD17" xlink:href="#c"/>
+      </g>
+    </g>
+  </g>
+</svg>

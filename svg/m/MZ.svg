@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+    <polygon id="g" points="0 0 0 15 11.25 7.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#F7FCFF" xlink:href="#e"/>
+        <rect width="20" height="5" fill="#FECA00" mask="url(#f)"/>
+        <rect width="20" height="5" y="10" fill="#009933" mask="url(#f)"/>
+        <rect width="21.25" height="6.25" x="-.625" y="4.375" fill="#272727" stroke="#FFFFFF" stroke-width="1.25" mask="url(#f)"/>
+        <mask id="h" fill="white">
+          <use xlink:href="#g"/>
+        </mask>
+        <use fill="#F50100" xlink:href="#g"/>
+        <polygon fill="#FECA00" points="5.043 8.971 2.681 10.877 3.765 8.329 1.903 6.537 4.1 6.537 5.002 4.375 5.959 6.537 8.153 6.537 6.193 8.329 7.174 10.877" mask="url(#h)"/>
+        <g mask="url(#h)">
+          <g transform="translate(2.5 5)">
+            <path fill="#F7FCFF" d="M1.34749839,2.49013408 L0.946935231,3.8279137 C1.84845072,3.81899437 2.35334831,3.86007873 2.46162801,3.95116678 C2.78787486,3.74773219 3.28682239,3.70664783 3.95847059,3.8279137 L3.42261513,2.39620387 C2.96967706,2.19096693 2.64934802,2.14461416 2.46162801,2.25714556 C2.00150773,2.15320999 1.63013119,2.23087283 1.34749839,2.49013408 Z"/>
+            <path fill="#000000" fill-rule="nonzero" d="M4.72737612,4.51017351 C4.83119411,4.64804585 4.80358761,4.84397458 4.66571526,4.94779257 C4.52784292,5.05161056 4.3319142,5.02400405 4.22809621,4.88613171 L1.61554054,1.41660617 C1.51172255,1.27873382 1.53932906,1.0828051 1.6772014,0.97898711 C1.81507374,0.87516912 2.01100247,0.902775627 2.11482046,1.04064797 L4.72737612,4.51017351 Z"/>
+            <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".625" d="M1.85877024,1.14983919 L1.60877024,0.849839189"/>
+            <polygon fill="#000000" points="1.003 .852 .248 2.061 .625 2.715 1.489 1.431 1.645 1.034 1.489 .852"/>
+            <polygon fill="#000000" points=".024 4.443 .389 4.956 3.198 1.632 3.315 1.762 3.962 1.153 4.998 .027 3.962 .873 3.628 .78 3.315 1.272 3.001 1.272 .706 3.826"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#F7FCFF" xlink:href="#e"/>
+        <rect width="20" height="5" fill="#3D58DB" mask="url(#f)"/>
+        <rect width="20" height="5" y="10" fill="#3D58DB" mask="url(#f)"/>
+        <g mask="url(#f)">
+          <g transform="translate(6.25 3.75)">
+            <circle cx="3.615" cy="3.661" r="2.276" stroke="#E8AA00" stroke-width=".625"/>
+            <path stroke="#979797" stroke-width=".625"/>
+            <path fill="#1E601B" d="M2.38167024,2.28891206 C1.98477383,2.94210499 1.78632562,3.4929101 1.78632562,3.94132739 C1.78632562,4.61395333 2.49894212,5.45938684 3.62011191,5.45938684 C4.71374156,5.45938684 5.49979452,4.80612342 5.52356571,3.94132739 C5.53941318,3.36479671 5.34330604,2.87131983 4.93524432,2.46089675 C5.16618837,3.2909398 5.22392438,3.87413539 5.10845235,4.21048351 C4.93524432,4.7150057 4.37459383,5.32541954 3.62011191,5.24770688 C2.86562998,5.16999423 2.14961535,4.24134092 2.14961535,3.94132739 C2.14961535,3.74131837 2.22696698,3.19051326 2.38167024,2.28891206 Z"/>
+            <path stroke="#188396" stroke-width=".625" d="M2.60030935,3.95522388 C3.93668511,3.95522388 4.60487299,3.95522388 4.60487299,3.95522388"/>
+            <path stroke="#E8AA00" stroke-width=".625" d="M2.78687651 3.62873134C3.93668511 3.62873134 4.51158941 3.62873134 4.51158941 3.62873134M3.64541778 2.72179439L2.87084355 4.0069873 4.40596646 4.0069873 3.64541778 2.72179439z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

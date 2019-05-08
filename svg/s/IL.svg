@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#c"/>
+      <rect width="16" height="1.783" y="2" fill="#3D58DB" mask="url(#d)"/>
+      <polygon fill="#3D58DB" points="0 8.174 0 10 16 10 16 8.174" mask="url(#d)"/>
+      <path fill="#3D58DB" fill-rule="nonzero" d="M6.65397164,6.91938137 L9.42527541,6.91938137 L8.05328439,4.54898429 L6.65397164,6.91938137 Z M10.3791016,7.46938137 L5.69060681,7.46938137 L8.05796566,3.45914099 L10.3791016,7.46938137 Z" mask="url(#d)"/>
+      <path fill="#3D58DB" fill-rule="nonzero" d="M6.53976391,7.93549361 L9.39801015,7.93549361 L8.04331634,5.53733467 L6.53976391,7.93549361 Z M10.3403855,8.48549361 L5.54577678,8.48549361 L8.06793372,4.46266533 L10.3403855,8.48549361 Z" mask="url(#d)" transform="matrix(1 0 0 -1 0 12.948)"/>
+    </g>
+  </g>
+</svg>

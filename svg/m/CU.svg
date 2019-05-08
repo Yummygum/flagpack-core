@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+    <polygon id="g" points="0 0 0 15 11.25 7.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#3D58DB" xlink:href="#e"/>
+        <rect width="22.5" height="5" x="-1.25" y="5" fill="#3D58DB" stroke="#F7FCFF" stroke-width="2.5" mask="url(#f)"/>
+        <mask id="h" fill="white">
+          <use xlink:href="#g"/>
+        </mask>
+        <use fill="#E31D1C" xlink:href="#g"/>
+        <g fill="#F7FCFF" mask="url(#h)">
+          <polygon points="2.93 5.136 .635 6.347 1.752 3.913 .328 2.613 2.086 2.548 2.93 .348 3.574 2.548 5.328 2.548 4.159 3.913 5.089 6.347" transform="translate(1.25 3.75)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

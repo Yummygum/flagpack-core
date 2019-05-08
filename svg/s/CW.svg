@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#c"/>
+      <polygon fill="#F7FCFF" points="2.127 3.075 1.133 3.599 1.613 2.665 1 1.982 1.762 1.953 2.127 1 2.406 1.953 3.297 1.982 2.656 2.665 3.063 3.599" mask="url(#d)"/>
+      <polygon fill="#F7FCFF" points="5.676 5.538 4.449 6.052 4.93 4.764 3.863 3.9 5.142 3.9 5.676 2.506 6.084 3.9 7.364 3.9 6.454 4.764 6.906 6.052" mask="url(#d)"/>
+      <rect width="16" height="2" y="7" fill="#F9E813" mask="url(#d)"/>
+    </g>
+  </g>
+</svg>

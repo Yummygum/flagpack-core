@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+    <rect id="e" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#c"/>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <g mask="url(#f)">
+          <g transform="translate(-2.556 -1.714)">
+            <polygon fill="#FFFFFF" fill-rule="nonzero" points=".774 2.112 4.295 .623 18.635 11.636 20.493 13.848 16.728 14.346 10.878 9.6 6.17 6.403" transform="matrix(1 0 0 -1 0 14.969)"/>
+            <polygon fill="#F50100" fill-rule="nonzero" points="1.256 1.779 3.05 .915 19.826 14.764 17.307 14.764" transform="matrix(1 0 0 -1 0 15.68)"/>
+            <g transform="matrix(-1 0 0 1 21.111 0)">
+              <polygon fill="#FFFFFF" fill-rule="nonzero" points=".774 2.112 4.295 .623 18.635 11.636 20.493 13.848 16.728 14.346 10.878 9.6 6.17 6.403" transform="matrix(1 0 0 -1 0 14.969)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points=".894 1.992 2.688 1.128 9.831 7.058 11.949 7.72 20.671 14.47 18.153 14.47 9.435 7.88 7.12 7.086" transform="matrix(1 0 0 -1 0 15.598)"/>
+            </g>
+            <path fill="#F50100" stroke="#FFFFFF" d="M0.513767538,5.5 L0.513767538,8.5 L7.61111111,8.5 L7.61111111,13.5 L10.3888889,13.5 L10.3888889,8.5 L17.5137675,8.5 L17.5137675,5.5 L10.3888889,5.5 L10.3888889,0.5 L7.61111111,0.5 L7.61111111,5.5 L0.513767538,5.5 Z" transform="translate(1.556 .714)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

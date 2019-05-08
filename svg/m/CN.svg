@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <polygon fill="#E31D1C" points="0 0 20 0 20 15 0 15"/>
+        <g fill="#FECA00" transform="translate(1.25)">
+          <polygon points="3.196 6.097 .763 8.004 1.692 5.12 .069 3.62 2.267 3.539 3.196 1.218 4.126 3.539 6.319 3.539 4.7 5.12 5.438 8.004"/>
+          <polygon points="8.135 3.857 7.114 4.474 7.347 3.271 6.497 2.371 7.648 2.322 8.135 1.199 8.622 2.322 9.772 2.322 8.923 3.271 9.179 4.474"/>
+          <polygon points="9.385 6.357 8.364 6.974 8.597 5.771 7.747 4.871 8.898 4.822 9.385 3.699 9.872 4.822 11.022 4.822 10.173 5.771 10.429 6.974"/>
+          <polygon points="8.135 8.857 7.114 9.474 7.347 8.271 6.497 7.371 7.648 7.322 8.135 6.199 8.622 7.322 9.772 7.322 8.923 8.271 9.179 9.474"/>
+          <polygon points="5.635 10.107 4.614 10.724 4.847 9.521 3.997 8.621 5.148 8.572 5.635 7.449 6.122 8.572 7.272 8.572 6.423 9.521 6.679 10.724"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

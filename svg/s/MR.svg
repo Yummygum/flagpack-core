@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#1C7B4D" xlink:href="#c"/>
+      <rect width="16" height="3" fill="#E31D1C" mask="url(#d)"/>
+      <rect width="16" height="3" y="9" fill="#E31D1C" mask="url(#d)"/>
+      <g fill="#FECA00" mask="url(#d)">
+        <g transform="rotate(-90 6.5 2)">
+          <path d="M1.31072906,3.62099828 C1.29635716,6.21364083 3.46745553,6.94382128 3.46745553,6.94382128 C1.61003861,6.7969641 0.350444955,5.76964547 0.350444955,3.62099828 C0.350444955,1.47235109 1.98203235,0.683367111 3.60962001,0.298175278 C3.60962001,0.298175278 1.32510097,1.02835573 1.31072906,3.62099828 Z"/>
+          <polygon points="3.873 4.363 2.991 4.826 3.159 3.845 2.446 3.149 3.432 3.006 3.941 2.091 4.245 3.028 5.299 3.149 4.518 3.867 4.822 4.804" transform="rotate(18 3.873 3.459)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

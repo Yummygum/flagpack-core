@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#0168B4" xlink:href="#e"/>
+        <rect width="20" height="3" y="-1" fill="#E93C43" mask="url(#f)"/>
+        <rect width="20" height="3" y="13" fill="#E93C43" mask="url(#f)"/>
+        <g mask="url(#f)">
+          <g transform="translate(5 2.5)">
+            <path fill="#F7FCFF" fill-rule="nonzero" d="M5,8.75 C2.92893219,8.75 1.25,7.07106781 1.25,5 C1.25,2.92893219 2.92893219,1.25 5,1.25 C7.07106781,1.25 8.75,2.92893219 8.75,5 C8.75,7.07106781 7.07106781,8.75 5,8.75 Z"/>
+            <path fill="#FFFFFF" fill-rule="nonzero" d="M5,8.75 C7.07106781,8.75 8.75,7.07106781 8.75,5 C8.75,2.92893219 7.07106781,1.25 5,1.25 C2.92893219,1.25 1.25,2.92893219 1.25,5 C1.25,7.07106781 2.92893219,8.75 5,8.75 Z M5,9.375 C2.58375422,9.375 0.625,7.41624578 0.625,5 C0.625,2.58375422 2.58375422,0.625 5,0.625 C7.41624578,0.625 9.375,2.58375422 9.375,5 C9.375,7.41624578 7.41624578,9.375 5,9.375 Z"/>
+            <path fill="#5B8C39" fill-rule="nonzero" d="M5,8.75 C2.92893219,8.75 1.25,7.07106781 1.25,5 C1.25,2.92893219 2.92893219,1.25 5,1.25 C7.07106781,1.25 8.75,2.92893219 8.75,5 C8.75,7.07106781 7.07106781,8.75 5,8.75 Z M5,7.875 C6.58781866,7.875 7.875,6.58781866 7.875,5 C7.875,3.41218134 6.58781866,2.125 5,2.125 C3.41218134,2.125 2.125,3.41218134 2.125,5 C2.125,6.58781866 3.41218134,7.875 5,7.875 Z"/>
+            <polygon fill="#5B8C39" points="3.125 6.25 4.962 6.015 6.875 6.25 6.875 6.875 4.962 6.64 3.125 6.875"/>
+            <path fill="#769DF1" d="M3.75,3.75 L6.25,3.75 C6.36784379,6.25 5.95117712,7.5 5,7.5 C4.04882288,7.5 3.63215621,6.25 3.75,3.75 Z"/>
+            <rect width="1.25" height="1.25" x="5" y="3.75" fill="#FECA00"/>
+            <rect width="1.25" height="1.25" x="3.75" y="3.75" fill="#F6F7F8" opacity=".6"/>
+            <rect width="2.5" height="1.25" x="3.75" y="2.5" fill="#5B8C39" opacity=".66" rx=".625"/>
+            <ellipse cx="3.625" cy="4.25" fill="#E9AD35" rx="1" ry="1.25"/>
+            <ellipse cx="6.375" cy="4.25" fill="#5C2216" rx="1" ry="1.25"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

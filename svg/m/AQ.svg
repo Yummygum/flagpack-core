@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+    <path id="h" d="M2.94834237,3.6836 C2.94834237,3.6836 4.23841737,4.3914 4.41783237,4.587175 C4.59717237,4.7829875 4.88464737,5.502025 5.33295237,5.0954 C5.78133237,4.6889125 6.22963737,5.0049375 6.22963737,4.3573125 C6.22963737,3.7097375 6.89904237,2.207525 7.87035237,2.5839625 C8.84175237,2.9603625 9.64039737,2.7248875 9.86446737,2.875375 C10.0886874,3.0259625 10.6267074,3.7737625 11.0451024,3.7737625 C11.4636624,3.7737625 11.6727324,4.2104375 11.7027174,4.842975 C11.7324624,5.4755625 11.5682724,5.535975 11.9566974,5.6113875 C12.3453474,5.6866125 12.4947024,5.9728875 12.3006174,6.3492875 C12.1062924,6.725825 12.1211124,6.5601375 12.1510224,6.951725 C12.1810074,7.3433125 11.7626124,9.6525 10.4771124,9.87865 C9.19176237,10.1044125 7.97344737,9.98405 8.30238237,9.5471 C8.63115237,9.110475 9.08626737,8.6079125 8.41389237,8.5025 C7.74120237,8.39695 7.31736237,8.3072125 6.64474737,8.4878875 C5.97213237,8.6686125 5.26977237,8.95465 4.85113737,8.4126125 C4.43274237,7.8704 4.52253237,7.4788125 4.17876237,7.2227625 C3.83508237,6.966775 3.41644737,7.0119125 3.76036737,6.5149125 C4.10389737,6.017925 4.38784737,6.2035 4.10389737,5.8119625 C3.82017237,5.420475 2.74833237,5.2498875 2.74833237,4.85845 C2.74833237,4.4667125 2.06658237,3.608275 2.94834237,3.6836 Z"/>
+    <filter id="g" width="105.8%" height="107.7%" x="-2.4%" y="-3.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.09411765 0 0 0 0 0.3254902 0 0 0 0 0.6392157 0 0 0 0.43 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#5196ED" xlink:href="#e"/>
+        <g mask="url(#f)">
+          <g transform="translate(2.5 1.25)">
+            <use fill="black" filter="url(#g)" xlink:href="#h"/>
+            <use fill="#FFFFFF" xlink:href="#h"/>
+            <use fill="#F5F8FB" xlink:href="#h"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

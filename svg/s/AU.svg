@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+    <path id="f" d="M12.6926218,5.904069 L12.689695,5.899649 L13.15705,5.904069 L13.51639,5.190798 L13.84618,5.899038 L14.576605,5.899649 L13.859575,6.464707 L14.280625,7.193552 L13.539355,6.767919 L12.85498,7.197205 L13.14172,6.582292 L12.4045,5.904069 L12.6926218,5.904069 Z M4.42973142,9.277476 L5.4018,9.277476 L5.948355,8.192626 L6.44994,9.269819 L7.56102,9.270846 L6.470205,10.130289 L7.110855,11.239007 L5.99537571,10.7596747 L4.94208,11.244571 L5.378505,10.309221 L4.42973142,9.277476 Z M10.5394,10.867283 L11.20531,10.867283 L11.516365,10.190832 L11.894245,10.862252 L12.576505,10.899566 L11.90764,11.427921 L12.280585,12.193508 L11.53945,11.767927 L10.85506,12.197317 L11.18998,11.545584 L10.5394,10.867283 Z M10.5394,3.904019 L11.157145,3.904019 L11.516365,3.190878 L11.84608,3.899027 L12.576505,3.899677 L11.859475,4.464787 L12.280585,5.193619 L11.5579525,4.84249654 L10.85506,5.197168 L11.141815,4.58232 L10.5394,3.904019 Z M9.49366506,6.904016 L10.157095,6.904016 L10.516495,6.190862 L10.84621,6.898946 L11.576575,6.899713 L10.859425,7.464693 L11.28073,8.193538 L10.5394,7.767866 L9.85501,8.197269 L10.157095,7.464693 L9.49366506,6.904016 Z M11.7241308,8.325163 L12.18079,8.325163 L12.390895,7.908188 L12.583945,8.322381 L13.01095,8.322693 L12.591505,8.653179 L12.83785,9.079254 L12.4045,8.830317 L12.004165,9.081347 L12.17188,8.721923 L11.7241308,8.325163 Z"/>
+    <filter id="e" width="151.4%" height="157.2%" x="-23.6%" y="-26.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".35" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".15"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.13333334 0 0 0 0 0.21568628 0 0 0 0 0.41960785 0 0 0 0.59 0"/>
+    </filter>
+    <rect id="g" width="9" height="7"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#c"/>
+      <g mask="url(#d)">
+        <use fill="black" filter="url(#e)" xlink:href="#f"/>
+        <use fill="#EEEEF6" xlink:href="#f"/>
+      </g>
+      <g mask="url(#d)">
+        <mask id="h" fill="white">
+          <use xlink:href="#g"/>
+        </mask>
+        <use fill="#2B409A" xlink:href="#g"/>
+        <g mask="url(#h)">
+          <g transform="translate(-2 -1)">
+            <polygon fill="#FFFFFF" fill-rule="nonzero" points=".998 1.232 2.978 .363 11.045 6.787 12.09 8.078 9.972 8.369 6.682 5.6 4.033 3.735" transform="matrix(1 0 0 -1 0 8.732)"/>
+            <polygon fill="#F50100" fill-rule="nonzero" points="1.269 1.038 2.278 .534 11.714 8.613 10.298 8.613" transform="matrix(1 0 0 -1 0 9.146)"/>
+            <g transform="matrix(-1 0 0 1 13 0)">
+              <polygon fill="#FFFFFF" fill-rule="nonzero" points=".998 1.232 2.978 .363 11.045 6.787 12.09 8.078 9.972 8.369 6.682 5.6 4.033 3.735" transform="matrix(1 0 0 -1 0 8.732)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="1.065 1.162 2.074 .658 6.093 4.117 7.284 4.503 12.19 8.441 10.773 8.441 5.87 4.597 4.567 4.134" transform="matrix(1 0 0 -1 0 9.099)"/>
+            </g>
+            <path fill="#F50100" stroke="#F7FCFF" stroke-width=".75" d="M3.61725576,2.625 L3.61725576,-0.375 L5.36725576,-0.375 L5.36725576,2.625 L9.375,2.625 L9.375,4.375 L5.36725576,4.375 L5.36725576,7.375 L3.61725576,7.375 L3.61725576,4.375 L-0.375,4.375 L-0.375,2.625 L3.61725576,2.625 Z" transform="translate(2 1)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="a" width="20" height="15"/>
+    <rect id="c" width="20" height="15"/>
+    <rect id="e" width="20" height="15"/>
+    <linearGradient id="i" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFC600"/>
+      <stop offset="100%" stop-color="#FFDE42"/>
+    </linearGradient>
+    <polygon id="h" points="9.954 2.315 17.58 7.63 9.851 12.607 2.381 7.527"/>
+    <filter id="g" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.03137255 0 0 0 0 0.36862746 0 0 0 0 0 0 0 0 0.28 0"/>
+    </filter>
+    <circle id="j" cx="10" cy="7.625" r="3.125"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#FFFFFF" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <g mask="url(#d)">
+        <mask id="f" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="#009933" xlink:href="#e"/>
+        <g mask="url(#f)">
+          <use fill="black" filter="url(#g)" xlink:href="#h"/>
+          <use fill="#FFD221" xlink:href="#h"/>
+          <use fill="url(#i)" xlink:href="#h"/>
+          <mask id="k" fill="white">
+            <use xlink:href="#j"/>
+          </mask>
+          <use fill="#2E42A5" xlink:href="#j"/>
+          <polygon fill="#F7FCFF" points="8.988 9.106 8.848 9.18 8.875 9.024 8.762 8.914 8.918 8.891 8.988 8.75 9.057 8.891 9.213 8.914 9.1 9.024 9.127 9.18" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="10.238 9.106 10.098 9.18 10.125 9.024 10.012 8.914 10.168 8.891 10.238 8.75 10.307 8.891 10.463 8.914 10.35 9.024 10.377 9.18" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="10.238 9.856 10.098 9.93 10.125 9.774 10.012 9.664 10.168 9.641 10.238 9.5 10.307 9.641 10.463 9.664 10.35 9.774 10.377 9.93" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="9.613 7.231 9.473 7.305 9.5 7.149 9.387 7.039 9.543 7.016 9.613 6.875 9.682 7.016 9.838 7.039 9.725 7.149 9.752 7.305" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="9.613 8.481 9.473 8.555 9.5 8.399 9.387 8.289 9.543 8.266 9.613 8.125 9.682 8.266 9.838 8.289 9.725 8.399 9.752 8.555" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="8.737 7.856 8.598 7.93 8.625 7.774 8.512 7.664 8.668 7.641 8.737 7.5 8.807 7.641 8.963 7.664 8.85 7.774 8.877 7.93" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="7.862 8.356 7.723 8.43 7.75 8.274 7.637 8.164 7.793 8.141 7.862 8 7.932 8.141 8.088 8.164 7.975 8.274 8.002 8.43" mask="url(#k)"/>
+          <polygon fill="#F7FCFF" points="10.738 6.231 10.598 6.305 10.625 6.149 10.512 6.039 10.668 6.016 10.738 5.875 10.807 6.016 10.963 6.039 10.85 6.149 10.877 6.305" mask="url(#k)"/>
+          <path fill="#F7FCFF" fill-rule="nonzero" d="M6.20300566,6.87323072 L6.29699434,5.62676928 C9.29570747,5.85288545 11.6625199,6.83886643 13.3676362,8.59275678 L12.4713786,9.46409036 C10.9935139,7.94395213 8.91398811,7.07765073 6.20300566,6.87323072 Z" mask="url(#k)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

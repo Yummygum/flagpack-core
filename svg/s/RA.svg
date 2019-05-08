@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#c"/>
+      <rect width="16" height="2" fill="#FF0122" mask="url(#d)"/>
+      <rect width="16" height="2" y="2" fill="#FF8C01" mask="url(#d)"/>
+      <rect width="16" height="2" y="4" fill="#FECA00" mask="url(#d)"/>
+      <rect width="16" height="2" y="6" fill="#73BE4A" mask="url(#d)"/>
+      <rect width="16" height="2" y="8" fill="#5770ED" mask="url(#d)"/>
+      <rect width="16" height="2" y="10" fill="#871FF0" mask="url(#d)"/>
+    </g>
+  </g>
+</svg>

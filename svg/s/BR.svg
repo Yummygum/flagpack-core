@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="a" width="16" height="12"/>
+    <rect id="c" width="16" height="12"/>
+    <linearGradient id="g" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFC600"/>
+      <stop offset="100%" stop-color="#FFDE42"/>
+    </linearGradient>
+    <polygon id="f" points="7.963 1.852 14.064 6.104 7.88 10.086 1.904 6.021"/>
+    <filter id="e" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.03137255 0 0 0 0 0.36862746 0 0 0 0 0 0 0 0 0.28 0"/>
+    </filter>
+    <circle id="h" cx="8" cy="6.1" r="2.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#009933" xlink:href="#c"/>
+      <g mask="url(#d)">
+        <use fill="black" filter="url(#e)" xlink:href="#f"/>
+        <use fill="#FFD221" xlink:href="#f"/>
+        <use fill="url(#g)" xlink:href="#f"/>
+        <mask id="i" fill="white">
+          <use xlink:href="#h"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#h"/>
+        <polygon fill="#F7FCFF" points="7.19 7.285 7.078 7.344 7.1 7.219 7.009 7.131 7.134 7.113 7.19 7 7.246 7.113 7.371 7.131 7.28 7.219 7.302 7.344" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="8.19 7.285 8.078 7.344 8.1 7.219 8.009 7.131 8.134 7.113 8.19 7 8.246 7.113 8.371 7.131 8.28 7.219 8.302 7.344" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="8.19 7.885 8.078 7.944 8.1 7.819 8.009 7.731 8.134 7.713 8.19 7.6 8.246 7.713 8.371 7.731 8.28 7.819 8.302 7.944" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="7.69 5.785 7.578 5.844 7.6 5.719 7.509 5.631 7.634 5.613 7.69 5.5 7.746 5.613 7.871 5.631 7.78 5.719 7.802 5.844" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="7.69 6.785 7.578 6.844 7.6 6.719 7.509 6.631 7.634 6.613 7.69 6.5 7.746 6.613 7.871 6.631 7.78 6.719 7.802 6.844" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="6.99 6.285 6.878 6.344 6.9 6.219 6.809 6.131 6.934 6.113 6.99 6 7.046 6.113 7.171 6.131 7.08 6.219 7.102 6.344" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="6.29 6.685 6.178 6.744 6.2 6.619 6.109 6.531 6.234 6.513 6.29 6.4 6.346 6.513 6.471 6.531 6.38 6.619 6.402 6.744" mask="url(#i)"/>
+        <polygon fill="#F7FCFF" points="8.59 4.985 8.478 5.044 8.5 4.919 8.409 4.831 8.534 4.813 8.59 4.7 8.646 4.813 8.771 4.831 8.68 4.919 8.702 5.044" mask="url(#i)"/>
+        <path fill="#F7FCFF" fill-rule="nonzero" d="M4.96240453,5.49858458 L5.03759547,4.50141542 C7.43656597,4.68230836 9.33001593,5.47109315 10.694109,6.87420542 L9.97710286,7.57127229 C8.79481115,6.3551617 7.13119049,5.66212059 4.96240453,5.49858458 Z" mask="url(#i)"/>
+      </g>
+    </g>
+  </g>
+</svg>
