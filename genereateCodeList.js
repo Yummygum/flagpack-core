@@ -1,28 +1,24 @@
 const fs = require('fs')
 const { promisify } = require('util');
+const Tabletop = require('tabletop')
 
-const readDirPromise = promisify(fs.readdir)
 const writeFilePromise = promisify(fs.writeFile)
-const PATH = './svg/l'
+const WRITE_PATH = 'countryCodeList.json'
+const SPREADSHEET_KEY = '1RpyCWefa5ugVbQJGtcOEAtBzYvcNYIBNlIgoTXBIwVw'
 
-const dummyObj = obj => ({
-  "countryName": "",
-  "alpha-2": obj.code,
-  "alpha-3": "",
-  "numeric": ""
-})
-
-readDirPromise(PATH)
-  .then(files => {
-    const countryCodes = files
-      .map(fileName => fileName.replace(/.svg/g, ''))
-      .map(code => dummyObj({ code }))
-    return countryCodes
-  })
+promisifyTableTop()
   .then(writeToJsonFile)
-  .catch(err => console.log(err))
-
 
 function writeToJsonFile(countryList) {
-  writeFilePromise('countryCodeList.json', JSON.stringify(countryList), 'utf8')
+  writeFilePromise(WRITE_PATH, JSON.stringify(countryList), 'utf8')
+}
+
+function promisifyTableTop() {
+  return new Promise(resolve => {
+    Tabletop.init({ 
+      key: SPREADSHEET_KEY,
+      simpleSheet: true,
+      callback: data => resolve(data)
+    })
+  })
 }
