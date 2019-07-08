@@ -1,7 +1,7 @@
 {
   "name": "flag-pack-core",
   "description": "",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yummygum/flag-pack-core.git"
@@ -12,12 +12,19 @@
     "url": "https://github.com/Yummygum/flag-pack-core/issues"
   },
   "homepage": "https://github.com/yummygum",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "dev": "rollup -cw",
+    "test": "echo 'tests here'",
+    "prepublish": "npm test && npm version patch",
+    "publish": "npm run build && git add -A dist",
+    "postpublish": "git push && git push --tags"
   },
   "license": "ISC",
   "devDependencies": {
+    "rollup": "^1.16.6",
+    "rollup-plugin-json": "^4.0.0",
     "tabletop": "^1.5.2"
   }
 }
