@@ -14,7 +14,7 @@
   "homepage": "https://github.com/yummygum",
   "main": "dist/bundle.js",
   "scripts": {
-    "build": "node generateCodeList.js && rollup -c",
+    "build": "rollup -c",
     "dev": "node generateCodeList.js && rollup -cw",
     "test": "echo 'tests here'",
     "prepublish": "npm test && npm version patch",
