@@ -6,7 +6,14 @@
     "type": "git",
     "url": "git+https://github.com/Yummygum/flag-pack-core.git"
   },
-  "keywords": [],
+  "keywords": [
+    "flagpack",
+    "vue",
+    "react",
+    "angular",
+    "core",
+    "countries"
+  ],
   "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",
   "bugs": {
     "url": "https://github.com/Yummygum/flag-pack-core/issues"
@@ -31,5 +38,12 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "tabletop": "^1.5.2"
-  }
+  },
+  "authors": [
+    {
+      "name": "Noud Adrichem",
+      "social": "@noudadrichem",
+      "url": "https://noudadrichem.com"
+    }
+  ]
 }

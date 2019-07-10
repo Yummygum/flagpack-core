@@ -1,11 +1,11 @@
 import codeList from './countryCodeList.json'
 
-function isoToCountryCode(isoCode) {
+function isoToCountryCode(isoCode, keyToGet = 'alpha2') {
   const alpha2Code = codeList.find(countryObj => (
-    countryObj['alpha-2'] === isoCode || 
-    countryObj['alpha-3'] === isoCode || 
-    countryObj['numeric'] === isoCode
-  ))['alpha-2']
+    countryObj.alpha2 === isoCode || 
+    countryObj.alpha3 === isoCode || 
+    countryObj.numeric === isoCode
+  ))[keyToGet]
 
   return alpha2Code
 }
