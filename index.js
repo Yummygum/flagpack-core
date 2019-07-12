@@ -1,13 +1,17 @@
 import codeList from './countryCodeList.json'
 
 function isoToCountryCode(isoCode, keyToGet = 'alpha2') {
-  const alpha2Code = codeList.find(countryObj => (
-    countryObj.alpha2 === isoCode || 
-    countryObj.alpha3 === isoCode || 
-    countryObj.numeric === isoCode
-  ))[keyToGet]
+  if(isoCode !== undefined) {
+    const alpha2Code = codeList.find(countryObj => (
+      countryObj.alpha2 === isoCode || 
+      countryObj.alpha3 === isoCode || 
+      countryObj.numeric === isoCode
+    ))[keyToGet]
+    return alpha2Code
+  }
 
-  return alpha2Code
+  console.error('This code returns undefined, see www.flagpack.xyz for all the available codes.')
+
 }
 
 export { codeList, isoToCountryCode }

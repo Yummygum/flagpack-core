@@ -6,10 +6,15 @@ var codeList = [{countryName:"Andorra",alpha2:"AD",alpha3:"AND",numeric:"020"},{
 
 function isoToCountryCode(isoCode) {
   var keyToGet = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'alpha2';
-  var alpha2Code = codeList.find(function (countryObj) {
-    return countryObj.alpha2 === isoCode || countryObj.alpha3 === isoCode || countryObj.numeric === isoCode;
-  })[keyToGet];
-  return alpha2Code;
+
+  if (isoCode !== undefined) {
+    var alpha2Code = codeList.find(function (countryObj) {
+      return countryObj.alpha2 === isoCode || countryObj.alpha3 === isoCode || countryObj.numeric === isoCode;
+    })[keyToGet];
+    return alpha2Code;
+  }
+
+  console.error('This code returns undefined, see www.flagpack.xyz for all the available codes.');
 }
 
 exports.codeList = codeList;
