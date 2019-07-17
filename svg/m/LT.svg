@@ -1,26 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
   <defs>
-    <rect id="a" width="20" height="15"/>
-    <rect id="c" width="20" height="15"/>
-    <rect id="e" width="20" height="15"/>
+    <rect id="lt---lithuania-a" width="20" height="15" x="0" y="0"/>
+    <rect id="lt---lithuania-c" width="20" height="15" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="lt---lithuania-b" fill="#fff">
+      <use xlink:href="#lt---lithuania-a"/>
     </mask>
-    <use fill="#FFFFFF" xlink:href="#a"/>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#lt---lithuania-b)">
+      <mask id="lt---lithuania-d" fill="#fff">
+        <use xlink:href="#lt---lithuania-c"/>
       </mask>
-      <g mask="url(#d)">
-        <mask id="f" fill="white">
-          <use xlink:href="#e"/>
-        </mask>
-        <use fill="#55BA07" xlink:href="#e"/>
-        <rect width="20" height="5" fill="#FECA00" mask="url(#f)"/>
-        <rect width="20" height="5" y="10" fill="#C51918" mask="url(#f)"/>
-      </g>
+      <use fill="#55BA07" xlink:href="#lt---lithuania-c"/>
+      <rect width="20" height="5" fill="#FECA00" mask="url(#lt---lithuania-d)"/>
+      <rect width="20" height="5" y="10" fill="#C51918" mask="url(#lt---lithuania-d)"/>
     </g>
   </g>
 </svg>

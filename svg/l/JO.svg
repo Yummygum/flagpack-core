@@ -1,31 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
-    <rect id="e" width="32" height="24"/>
-    <polygon id="g" points="0 0 0 24 20 12"/>
+    <rect id="jo---jordan-a" width="32" height="24" x="0" y="0"/>
+    <rect id="jo---jordan-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="jo---jordan-e" points="0 0 0 24 20 12"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="jo---jordan-b" fill="#fff">
+      <use xlink:href="#jo---jordan-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#jo---jordan-b)">
+      <mask id="jo---jordan-d" fill="#fff">
+        <use xlink:href="#jo---jordan-c"/>
       </mask>
-      <g mask="url(#d)">
-        <mask id="f" fill="white">
-          <use xlink:href="#e"/>
-        </mask>
-        <use fill="#F7FCFF" xlink:href="#e"/>
-        <rect width="32" height="8" fill="#272727" mask="url(#f)"/>
-        <rect width="32" height="8" y="16" fill="#009933" mask="url(#f)"/>
-        <mask id="h" fill="white">
-          <use xlink:href="#g"/>
-        </mask>
-        <use fill="#E31D1C" xlink:href="#g"/>
-        <polygon fill="#F7FCFF" points="9.002 13.871 7.131 15 7.558 12.796 6 11.147 8.109 11.058 9.002 9 9.894 11.058 12 11.058 10.446 12.796 10.914 15" mask="url(#h)"/>
-      </g>
+      <use fill="#F7FCFF" xlink:href="#jo---jordan-c"/>
+      <rect width="32" height="8" fill="#272727" mask="url(#jo---jordan-d)"/>
+      <rect width="32" height="8" y="16" fill="#093" mask="url(#jo---jordan-d)"/>
+      <mask id="jo---jordan-f" fill="#fff">
+        <use xlink:href="#jo---jordan-e"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#jo---jordan-e"/>
+      <polygon fill="#F7FCFF" points="9.002 13.871 7.131 15 7.558 12.796 6 11.147 8.109 11.058 9.002 9 9.894 11.058 12 11.058 10.446 12.796 10.914 15" mask="url(#jo---jordan-f)"/>
     </g>
   </g>
 </svg>

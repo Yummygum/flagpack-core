@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="vc---saint-vincent-and-the-grenadines-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="vc---saint-vincent-and-the-grenadines-b" fill="#fff">
+      <use xlink:href="#vc---saint-vincent-and-the-grenadines-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#vc---saint-vincent-and-the-grenadines-b)">
       <rect width="8" height="12" x="4" fill="#FFDC17"/>
       <rect width="4" height="12" x="12" fill="#5FBF2B"/>
       <rect width="4" height="12" fill="#2E42A5"/>

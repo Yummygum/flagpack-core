@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
-    <rect id="c" width="16" height="12"/>
+    <rect id="ws---samoa-a" width="16" height="12" x="0" y="0"/>
+    <rect id="ws---samoa-c" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="ws---samoa-b" fill="#fff">
+      <use xlink:href="#ws---samoa-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#ws---samoa-b)">
+      <mask id="ws---samoa-d" fill="#fff">
+        <use xlink:href="#ws---samoa-c"/>
       </mask>
-      <use fill="#C51918" xlink:href="#c"/>
-      <g mask="url(#d)">
+      <use fill="#C51918" xlink:href="#ws---samoa-c"/>
+      <g mask="url(#ws---samoa-d)">
         <rect width="8" height="7" fill="#2E42A5"/>
         <polygon fill="#FEFFFF" points="1.783 3.886 1.253 4.206 1.374 3.582 .932 3.114 1.53 3.089 1.783 2.506 2.036 3.089 2.632 3.089 2.192 3.582 2.325 4.206"/>
         <polygon fill="#FEFFFF" points="5.783 3.886 5.253 4.206 5.374 3.582 4.932 3.114 5.53 3.089 5.783 2.506 6.036 3.089 6.632 3.089 6.192 3.582 6.325 4.206"/>

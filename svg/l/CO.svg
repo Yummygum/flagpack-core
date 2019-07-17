@@ -1,25 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
-    <rect id="e" width="32" height="24"/>
+    <rect id="co---colombia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="co---colombia-c" width="32" height="24" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="co---colombia-b" fill="#fff">
+      <use xlink:href="#co---colombia-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#co---colombia-b)">
+      <mask id="co---colombia-d" fill="#fff">
+        <use xlink:href="#co---colombia-c"/>
       </mask>
-      <g mask="url(#d)">
-        <mask id="f" fill="white">
-          <use xlink:href="#e"/>
-        </mask>
-        <use fill="#2E42A5" xlink:href="#e"/>
-        <rect width="32" height="12" fill="#FECA00" mask="url(#f)"/>
-        <rect width="32" height="6" y="18" fill="#E31D1C" mask="url(#f)"/>
-      </g>
+      <use fill="#2E42A5" xlink:href="#co---colombia-c"/>
+      <rect width="32" height="12" fill="#FECA00" mask="url(#co---colombia-d)"/>
+      <rect width="32" height="6" y="18" fill="#E31D1C" mask="url(#co---colombia-d)"/>
     </g>
   </g>
 </svg>

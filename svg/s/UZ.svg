@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="uz---uzbekistan-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="uz---uzbekistan-b" fill="#fff">
+      <use xlink:href="#uz---uzbekistan-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#uz---uzbekistan-b)">
       <g transform="translate(-1 -1)">
         <polygon fill="#14DC5A" points="1 9 17 9 17 13 1 13"/>
         <polygon fill="#0099B5" points="1 1 17 1 17 6 1 6"/>

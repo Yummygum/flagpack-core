@@ -1,25 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
-    <rect id="e" width="32" height="24"/>
+    <rect id="se---sweden-a" width="32" height="24" x="0" y="0"/>
+    <rect id="se---sweden-c" width="32" height="24" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="se---sweden-b" fill="#fff">
+      <use xlink:href="#se---sweden-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#se---sweden-b)">
+      <mask id="se---sweden-d" fill="#fff">
+        <use xlink:href="#se---sweden-c"/>
       </mask>
-      <g mask="url(#d)">
-        <mask id="f" fill="white">
-          <use xlink:href="#e"/>
-        </mask>
-        <use fill="#3D58DB" xlink:href="#e"/>
-        <g fill="#FECA00" mask="url(#f)">
-          <polygon points="10 0 14 0 14 10 32 10 32 14 14 14 14 24 10 24 10 14 0 14 0 10 10 10"/>
-        </g>
+      <use fill="#3D58DB" xlink:href="#se---sweden-c"/>
+      <g fill="#FECA00" mask="url(#se---sweden-d)">
+        <polygon points="10 0 14 0 14 10 32 10 32 14 14 14 14 24 10 24 10 14 0 14 0 10 10 10"/>
       </g>
     </g>
   </g>

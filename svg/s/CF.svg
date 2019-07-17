@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="cf---central-african-republic-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="cf---central-african-republic-b" fill="#fff">
+      <use xlink:href="#cf---central-african-republic-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#cf---central-african-republic-b)">
       <g transform="translate(0 -1)">
         <polygon fill="#3D58DB" points="0 1 16 1 16 4 0 4"/>
         <polygon fill="#F7FCFF" points="0 4 16 4 16 7 0 7"/>

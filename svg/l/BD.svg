@@ -1,20 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
+    <rect id="bd---bangladesh-a" width="32" height="24" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="bd---bangladesh-b" fill="#fff">
+      <use xlink:href="#bd---bangladesh-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
-      </mask>
-      <g mask="url(#d)">
-        <rect width="32" height="24" fill="#38A17E"/>
-        <circle cx="13" cy="12" r="7" fill="#F72E45"/>
-      </g>
+    <g mask="url(#bd---bangladesh-b)">
+      <rect width="32" height="24" fill="#38A17E"/>
+      <circle cx="13" cy="12" r="7" fill="#F72E45"/>
     </g>
   </g>
 </svg>

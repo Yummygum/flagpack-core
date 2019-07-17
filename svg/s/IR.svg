@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
-    <rect id="c" width="16" height="12"/>
+    <rect id="ir---iran-a" width="16" height="12" x="0" y="0"/>
+    <rect id="ir---iran-c" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="ir---iran-b" fill="#fff">
+      <use xlink:href="#ir---iran-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#ir---iran-b)">
+      <mask id="ir---iran-d" fill="#fff">
+        <use xlink:href="#ir---iran-c"/>
       </mask>
-      <use fill="#F7FCFF" xlink:href="#c"/>
-      <rect width="16" height="4" fill="#5EAA22" mask="url(#d)"/>
-      <rect width="16" height="4" y="8" fill="#E31D1C" mask="url(#d)"/>
-      <g mask="url(#d)">
+      <use fill="#F7FCFF" xlink:href="#ir---iran-c"/>
+      <rect width="16" height="4" fill="#5EAA22" mask="url(#ir---iran-d)"/>
+      <rect width="16" height="4" y="8" fill="#E31D1C" mask="url(#ir---iran-d)"/>
+      <g mask="url(#ir---iran-d)">
         <g transform="translate(-2 2)">
           <g transform="translate(0 6.6)">
             <path stroke="#F7FCFF" stroke-width=".5" d="M2.18631822,0.0834652938 L1.04929314,0.0834652938"/>

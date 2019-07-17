@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="bv---bouvet-island-a" width="32" height="24" x="0" y="0"/>
+    <rect id="bv---bouvet-island-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bv---bouvet-island-b" fill="#fff">
+      <use xlink:href="#bv---bouvet-island-a"/>
+    </mask>
+    <g mask="url(#bv---bouvet-island-b)">
+      <mask id="bv---bouvet-island-d" fill="#fff">
+        <use xlink:href="#bv---bouvet-island-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#bv---bouvet-island-c"/>
+      <g fill="#2E42A5" stroke="#F7FCFF" stroke-width="2" mask="url(#bv---bouvet-island-d)">
+        <path d="M15,9 L33,9 L33,15 L15,15 L15,25 L9,25 L9,15 L-1,15 L-1,9 L9,9 L9,-1 L15,-1 L15,9 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

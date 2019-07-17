@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="gt---guatemala-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="gt---guatemala-b" fill="#fff">
+      <use xlink:href="#gt---guatemala-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#gt---guatemala-b)">
       <polygon fill="#58A5FF" points="11 0 16 0 16 12 11 12"/>
       <polygon fill="#58A5FF" points="0 0 6 0 6 12 0 12"/>
-      <polygon fill="#FFFFFF" points="5 0 11 0 11 12 5 12"/>
+      <polygon fill="#FFF" points="5 0 11 0 11 12 5 12"/>
       <g transform="translate(4.3 3.8)">
         <polygon fill="#C6C6C6" fill-rule="nonzero" points="2.082 4.719 1.719 4.375 5.563 .311 5.926 .655"/>
         <path fill="#5AB92D" d="M2.19238928,0.252717995 C1.37209046,0.747775638 0.961941042,1.61583389 0.961941042,2.85689275 C0.961941042,4.09795161 1.96049049,4.8024312 3.95758938,4.97033151 C2.76246305,4.24137575 2.0866904,3.61596491 1.93027143,3.09409896 C1.77385246,2.57223302 1.86122508,1.62510603 2.19238928,0.252717995 Z"/>

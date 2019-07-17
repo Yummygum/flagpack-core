@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
-    <rect id="c" width="16" height="12"/>
+    <rect id="eg---egypt-a" width="16" height="12" x="0" y="0"/>
+    <rect id="eg---egypt-c" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="eg---egypt-b" fill="#fff">
+      <use xlink:href="#eg---egypt-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#eg---egypt-b)">
+      <mask id="eg---egypt-d" fill="#fff">
+        <use xlink:href="#eg---egypt-c"/>
       </mask>
-      <use fill="#F7FCFF" xlink:href="#c"/>
-      <rect width="16" height="4" fill="#BF2714" mask="url(#d)"/>
-      <rect width="16" height="4" y="8" fill="#272727" mask="url(#d)"/>
-      <g mask="url(#d)">
+      <use fill="#F7FCFF" xlink:href="#eg---egypt-c"/>
+      <rect width="16" height="4" fill="#BF2714" mask="url(#eg---egypt-d)"/>
+      <rect width="16" height="4" y="8" fill="#272727" mask="url(#eg---egypt-d)"/>
+      <g mask="url(#eg---egypt-d)">
         <g transform="translate(6 3)">
           <g transform="translate(0 2.034)">
             <polygon fill="#C09302" fill-rule="nonzero" points=".13 .076 .63 .099 .504 2.833 .005 2.811"/>
@@ -26,10 +26,10 @@
             <polygon fill="#C09302" fill-rule="nonzero" points=".652 .245 1.151 .274 1.026 2.491 .527 2.463"/>
             <polygon fill="#C09302" fill-rule="nonzero" points="1.174 .411 1.673 .452 1.547 1.98 1.049 1.939"/>
           </g>
-          <g transform="translate(1.74 3.63)">
-            <polygon fill="#C09302" fill-rule="nonzero" points=".248 1.033 -.24 .922 -.034 .021 .454 .133"/>
-            <polygon fill="#C09302" fill-rule="nonzero" points=".595 1.033 .108 .922 .314 .021 .802 .133" transform="matrix(-1 0 0 1 1.216 0)"/>
-            <polygon fill="#C09302" fill-rule="nonzero" points=".497 1.025 -.003 1.025 -.003 .141 .497 .141"/>
+          <g transform="translate(.74 3.63)">
+            <polygon fill="#C09302" fill-rule="nonzero" points="1.248 1.033 .76 .922 .966 .021 1.454 .133"/>
+            <polygon fill="#C09302" fill-rule="nonzero" points="1.595 1.033 1.108 .922 1.314 .021 1.802 .133" transform="matrix(-1 0 0 1 3.216 0)"/>
+            <polygon fill="#C09302" fill-rule="nonzero" points="1.497 1.025 .997 1.025 .997 .141 1.497 .141"/>
           </g>
           <g transform="translate(.391 2.38)">
             <polygon fill="#C09302" fill-rule="nonzero" points=".926 .077 1.426 .09 1.397 1.28 .897 1.268"/>

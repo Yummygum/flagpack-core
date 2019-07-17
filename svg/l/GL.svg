@@ -1,32 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
-    <polygon id="e" points="0 0 32 0 32 12 0 12"/>
-    <polygon id="g" points="0 0 32 0 32 12 0 12"/>
+    <rect id="gl---greenland-a" width="32" height="24" x="0" y="0"/>
+    <polygon id="gl---greenland-c" points="0 0 32 0 32 12 0 12"/>
+    <polygon id="gl---greenland-e" points="0 0 32 0 32 12 0 12"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="gl---greenland-b" fill="#fff">
+      <use xlink:href="#gl---greenland-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
-      </mask>
-      <g mask="url(#d)">
-        <g transform="translate(0 12)">
-          <mask id="f" fill="white">
-            <use xlink:href="#e"/>
-          </mask>
-          <use fill="#C51918" xlink:href="#e"/>
-          <circle cx="12" r="8" fill="#F7FCFF" mask="url(#f)"/>
-        </g>
-        <mask id="h" fill="white">
-          <use xlink:href="#g"/>
+    <g mask="url(#gl---greenland-b)">
+      <g transform="translate(0 12)">
+        <mask id="gl---greenland-d" fill="#fff">
+          <use xlink:href="#gl---greenland-c"/>
         </mask>
-        <use fill="#F7FCFF" xlink:href="#g"/>
-        <circle cx="12" cy="12" r="8" fill="#C51918" mask="url(#h)"/>
+        <use fill="#C51918" xlink:href="#gl---greenland-c"/>
+        <circle cx="12" r="8" fill="#F7FCFF" mask="url(#gl---greenland-d)"/>
       </g>
+      <mask id="gl---greenland-f" fill="#fff">
+        <use xlink:href="#gl---greenland-e"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#gl---greenland-e"/>
+      <circle cx="12" cy="12" r="8" fill="#C51918" mask="url(#gl---greenland-f)"/>
     </g>
   </g>
 </svg>

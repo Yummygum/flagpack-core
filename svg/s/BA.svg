@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="12" viewBox="0 0 17 12">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="17" height="12"/>
+    <rect id="ba---bosnia-and-herzegovina-a" width="17" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="ba---bosnia-and-herzegovina-b" fill="#fff">
+      <use xlink:href="#ba---bosnia-and-herzegovina-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#ba---bosnia-and-herzegovina-b)">
       <g transform="translate(0 -1)">
-        <polygon fill="#2E42A5" points="0 1 17 1 17 13 0 13"/>
+        <polygon fill="#2E42A5" points="0 1 16 1 16 13 0 13"/>
         <polygon fill="#FECA00" points="5 1 15 1 15 13"/>
         <g transform="translate(2)">
           <polygon fill="#F7FCFF" points="1.554 2.397 .966 2.706 1.078 2.051 .603 1.588 1.26 1.492 1.554 .897 1.848 1.492 2.505 1.588 2.03 2.051 2.142 2.706"/>

@@ -1,25 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
-    <rect id="e" width="32" height="24"/>
+    <rect id="at---austria-a" width="32" height="24" x="0" y="0"/>
+    <rect id="at---austria-c" width="32" height="24" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="at---austria-b" fill="#fff">
+      <use xlink:href="#at---austria-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#at---austria-b)">
+      <mask id="at---austria-d" fill="#fff">
+        <use xlink:href="#at---austria-c"/>
       </mask>
-      <g mask="url(#d)">
-        <mask id="f" fill="white">
-          <use xlink:href="#e"/>
-        </mask>
-        <use fill="#F7FCFF" xlink:href="#e"/>
-        <rect width="32" height="8" fill="#C51918" mask="url(#f)"/>
-        <rect width="32" height="8" y="16" fill="#C51918" mask="url(#f)"/>
-      </g>
+      <use fill="#F7FCFF" xlink:href="#at---austria-c"/>
+      <rect width="32" height="8" fill="#C51918" mask="url(#at---austria-d)"/>
+      <rect width="32" height="8" y="16" fill="#C51918" mask="url(#at---austria-d)"/>
     </g>
   </g>
 </svg>

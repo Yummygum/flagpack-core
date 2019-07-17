@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="gw---guinea-bissau-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="gw---guinea-bissau-b" fill="#fff">
+      <use xlink:href="#gw---guinea-bissau-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#gw---guinea-bissau-b)">
       <rect width="8" height="6" x="8" fill="#FBCD17"/>
       <rect width="8" height="6" x="8" y="6" fill="#0B9E7A"/>
       <rect width="8" height="12" fill="#E11C1B"/>

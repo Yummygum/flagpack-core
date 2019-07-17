@@ -1,22 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
   <defs>
-    <rect id="a" width="20" height="15"/>
-    <rect id="c" width="20" height="15"/>
+    <rect id="th---thailand-a" width="20" height="15" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="th---thailand-b" fill="#fff">
+      <use xlink:href="#th---thailand-a"/>
     </mask>
-    <use fill="#FFFFFF" xlink:href="#a"/>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
-      </mask>
-      <g mask="url(#d)">
-        <polygon fill="#F50101" points="0 10 20 10 20 15 0 15"/>
-        <polygon fill="#F50101" points="0 0 20 0 20 3.75 0 3.75"/>
-        <path fill="#3D58DB" stroke="#FFFFFF" stroke-width="1.875" d="M-0.9375,4.0625 L20.9375,4.0625 L20.9375,10.9375 L-0.9375,10.9375 L-0.9375,4.0625 Z"/>
-      </g>
+    <g mask="url(#th---thailand-b)">
+      <polygon fill="#F50101" points="0 10 20 10 20 15 0 15"/>
+      <polygon fill="#F50101" points="0 0 20 0 20 3.75 0 3.75"/>
+      <path fill="#3D58DB" stroke="#FFF" stroke-width="1.875" d="M-0.9375,4.0625 L20.9375,4.0625 L20.9375,10.9375 L-0.9375,10.9375 L-0.9375,4.0625 Z"/>
     </g>
   </g>
 </svg>

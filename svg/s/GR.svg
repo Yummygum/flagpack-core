@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="gr---greece-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="gr---greece-b" fill="#fff">
+      <use xlink:href="#gr---greece-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#gr---greece-b)">
       <g transform="translate(-1)">
         <polygon fill="#F7FCFF" points="1 0 17 0 17 12 1 12"/>
         <rect width="16" height="1.5" x="1.014" y="2.75" fill="#4564F9"/>

@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="cx---christmas-island-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="cx---christmas-island-b" fill="#fff">
+      <use xlink:href="#cx---christmas-island-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#cx---christmas-island-b)">
       <polygon fill="#5EAA22" points="0 0 16 0 16 12 0 12"/>
       <polygon fill="#4141DB" points="0 0 16 12 0 12"/>
-      <g fill="#FFFFFF" transform="translate(1 3)">
+      <g fill="#FFF" transform="translate(1 3)">
         <polygon points="2 1.5 1.5 1.866 1.567 1.25 1 1 1.567 .75 1.5 .134 2 .5 2.5 .134 2.433 .75 3 1 2.433 1.25 2.5 1.866"/>
         <polygon points="1 4.5 .5 4.866 .567 4.25 0 4 .567 3.75 .5 3.134 1 3.5 1.5 3.134 1.433 3.75 2 4 1.433 4.25 1.5 4.866"/>
         <polygon points="3 7.5 2.5 7.866 2.567 7.25 2 7 2.567 6.75 2.5 6.134 3 6.5 3.5 6.134 3.433 6.75 4 7 3.433 7.25 3.5 7.866"/>

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="cl---chile-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="cl---chile-b" fill="#fff">
+      <use xlink:href="#cl---chile-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#cl---chile-b)">
       <g transform="translate(0 -1)">
         <polygon fill="#3D58DB" points="0 1 7 1 7 8 0 8"/>
         <polygon fill="#F7FCFF" points="7 0 16 0 16 8 7 8"/>

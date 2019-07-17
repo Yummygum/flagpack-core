@@ -1,25 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
   <defs>
-    <rect id="a" width="32" height="24"/>
-    <rect id="c" width="32" height="24"/>
-    <rect id="e" width="32" height="24"/>
+    <rect id="no---norway-a" width="32" height="24" x="0" y="0"/>
+    <rect id="no---norway-c" width="32" height="24" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="no---norway-b" fill="#fff">
+      <use xlink:href="#no---norway-a"/>
     </mask>
-    <g mask="url(#b)">
-      <mask id="d" fill="white">
-        <use xlink:href="#c"/>
+    <g mask="url(#no---norway-b)">
+      <mask id="no---norway-d" fill="#fff">
+        <use xlink:href="#no---norway-c"/>
       </mask>
-      <g mask="url(#d)">
-        <mask id="f" fill="white">
-          <use xlink:href="#e"/>
-        </mask>
-        <use fill="#E31D1C" xlink:href="#e"/>
-        <g fill="#2E42A5" stroke="#F7FCFF" stroke-width="2" mask="url(#f)">
-          <path d="M15,9 L33,9 L33,15 L15,15 L15,25 L9,25 L9,15 L-1,15 L-1,9 L9,9 L9,-1 L15,-1 L15,9 Z"/>
-        </g>
+      <use fill="#E31D1C" xlink:href="#no---norway-c"/>
+      <g fill="#2E42A5" stroke="#F7FCFF" stroke-width="2" mask="url(#no---norway-d)">
+        <path d="M15,9 L33,9 L33,15 L15,15 L15,25 L9,25 L9,15 L-1,15 L-1,9 L9,9 L9,-1 L15,-1 L15,9 Z"/>
       </g>
     </g>
   </g>

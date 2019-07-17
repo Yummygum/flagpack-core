@@ -1,7 +1,7 @@
 {
   "name": "flag-pack-core",
   "description": "",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yummygum/flag-pack-core.git"
@@ -44,6 +44,16 @@
       "name": "Noud Adrichem",
       "social": "@noudadrichem",
       "url": "https://noudadrichem.com"
+    },
+    {
+      "name": "Donovan Roubos",
+      "social": "@donovanroubos",
+      "url": "https://donovanroubos.nl"
+    },
+    {
+      "name": "Yummygum",
+      "social": "@yummygum",
+      "url": "https://yummygum.com"
     }
   ]
 }

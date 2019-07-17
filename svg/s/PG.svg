@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
   <defs>
-    <rect id="a" width="16" height="12"/>
+    <rect id="pg---papua-new-guinea-a" width="16" height="12" x="0" y="0"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <mask id="b" fill="white">
-      <use xlink:href="#a"/>
+    <mask id="pg---papua-new-guinea-b" fill="#fff">
+      <use xlink:href="#pg---papua-new-guinea-a"/>
     </mask>
-    <g mask="url(#b)">
+    <g mask="url(#pg---papua-new-guinea-b)">
       <rect width="16" height="12" fill="#E11C1B"/>
       <polygon fill="#1D1D1D" points="0 0 16 12 0 12"/>
       <g transform="translate(1 1)">
