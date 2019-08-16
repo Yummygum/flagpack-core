@@ -1,5 +1,5 @@
 {
-  "name": "flag-pack-core",
+  "name": "flagpack-core",
   "description": "",
   "version": "0.0.32",
   "repository": {
@@ -12,7 +12,8 @@
     "react",
     "angular",
     "core",
-    "countries"
+    "countries",
+    "flag-pack"
   ],
   "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",
   "bugs": {
