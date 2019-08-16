@@ -1,1 +1,1 @@
-# flag-pack-core
+# flagpack-core

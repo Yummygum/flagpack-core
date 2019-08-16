@@ -8,7 +8,7 @@ export default {
   output: {
     file: 'dist/bundle.js',
     format: 'cjs',
-    name: 'flag-pack-core'
+    name: 'flagpack-core'
   },
   plugins: [
     resolve(),
