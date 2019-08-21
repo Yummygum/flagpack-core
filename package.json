@@ -1,7 +1,7 @@
 {
   "name": "flagpack-core",
   "description": "",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yummygum/flag-pack-core.git"
