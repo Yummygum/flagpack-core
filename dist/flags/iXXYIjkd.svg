@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="so---somalia-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="so---somalia-b" fill="#fff">
+      <use xlink:href="#so---somalia-a"/>
+    </mask>
+    <g mask="url(#so---somalia-b)">
+      <polygon fill="#56C6F5" points="0 0 20 0 20 15 0 15"/>
+      <polygon fill="#F7FCFF" points="3.896 5.699 1.57 7.235 2.313 4.603 .606 2.922 2.918 2.831 3.896 .229 4.874 2.831 7.182 2.831 5.479 4.603 6.332 7.08" transform="rotate(1 -193.511 363.572)"/>
+    </g>
+  </g>
+</svg>

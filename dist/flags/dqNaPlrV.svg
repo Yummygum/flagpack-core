@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="bl---saint-barthélemy-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bl---saint-barthélemy-b" fill="#fff">
+      <use xlink:href="#bl---saint-barthélemy-a"/>
+    </mask>
+    <g mask="url(#bl---saint-barthélemy-b)">
+      <rect width="6" height="15" x="14" fill="#F50100"/>
+      <rect width="8" height="15" fill="#2E42A5"/>
+      <rect width="8" height="15" x="6" fill="#F7FCFF"/>
+    </g>
+  </g>
+</svg>

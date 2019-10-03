@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="aw---aruba-a" width="32" height="24" x="0" y="0"/>
+    <rect id="aw---aruba-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="aw---aruba-b" fill="#fff">
+      <use xlink:href="#aw---aruba-a"/>
+    </mask>
+    <g mask="url(#aw---aruba-b)">
+      <mask id="aw---aruba-d" fill="#fff">
+        <use xlink:href="#aw---aruba-c"/>
+      </mask>
+      <use fill="#5BA3DA" xlink:href="#aw---aruba-c"/>
+      <g mask="url(#aw---aruba-d)">
+        <g transform="translate(-2 1)">
+          <polygon fill="red" stroke="#F7FCFF" stroke-width=".35" points="7.773 6.96 3.392 6.035 7.827 5.157 9.11 .568 10.122 5.12 14.081 6.039 10.168 6.96 9.039 10.703"/>
+          <path fill="#FAD615" d="M2.00013,12.999996 L34.000234,12.999996 L34.000234,15.00012 L2.00013,15.00012 L2.00013,12.999996 Z M2.00013,17.000076 L34.000234,17.000076 L34.000234,19.00013 L2.00013,19.00013 L2.00013,17.000076 Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

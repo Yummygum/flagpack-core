@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="nl---netherlands-a" width="32" height="24" x="0" y="0"/>
+    <rect id="nl---netherlands-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="nl---netherlands-b" fill="#fff">
+      <use xlink:href="#nl---netherlands-a"/>
+    </mask>
+    <g mask="url(#nl---netherlands-b)">
+      <mask id="nl---netherlands-d" fill="#fff">
+        <use xlink:href="#nl---netherlands-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#nl---netherlands-c"/>
+      <rect width="32" height="8" fill="#E31D1C" mask="url(#nl---netherlands-d)"/>
+      <rect width="32" height="8" y="16" fill="#3D58DB" mask="url(#nl---netherlands-d)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="bq-sb---saba-a" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bq-sb---saba-b" fill="#fff">
+      <use xlink:href="#bq-sb---saba-a"/>
+    </mask>
+    <g mask="url(#bq-sb---saba-b)">
+      <polygon fill="#FFF" points="0 0 16 0 16 12 0 12"/>
+      <polygon fill="#F00000" points="0 5.832 0 0 8 0"/>
+      <polygon fill="#F00000" points="8 5.832 8 0 16 0" transform="matrix(-1 0 0 1 24 0)"/>
+      <polygon fill="#00268D" points="0 12 0 5.832 8 5.832" transform="matrix(1 0 0 -1 0 17.832)"/>
+      <polygon fill="#00268D" points="8 12.168 8 5.832 16 6" transform="rotate(180 12 9)"/>
+      <polygon fill="#FEDA00" points="7.857 7.128 6.098 8.382 6.744 6.311 5 5.043 7.172 5.043 7.857 3 8.583 5.043 10.696 5.043 8.967 6.311 9.624 8.382"/>
+    </g>
+  </g>
+</svg>

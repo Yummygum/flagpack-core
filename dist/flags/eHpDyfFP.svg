@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="az---azerbaijan-a" width="20" height="15" x="0" y="0"/>
+    <rect id="az---azerbaijan-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="az---azerbaijan-b" fill="#fff">
+      <use xlink:href="#az---azerbaijan-a"/>
+    </mask>
+    <g mask="url(#az---azerbaijan-b)">
+      <mask id="az---azerbaijan-d" fill="#fff">
+        <use xlink:href="#az---azerbaijan-c"/>
+      </mask>
+      <use fill="#AF0100" xlink:href="#az---azerbaijan-c"/>
+      <rect width="20" height="5" fill="#3CA5D9" mask="url(#az---azerbaijan-d)"/>
+      <rect width="20" height="5" y="10" fill="#73BE4A" mask="url(#az---azerbaijan-d)"/>
+      <g fill="#F7FCFF" mask="url(#az---azerbaijan-d)">
+        <path d="M1.73418391,2.73950822 C1.72544625,3.71071458 2.38424149,4.37255811 3.2261009,4.56667166 C4.06796031,4.7607852 4.9560518,4.2961853 4.9560518,4.2961853 C4.84756172,4.59745174 4.32462751,5.3059312 3.22381081,5.3088179 C1.85064701,5.31241878 0.290380746,4.38041298 0.305130022,2.74100572 C0.319356602,1.15969692 1.76644744,0.124180067 3.12286249,0.120623103 C3.851557,0.118712227 4.73994259,0.516616364 4.99513851,1.08406062 C4.99513851,1.08406062 4.18064502,0.64332544 3.25471872,0.852321547 C2.32879242,1.06131765 1.74236307,1.83038076 1.73418391,2.73950822 Z M4.49584258,3.12667453 L3.76111102,3.63794577 L4.02031432,2.78118302 L3.30702194,2.24040328 L4.20194996,2.22216603 L4.49584258,1.37667453 L4.78973521,2.22216603 L5.68466323,2.24040328 L4.97137084,2.78118302 L5.23057415,3.63794577 L4.49584258,3.12667453 Z" transform="translate(7.5 4.75)"/>
+      </g>
+    </g>
+  </g>
+</svg>

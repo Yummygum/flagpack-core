@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="bw---botswana-a" width="16" height="12" x="0" y="0"/>
+    <rect id="bw---botswana-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bw---botswana-b" fill="#fff">
+      <use xlink:href="#bw---botswana-a"/>
+    </mask>
+    <g mask="url(#bw---botswana-b)">
+      <mask id="bw---botswana-d" fill="#fff">
+        <use xlink:href="#bw---botswana-c"/>
+      </mask>
+      <use fill="#42ADDF" xlink:href="#bw---botswana-c"/>
+      <rect width="16" height="4" fill="#58A5FF" mask="url(#bw---botswana-d)"/>
+      <rect width="17" height="3" x="-.5" y="4.5" fill="#272727" stroke="#F7FCFF" mask="url(#bw---botswana-d)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ro---romania-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ro---romania-b" fill="#fff">
+      <use xlink:href="#ro---romania-a"/>
+    </mask>
+    <g mask="url(#ro---romania-b)">
+      <rect width="12" height="24" x="10" fill="#FBCD17"/>
+      <rect width="10" height="24" x="22" fill="#E11C1B"/>
+      <rect width="10" height="24" fill="#2E42A5"/>
+    </g>
+  </g>
+</svg>

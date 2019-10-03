@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="bi---burundi-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bi---burundi-b" fill="#fff">
+      <use xlink:href="#bi---burundi-a"/>
+    </mask>
+    <g mask="url(#bi---burundi-b)">
+      <rect width="32" height="24" fill="#5EAA22" rx="2"/>
+      <path fill="#DD2C2B" fill-rule="nonzero" stroke="#FFF" stroke-width="2.5" d="M-3.75,25.25 L16,10.4375 L35.75,25.25 L-3.75,25.25 Z M-3.75,-1.25 L35.75,-1.25 L16,13.5625 L-3.75,-1.25 Z"/>
+      <circle cx="16" cy="12" r="6" fill="#FFF"/>
+      <polygon fill="#DD2C2B" stroke="#5EAA22" stroke-width=".25" points="16 10.54 15 11.132 15.013 9.97 14 9.4 15.013 8.83 15 7.668 16 8.26 17 7.668 16.987 8.83 18 9.4 16.987 9.97 17 11.132" transform="rotate(30 16 9.4)"/>
+      <polygon fill="#DD2C2B" stroke="#5EAA22" stroke-width=".25" points="13.5 14.64 12.5 15.232 12.513 14.07 11.5 13.5 12.513 12.93 12.5 11.768 13.5 12.36 14.5 11.768 14.487 12.93 15.5 13.5 14.487 14.07 14.5 15.232" transform="rotate(30 13.5 13.5)"/>
+      <polygon fill="#DD2C2B" stroke="#5EAA22" stroke-width=".25" points="18.5 14.64 17.5 15.232 17.513 14.07 16.5 13.5 17.513 12.93 17.5 11.768 18.5 12.36 19.5 11.768 19.487 12.93 20.5 13.5 19.487 14.07 19.5 15.232" transform="rotate(30 18.5 13.5)"/>
+    </g>
+  </g>
+</svg>

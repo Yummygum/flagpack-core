@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="bo---bolivia-a" width="20" height="15" x="0" y="0"/>
+    <rect id="bo---bolivia-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bo---bolivia-b" fill="#fff">
+      <use xlink:href="#bo---bolivia-a"/>
+    </mask>
+    <g mask="url(#bo---bolivia-b)">
+      <mask id="bo---bolivia-d" fill="#fff">
+        <use xlink:href="#bo---bolivia-c"/>
+      </mask>
+      <use fill="#FECA00" xlink:href="#bo---bolivia-c"/>
+      <rect width="20" height="5" fill="#DB501C" mask="url(#bo---bolivia-d)"/>
+      <rect width="20" height="5" y="10" fill="#5EAA22" mask="url(#bo---bolivia-d)"/>
+      <g mask="url(#bo---bolivia-d)">
+        <g transform="translate(7.25 4.75)">
+          <path stroke="#DB501C" stroke-width=".938" d="M0.0296251342,2.28750229 C-0.125325015,3.87463382 0.502514274,4.66819958 1.913143,4.66819958 C3.32377173,4.66819958 3.849547,4.66819958 3.49046882,4.66819958 C4.97441639,4.57138685 5.63022933,3.77782109 5.45790764,2.28750229"/>
+          <circle cx="2.75" cy="2.625" r="1.406" fill="#FECA00" stroke="#68B9E8" stroke-width=".938"/>
+          <circle cx="2.75" cy="2.125" r="1" fill="#DB501C"/>
+          <ellipse cx="2.813" cy="3.25" fill="#5EAA22" rx="1.063" ry="1"/>
+          <ellipse cx="2.813" cy="1" fill="#674F28" rx="1.5" ry="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

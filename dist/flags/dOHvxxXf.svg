@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="aq---antarctica-a" width="20" height="15" x="0" y="0"/>
+    <rect id="aq---antarctica-c" width="20" height="15" x="0" y="0"/>
+    <path id="aq---antarctica-f" d="M3.94834237,3.6836 C3.94834237,3.6836 5.23841737,4.3914 5.41783237,4.587175 C5.59717237,4.7829875 5.88464737,5.502025 6.33295237,5.0954 C6.78133237,4.6889125 7.22963737,5.0049375 7.22963737,4.3573125 C7.22963737,3.7097375 7.89904237,2.207525 8.87035237,2.5839625 C9.84175237,2.9603625 10.6403974,2.7248875 10.8644674,2.875375 C11.0886874,3.0259625 11.6267074,3.7737625 12.0451024,3.7737625 C12.4636624,3.7737625 12.6727324,4.2104375 12.7027174,4.842975 C12.7324624,5.4755625 12.5682724,5.535975 12.9566974,5.6113875 C13.3453474,5.6866125 13.4947024,5.9728875 13.3006174,6.3492875 C13.1062924,6.725825 13.1211124,6.5601375 13.1510224,6.951725 C13.1810074,7.3433125 12.7626124,9.6525 11.4771124,9.87865 C10.1917624,10.1044125 8.97344737,9.98405 9.30238237,9.5471 C9.63115237,9.110475 10.0862674,8.6079125 9.41389237,8.5025 C8.74120237,8.39695 8.31736237,8.3072125 7.64474737,8.4878875 C6.97213237,8.6686125 6.26977237,8.95465 5.85113737,8.4126125 C5.43274237,7.8704 5.52253237,7.4788125 5.17876237,7.2227625 C4.83508237,6.966775 4.41644737,7.0119125 4.76036737,6.5149125 C5.10389737,6.017925 5.38784737,6.2035 5.10389737,5.8119625 C4.82017237,5.420475 3.74833237,5.2498875 3.74833237,4.85845 C3.74833237,4.4667125 3.06658237,3.608275 3.94834237,3.6836 Z"/>
+    <filter id="aq---antarctica-e" width="105.8%" height="107.7%" x="-2.4%" y="-3.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.09411765   0 0 0 0 0.3254902   0 0 0 0 0.6392157  0 0 0 0.43 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="aq---antarctica-b" fill="#fff">
+      <use xlink:href="#aq---antarctica-a"/>
+    </mask>
+    <g mask="url(#aq---antarctica-b)">
+      <mask id="aq---antarctica-d" fill="#fff">
+        <use xlink:href="#aq---antarctica-c"/>
+      </mask>
+      <use fill="#5196ED" xlink:href="#aq---antarctica-c"/>
+      <g mask="url(#aq---antarctica-d)">
+        <g transform="translate(1.5 1.25)">
+          <use fill="#000" filter="url(#aq---antarctica-e)" xlink:href="#aq---antarctica-f"/>
+          <use fill="#FFF" xlink:href="#aq---antarctica-f"/>
+          <use fill="#F5F8FB" xlink:href="#aq---antarctica-f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

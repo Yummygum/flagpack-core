@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="py---paraguay-a" width="32" height="24" x="0" y="0"/>
+    <rect id="py---paraguay-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="py---paraguay-b" fill="#fff">
+      <use xlink:href="#py---paraguay-a"/>
+    </mask>
+    <g mask="url(#py---paraguay-b)">
+      <mask id="py---paraguay-d" fill="#fff">
+        <use xlink:href="#py---paraguay-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#py---paraguay-c"/>
+      <g mask="url(#py---paraguay-d)">
+        <g transform="translate(12 8)">
+          <circle cx="4" cy="4" r="3.825" stroke="#272727" stroke-width=".35"/>
+          <path fill="#272727" fill-rule="nonzero" d="M4,6.65 C5.46355459,6.65 6.65,5.46355459 6.65,4 C6.65,3.24376888 6.33323367,2.56152249 5.82514834,2.07870816 C5.34992235,1.62711883 4.70732346,1.35 4,1.35 C3.43050034,1.35 2.90295918,1.52964571 2.47095349,1.83536017 C1.79274973,2.31529989 1.35,3.10594508 1.35,4 C1.35,5.46355459 2.53644541,6.65 4,6.65 Z M4,7 C2.34314575,7 1,5.65685425 1,4 C1,2.99191935 1.49721599,2.09996972 2.25978425,1.55601483 C2.75055268,1.20594008 3.3512264,1 4,1 C4.77120811,1 5.47444879,1.29100316 6.00590665,1.7691941 C6.61622649,2.31834283 7,3.11435386 7,4 C7,5.65685425 5.65685425,7 4,7 Z"/>
+        </g>
+      </g>
+      <rect width="32" height="8" fill="#F05234" mask="url(#py---paraguay-d)"/>
+      <rect width="32" height="8" y="16" fill="#3D58DB" mask="url(#py---paraguay-d)"/>
+      <path fill="#73BE4A" fill-rule="nonzero" d="M15.2061177,10.0896746 L15.3746218,10.5604254 C14.618991,10.8309015 14.191676,11.2716849 14.191676,12.2138732 C14.191676,13.147018 14.6231601,13.7258222 15.5256247,14.0015458 L15.3795297,14.4797259 C14.2674593,14.139963 13.6325254,13.4768127 13.6325254,12.3230938 C13.6325254,11.1784183 14.2422597,10.434685 15.2061177,10.0896746 Z" mask="url(#py---paraguay-d)" transform="rotate(-15 14.58 12.285)"/>
+      <polygon fill="#FBCD17" points="16 12.315 15.118 12.914 15.415 11.89 14.573 11.236 15.639 11.202 16 10.2 16.361 11.202 17.427 11.236 16.585 11.89 16.882 12.914" mask="url(#py---paraguay-d)"/>
+      <path stroke="#73BE4A" stroke-width=".5" d="M17.2124341,10.1818059 C16.3526897,10.4895492 15.9228175,11.1651367 15.9228175,12.2085686 C15.9228175,13.2520005 16.4264513,13.9275881 17.4337188,14.2353313" mask="url(#py---paraguay-d)" transform="scale(-1 1) rotate(-15 0 140.75)"/>
+      <path fill="#F7FCFF" fill-rule="nonzero" d="M14.564132,9.04372387 L15.0309181,9.7619466" mask="url(#py---paraguay-d)"/>
+    </g>
+  </g>
+</svg>

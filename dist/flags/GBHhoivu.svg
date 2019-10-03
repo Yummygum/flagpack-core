@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="in---india-a" width="32" height="24" x="0" y="0"/>
+    <rect id="in---india-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="in---india-b" fill="#fff">
+      <use xlink:href="#in---india-a"/>
+    </mask>
+    <g mask="url(#in---india-b)">
+      <mask id="in---india-d" fill="#fff">
+        <use xlink:href="#in---india-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#in---india-c"/>
+      <rect width="32" height="8" fill="#FF8C1A" mask="url(#in---india-d)"/>
+      <rect width="32" height="8" y="16" fill="#5EAA22" mask="url(#in---india-d)"/>
+      <g fill="#3D58DB" mask="url(#in---india-d)">
+        <g transform="translate(12 8)">
+          <path fill-rule="nonzero" d="M4,7 C5.65685425,7 7,5.65685425 7,4 C7,2.34314575 5.65685425,1 4,1 C2.34314575,1 1,2.34314575 1,4 C1,5.65685425 2.34314575,7 4,7 Z M4,8 C1.790861,8 0,6.209139 0,4 C0,1.790861 1.790861,0 4,0 C6.209139,0 8,1.790861 8,4 C8,6.209139 6.209139,8 4,8 Z"/>
+          <polygon points="3.994 4.861 3.424 7.981 3.755 4.826 2.328 7.66 3.535 4.726 1.368 7.042 3.352 4.567 .62 6.18 3.222 4.364 .146 5.141 3.153 4.132 -.017 4.011 3.153 3.89 .146 2.881 3.222 3.658 .62 1.843 3.352 3.455 1.368 .98 3.535 3.296 2.328 .362 3.755 3.196 3.424 .041 3.994 3.161 4.565 .041 4.234 3.196 5.661 .362 4.454 3.296 6.621 .98 4.637 3.455 7.369 1.843 4.767 3.658 7.843 2.881 4.836 3.89 8.006 4.011 4.836 4.132 7.843 5.141 4.767 4.364 7.369 6.18 4.637 4.567 6.621 7.042 4.454 4.726 5.661 7.66 4.234 4.826 4.565 7.981"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="mr---mauritania-a" width="32" height="24" x="0" y="0"/>
+    <rect id="mr---mauritania-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mr---mauritania-b" fill="#fff">
+      <use xlink:href="#mr---mauritania-a"/>
+    </mask>
+    <g mask="url(#mr---mauritania-b)">
+      <mask id="mr---mauritania-d" fill="#fff">
+        <use xlink:href="#mr---mauritania-c"/>
+      </mask>
+      <use fill="#1C7B4D" xlink:href="#mr---mauritania-c"/>
+      <rect width="32" height="6" fill="#E31D1C" mask="url(#mr---mauritania-d)"/>
+      <rect width="32" height="6" y="18" fill="#E31D1C" mask="url(#mr---mauritania-d)"/>
+      <g fill="#FECA00" mask="url(#mr---mauritania-d)">
+        <g transform="rotate(-90 13 4)">
+          <path d="M2.62145813,7.24199656 C2.59271433,12.4272817 6.93491105,13.8876426 6.93491105,13.8876426 C3.22007723,13.5939282 0.70088991,11.5392909 0.70088991,7.24199656 C0.70088991,2.94470218 3.9640647,1.36673422 7.21924001,0.596350555 C7.21924001,0.596350555 2.65020193,2.05671146 2.62145813,7.24199656 Z"/>
+          <polygon points="7.745 8.726 5.982 9.653 6.319 7.689 4.892 6.299 6.864 6.012 7.881 4.181 8.491 6.056 10.598 6.299 9.036 7.733 9.645 9.608" transform="rotate(18 7.745 6.917)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

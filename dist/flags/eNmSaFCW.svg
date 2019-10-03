@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="hu---hungary-a" width="16" height="12" x="0" y="0"/>
+    <rect id="hu---hungary-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="hu---hungary-b" fill="#fff">
+      <use xlink:href="#hu---hungary-a"/>
+    </mask>
+    <g mask="url(#hu---hungary-b)">
+      <mask id="hu---hungary-d" fill="#fff">
+        <use xlink:href="#hu---hungary-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#hu---hungary-c"/>
+      <rect width="16" height="4" fill="#F14423" mask="url(#hu---hungary-d)"/>
+      <rect width="16" height="4" y="8" fill="#5EAA22" mask="url(#hu---hungary-d)"/>
+    </g>
+  </g>
+</svg>

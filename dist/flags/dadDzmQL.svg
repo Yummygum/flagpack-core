@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="bs---bahamas-a" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bs---bahamas-b" fill="#fff">
+      <use xlink:href="#bs---bahamas-a"/>
+    </mask>
+    <g mask="url(#bs---bahamas-b)">
+      <polygon fill="#FECA00" points="0 0 16 0 16 12 0 12"/>
+      <rect width="16" height="4" fill="#3CB1CF"/>
+      <rect width="16" height="4" y="8" fill="#3CB1CF"/>
+      <polygon fill="#272727" points="0 0 8 6 0 12"/>
+    </g>
+  </g>
+</svg>

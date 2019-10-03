@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="td---chad-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="td---chad-b" fill="#fff">
+      <use xlink:href="#td---chad-a"/>
+    </mask>
+    <g mask="url(#td---chad-b)">
+      <polygon fill="#E11C1B" points="22 0 32 0 32 24 22 24"/>
+      <polygon fill="#2E42A5" points="0 0 12 0 12 24 0 24"/>
+      <polygon fill="#FBCD17" points="10 0 22 0 22 24 10 24"/>
+    </g>
+  </g>
+</svg>

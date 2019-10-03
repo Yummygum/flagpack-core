@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="mk---former-yugoslav-republic-of-macedonia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="mk---former-yugoslav-republic-of-macedonia-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mk---former-yugoslav-republic-of-macedonia-b" fill="#fff">
+      <use xlink:href="#mk---former-yugoslav-republic-of-macedonia-a"/>
+    </mask>
+    <g mask="url(#mk---former-yugoslav-republic-of-macedonia-b)">
+      <mask id="mk---former-yugoslav-republic-of-macedonia-d" fill="#fff">
+        <use xlink:href="#mk---former-yugoslav-republic-of-macedonia-c"/>
+      </mask>
+      <use fill="#F50100" xlink:href="#mk---former-yugoslav-republic-of-macedonia-c"/>
+      <path fill="#FFD018" d="M13,1.99146255e-15 L19,1.99146255e-15 L16,12 L13,1.99146255e-15 Z M-1.28785871e-13,24.0351669 L-7.99360578e-15,19.9512465 L14,14 L3.25523308,24.0351669 L-1.28785871e-13,24.0351669 Z M-1.28785871e-13,-0.0419601627 L3.25523308,-0.0419601627 L14,9.99320671 L-7.99360578e-15,4.04196016 L-1.28785871e-13,-0.0419601627 Z M32,-0.0175834353 L32,4.06633689 L18,10.0175834 L28.7447669,-0.0175834353 L32,-0.0175834353 Z M32,24.0595436 L28.7447669,24.0595436 L18,14.0243767 L32,19.9756233 L32,24.0595436 Z M13,24 L16,12 L19,24 L13,24 Z M32,15 L20,12 L32,9 L32,15 Z M1.07469589e-13,15 L1.08571771e-13,9 L12,12 L1.07469589e-13,15 Z" mask="url(#mk---former-yugoslav-republic-of-macedonia-d)"/>
+      <circle cx="16" cy="12" r="5" fill="#FFD018" stroke="#F50100" stroke-width="2" mask="url(#mk---former-yugoslav-republic-of-macedonia-d)"/>
+    </g>
+  </g>
+</svg>

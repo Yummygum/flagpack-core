@@ -2,6 +2,7 @@ import json from 'rollup-plugin-json';
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve';
+import smartAsset from 'rollup-plugin-smart-asset'
 
 export default {
   input: 'index.js',
@@ -16,6 +17,12 @@ export default {
     babel({
       exclude: 'node_modules/**',
     }),
-    json({ compact: true, })
+    json({ compact: true, }),
+    smartAsset({
+      url: 'copy', 
+      assetsPath: 'flags',
+      useHash: true,
+      keepImport: true
+    })
   ]
 };

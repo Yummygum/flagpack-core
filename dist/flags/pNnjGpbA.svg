@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="fm---federated-states-of-micronesia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="fm---federated-states-of-micronesia-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="fm---federated-states-of-micronesia-b" fill="#fff">
+      <use xlink:href="#fm---federated-states-of-micronesia-a"/>
+    </mask>
+    <g mask="url(#fm---federated-states-of-micronesia-b)">
+      <mask id="fm---federated-states-of-micronesia-d" fill="#fff">
+        <use xlink:href="#fm---federated-states-of-micronesia-c"/>
+      </mask>
+      <use fill="#63B3E1" xlink:href="#fm---federated-states-of-micronesia-c"/>
+      <g fill="#F7FCFF" mask="url(#fm---federated-states-of-micronesia-d)">
+        <g transform="translate(6 2)">
+          <polygon points="10 5.3 8.237 6.227 8.573 4.264 7.147 2.873 9.118 2.586 10 .8 10.882 2.586 12.853 2.873 11.427 4.264 11.763 6.227"/>
+          <polygon points="10 17.3 8.237 18.227 8.573 16.264 7.147 14.873 9.118 14.586 10 12.8 10.882 14.586 12.853 14.873 11.427 16.264 11.763 18.227"/>
+          <polygon points="3.8 11.5 2.037 12.427 2.373 10.464 .947 9.073 2.918 8.786 3.8 7 4.682 8.786 6.653 9.073 5.227 10.464 5.563 12.427"/>
+          <polygon points="16 11.5 14.237 12.427 14.573 10.464 13.147 9.073 15.118 8.786 16 7 16.882 8.786 18.853 9.073 17.427 10.464 17.763 12.427"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

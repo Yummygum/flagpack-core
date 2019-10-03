@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gg---guernsey-a" width="32" height="24" x="0" y="0"/>
+    <rect id="gg---guernsey-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gg---guernsey-b" fill="#fff">
+      <use xlink:href="#gg---guernsey-a"/>
+    </mask>
+    <g mask="url(#gg---guernsey-b)">
+      <mask id="gg---guernsey-d" fill="#fff">
+        <use xlink:href="#gg---guernsey-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#gg---guernsey-c"/>
+      <g mask="url(#gg---guernsey-d)">
+        <polygon fill="#E31D1C" points="12 0 20 0 20 8 32 8 32 16 20 16 20 24 12 24 12 16 0 16 0 8 12 8"/>
+        <path fill="#FECA00" d="M25.1059729,10 L25.1059729,9.94283841 L26.8652295,8.94548372 L26.8652295,14.9056738 L25.2005805,14 L18,14 L18,19.0459505 L18.00855,19.0459505 L18.9656963,20.8052071 L13.0055062,20.8052071 L14,19.0509968 L14,14 L6.77062195,14 L5.1059729,14.9056738 L5.1059729,8.94548372 L6.86522952,9.94283841 L6.86522952,10 L14,10 L14,4.80016079 L13.0055062,3.04595047 L18.9656963,3.04595047 L18.00855,4.80520709 L18,4.80520709 L18,10 L25.1059729,10 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

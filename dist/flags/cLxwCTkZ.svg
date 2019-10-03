@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="cu---cuba-a" width="20" height="15" x="0" y="0"/>
+    <rect id="cu---cuba-c" width="20" height="15" x="0" y="0"/>
+    <polygon id="cu---cuba-e" points="0 0 0 15 11.25 7.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cu---cuba-b" fill="#fff">
+      <use xlink:href="#cu---cuba-a"/>
+    </mask>
+    <g mask="url(#cu---cuba-b)">
+      <mask id="cu---cuba-d" fill="#fff">
+        <use xlink:href="#cu---cuba-c"/>
+      </mask>
+      <use fill="#3D58DB" xlink:href="#cu---cuba-c"/>
+      <rect width="22.5" height="5" x="-1.25" y="5" fill="#3D58DB" stroke="#F7FCFF" stroke-width="2.5" mask="url(#cu---cuba-d)"/>
+      <mask id="cu---cuba-f" fill="#fff">
+        <use xlink:href="#cu---cuba-e"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#cu---cuba-e"/>
+      <g fill="#F7FCFF" mask="url(#cu---cuba-f)">
+        <polygon points="2.93 5.136 .635 6.347 1.752 3.913 .328 2.613 2.086 2.548 2.93 .348 3.574 2.548 5.328 2.548 4.159 3.913 5.089 6.347" transform="translate(1.25 3.75)"/>
+      </g>
+    </g>
+  </g>
+</svg>

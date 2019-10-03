@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ua---ukraine-a" width="32" height="24" x="0" y="0"/>
+    <rect id="ua---ukraine-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ua---ukraine-b" fill="#fff">
+      <use xlink:href="#ua---ukraine-a"/>
+    </mask>
+    <g mask="url(#ua---ukraine-b)">
+      <mask id="ua---ukraine-d" fill="#fff">
+        <use xlink:href="#ua---ukraine-c"/>
+      </mask>
+      <use fill="#3195F9" xlink:href="#ua---ukraine-c"/>
+      <rect width="32" height="12" y="12" fill="#FECA00" mask="url(#ua---ukraine-d)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="gr---greece-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gr---greece-b" fill="#fff">
+      <use xlink:href="#gr---greece-a"/>
+    </mask>
+    <g mask="url(#gr---greece-b)">
+      <g transform="translate(-.25)">
+        <polygon fill="#F7FCFF" points=".25 0 20.25 0 20.25 15 .25 15"/>
+        <rect width="20" height="1.875" x=".267" y="3.438" fill="#4564F9"/>
+        <polygon fill="#4564F9" points=".25 0 20.25 0 20.25 1.875 .25 1.875"/>
+        <rect width="20" height="1.875" x=".213" y="6.875" fill="#4564F9"/>
+        <rect width="20" height="1.875" x=".32" y="10.25" fill="#4564F9"/>
+        <rect width="20" height="1.875" x=".313" y="13.438" fill="#4564F9"/>
+        <polygon fill="#4564F9" points=".25 0 10.25 0 10.25 8.75 .25 8.75"/>
+        <polygon fill="#F7FCFF" points="4.294 0 6.272 0 6.272 3.438 10.25 3.438 10.25 5.804 6.272 5.804 6.272 9.375 4.294 9.375 4.294 5.804 .25 5.804 .25 3.438 4.294 3.438"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ru---russian-federation-a" width="32" height="24" x="0" y="0"/>
+    <rect id="ru---russian-federation-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ru---russian-federation-b" fill="#fff">
+      <use xlink:href="#ru---russian-federation-a"/>
+    </mask>
+    <g mask="url(#ru---russian-federation-b)">
+      <mask id="ru---russian-federation-d" fill="#fff">
+        <use xlink:href="#ru---russian-federation-c"/>
+      </mask>
+      <use fill="#3D58DB" xlink:href="#ru---russian-federation-c"/>
+      <rect width="32" height="8" fill="#F7FCFF" mask="url(#ru---russian-federation-d)"/>
+      <rect width="32" height="8" y="16" fill="#C51918" mask="url(#ru---russian-federation-d)"/>
+    </g>
+  </g>
+</svg>

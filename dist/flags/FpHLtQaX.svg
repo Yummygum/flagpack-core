@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="sv---el-salvador-a" width="32" height="24" x="0" y="0"/>
+    <rect id="sv---el-salvador-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="sv---el-salvador-b" fill="#fff">
+      <use xlink:href="#sv---el-salvador-a"/>
+    </mask>
+    <g mask="url(#sv---el-salvador-b)">
+      <mask id="sv---el-salvador-d" fill="#fff">
+        <use xlink:href="#sv---el-salvador-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#sv---el-salvador-c"/>
+      <rect width="32" height="8" fill="#3D58DB" mask="url(#sv---el-salvador-d)"/>
+      <rect width="32" height="8" y="16" fill="#3D58DB" mask="url(#sv---el-salvador-d)"/>
+      <g mask="url(#sv---el-salvador-d)">
+        <g transform="translate(10 6)">
+          <circle cx="5.784" cy="5.858" r="3.642" stroke="#E8AA00"/>
+          <path stroke="#979797"/>
+          <path fill="#1E601B" d="M3.81067238,3.66225929 C3.17563813,4.70736798 2.858121,5.58865616 2.858121,6.30612383 C2.858121,7.38232533 3.99830739,8.73501895 5.79217905,8.73501895 C7.54198649,8.73501895 8.79967124,7.68979747 8.83770514,6.30612383 C8.86306108,5.38367473 8.54928967,4.59411172 7.89639091,3.93743481 C8.26590139,5.26550369 8.358279,6.19861662 8.17352377,6.73677362 C7.89639091,7.54400912 6.99935013,8.52067126 5.79217905,8.39633101 C4.58500797,8.27199077 3.43938455,6.78614547 3.43938455,6.30612383 C3.43938455,5.9861094 3.56314716,5.10482122 3.81067238,3.66225929 Z"/>
+          <path stroke="#188396" d="M4.16049496,6.32835821 C6.29869618,6.32835821 7.36779679,6.32835821 7.36779679,6.32835821"/>
+          <path stroke="#E8AA00" d="M4.45900242 5.80597015C6.29869618 5.80597015 7.21854306 5.80597015 7.21854306 5.80597015M5.83266845 4.35487103L4.59334968 6.41117969 7.04954634 6.41117969 5.83266845 4.35487103z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

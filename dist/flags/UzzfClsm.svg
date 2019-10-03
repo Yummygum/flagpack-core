@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="sr---suriname-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="sr---suriname-b" fill="#fff">
+      <use xlink:href="#sr---suriname-a"/>
+    </mask>
+    <g mask="url(#sr---suriname-b)">
+      <polygon fill="#4E8B1D" points="0 10 20 10 20 15 0 15"/>
+      <polygon fill="#4E8B1D" points="0 0 20 0 20 3.75 0 3.75"/>
+      <path fill="#AF0100" stroke="#FFF" stroke-width="1.875" d="M-0.9375,4.0625 L20.9375,4.0625 L20.9375,10.9375 L-0.9375,10.9375 L-0.9375,4.0625 Z"/>
+      <polygon fill="#FECA00" points="10.001 9.059 8.443 10 8.798 8.164 7.5 6.789 9.258 6.715 10.001 5 10.745 6.715 12.5 6.715 11.205 8.164 11.595 10"/>
+    </g>
+  </g>
+</svg>

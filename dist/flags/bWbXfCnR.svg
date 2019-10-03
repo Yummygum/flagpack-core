@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ng---nigeria-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ng---nigeria-b" fill="#fff">
+      <use xlink:href="#ng---nigeria-a"/>
+    </mask>
+    <g mask="url(#ng---nigeria-b)">
+      <polygon fill="#F7FCFF" points="0 0 32 0 32 24 0 24"/>
+      <polygon fill="#093" points="21 0 32 0 32 24 21 24"/>
+      <polygon fill="#093" points="0 0 11 0 11 24 0 24"/>
+    </g>
+  </g>
+</svg>

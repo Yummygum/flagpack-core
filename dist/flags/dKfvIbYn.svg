@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="gm---gambia-a" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gm---gambia-b" fill="#fff">
+      <use xlink:href="#gm---gambia-a"/>
+    </mask>
+    <g mask="url(#gm---gambia-b)">
+      <polygon fill="#5EAA22" points="0 8 16 8 16 12 0 12"/>
+      <polygon fill="#E31D1C" points="0 0 16 0 16 4 0 4"/>
+      <path fill="#3D58DB" stroke="#FFF" stroke-width="1.5" d="M-0.75,4.25 L16.75,4.25 L16.75,7.75 L-0.75,7.75 L-0.75,4.25 Z"/>
+    </g>
+  </g>
+</svg>

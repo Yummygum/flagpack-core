@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="au---australia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="au---australia-c" width="32" height="24" x="0" y="0"/>
+    <rect id="au---australia-e" width="18" height="14" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="au---australia-b" fill="#fff">
+      <use xlink:href="#au---australia-a"/>
+    </mask>
+    <g mask="url(#au---australia-b)">
+      <mask id="au---australia-d" fill="#fff">
+        <use xlink:href="#au---australia-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#au---australia-c"/>
+      <g mask="url(#au---australia-d)">
+        <mask id="au---australia-f" fill="#fff">
+          <use xlink:href="#au---australia-e"/>
+        </mask>
+        <use fill="#2B409A" xlink:href="#au---australia-e"/>
+        <g mask="url(#au---australia-f)">
+          <g transform="translate(-3 -2)">
+            <polygon fill="#F7FCFF" fill-rule="nonzero" points=".996 2.464 4.957 .727 21.09 13.575 23.179 16.156 18.944 16.737 12.363 11.2 7.067 7.47" transform="matrix(1 0 0 -1 0 17.464)"/>
+            <polygon fill="#F50100" fill-rule="nonzero" points="1.538 2.075 3.556 1.067 22.429 17.225 19.596 17.225" transform="matrix(1 0 0 -1 0 18.292)"/>
+            <g transform="matrix(-1 0 0 1 24 0)">
+              <polygon fill="#F7FCFF" fill-rule="nonzero" points=".996 2.464 4.957 .727 21.09 13.575 23.179 16.156 18.944 16.737 12.363 11.2 7.067 7.47" transform="matrix(1 0 0 -1 0 17.464)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="1.131 2.324 3.149 1.316 11.185 8.234 13.568 9.007 23.38 16.881 20.547 16.881 10.74 9.194 8.135 8.267" transform="matrix(1 0 0 -1 0 18.198)"/>
+            </g>
+            <path fill="#F50100" stroke="#F7FCFF" stroke-width="1.5" d="M7.23451152,5.25 L7.23451152,-0.75 L10.7345115,-0.75 L10.7345115,5.25 L18.75,5.25 L18.75,8.75 L10.7345115,8.75 L10.7345115,14.75 L7.23451152,14.75 L7.23451152,8.75 L-0.75,8.75 L-0.75,5.25 L7.23451152,5.25 Z" transform="translate(3 2)"/>
+          </g>
+        </g>
+      </g>
+      <g fill="#F7FCFF" fill-rule="nonzero" mask="url(#au---australia-d)">
+        <g transform="translate(6 2)">
+          <polygon points="3 18.5 1.698 19.703 1.827 17.935 .075 17.668 1.538 16.666 .655 15.13 2.349 15.649 3 14 3.651 15.649 5.345 15.13 4.462 16.666 5.925 17.668 4.173 17.935 4.302 19.703"/>
+          <polygon points="16 11 15.132 11.802 15.218 10.623 14.05 10.445 15.025 9.777 14.436 8.753 15.566 9.099 16 8 16.434 9.099 17.564 8.753 16.975 9.777 17.95 10.445 16.782 10.623 16.868 11.802"/>
+          <polygon points="18 3 17.132 3.802 17.218 2.623 16.05 2.445 17.025 1.777 16.436 .753 17.566 1.099 18 0 18.434 1.099 19.564 .753 18.975 1.777 19.95 2.445 18.782 2.623 18.868 3.802"/>
+          <polygon points="23 7 22.132 7.802 22.218 6.623 21.05 6.445 22.025 5.777 21.436 4.753 22.566 5.099 23 4 23.434 5.099 24.564 4.753 23.975 5.777 24.95 6.445 23.782 6.623 23.868 7.802"/>
+          <polygon points="19 20 18.132 20.802 18.218 19.623 17.05 19.445 18.025 18.777 17.436 17.753 18.566 18.099 19 17 19.434 18.099 20.564 17.753 19.975 18.777 20.95 19.445 19.782 19.623 19.868 20.802"/>
+          <polygon points="22.5 12.25 21.618 12.714 21.787 11.732 21.073 11.036 22.059 10.893 22.5 10 22.941 10.893 23.927 11.036 23.213 11.732 23.382 12.714"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

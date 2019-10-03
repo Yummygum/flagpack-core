@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="mz---mozambique-a" width="32" height="24" x="0" y="0"/>
+    <rect id="mz---mozambique-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="mz---mozambique-e" points="0 0 0 24 18 12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mz---mozambique-b" fill="#fff">
+      <use xlink:href="#mz---mozambique-a"/>
+    </mask>
+    <g mask="url(#mz---mozambique-b)">
+      <mask id="mz---mozambique-d" fill="#fff">
+        <use xlink:href="#mz---mozambique-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#mz---mozambique-c"/>
+      <rect width="32" height="8" fill="#FECA00" mask="url(#mz---mozambique-d)"/>
+      <rect width="32" height="8" y="16" fill="#093" mask="url(#mz---mozambique-d)"/>
+      <rect width="34" height="10" x="-1" y="7" fill="#272727" stroke="#FFF" stroke-width="2" mask="url(#mz---mozambique-d)"/>
+      <mask id="mz---mozambique-f" fill="#fff">
+        <use xlink:href="#mz---mozambique-e"/>
+      </mask>
+      <use fill="#F50100" xlink:href="#mz---mozambique-e"/>
+      <polygon fill="#FECA00" points="8.069 14.353 4.29 17.404 6.023 13.327 3.045 10.459 6.56 10.459 8.003 7 9.535 10.459 13.045 10.459 9.909 13.327 11.478 17.404" mask="url(#mz---mozambique-f)"/>
+      <g mask="url(#mz---mozambique-f)">
+        <g transform="translate(4 8)">
+          <path fill="#F7FCFF" d="M2.15599742,3.98421452 L1.51509637,6.12466192 C2.95752115,6.110391 3.7653573,6.17612597 3.93860482,6.32186684 C4.46059978,5.99637151 5.25891582,5.93063653 6.33355295,6.12466192 L5.47618421,3.83392619 C4.75148329,3.50554709 4.23895683,3.43138266 3.93860482,3.61143289 C3.20241236,3.44513598 2.6082099,3.56939653 2.15599742,3.98421452 Z"/>
+          <path fill="#000" fill-rule="nonzero" d="M7.5638018,7.21627762 C7.72991058,7.43687337 7.68574017,7.75035933 7.46514442,7.91646811 C7.24454868,8.08257689 6.93106272,8.03840648 6.76495393,7.81781074 L2.58486486,2.26656987 C2.41875608,2.04597412 2.46292649,1.73248816 2.68352224,1.56637938 C2.90411798,1.40027059 3.21760394,1.444441 3.38371273,1.66503675 L7.5638018,7.21627762 Z"/>
+          <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M2.97403239,1.8397427 L2.57403239,1.3597427"/>
+          <polygon fill="#000" points="1.605 1.363 .396 3.298 1 4.345 2.383 2.29 2.631 1.655 2.383 1.363"/>
+          <polygon fill="#000" points=".039 7.109 .622 7.93 5.117 2.611 5.304 2.82 6.34 1.845 7.996 .043 6.34 1.397 5.804 1.248 5.304 2.035 4.801 2.035 1.129 6.122"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

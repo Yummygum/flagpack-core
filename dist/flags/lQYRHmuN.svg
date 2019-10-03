@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="gb-sct---scotland-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gb-sct---scotland-b" fill="#fff">
+      <use xlink:href="#gb-sct---scotland-a"/>
+    </mask>
+    <g mask="url(#gb-sct---scotland-b)">
+      <g transform="translate(-1 -1.1)">
+        <polygon fill="#0067C3" points="1 1.1 21 1.1 21 16.1 1 16.1"/>
+        <polygon fill="#FFF" fill-rule="nonzero" points=".25 2.1 20.25 17.1 21.75 15.1 1.75 .1"/>
+        <polygon fill="#FFF" fill-rule="nonzero" points=".25 2.1 20.25 17.1 21.75 15.1 1.75 .1" transform="matrix(-1 0 0 1 22 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

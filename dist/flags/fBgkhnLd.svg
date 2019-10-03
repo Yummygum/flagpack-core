@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gf---french-guiana-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gf---french-guiana-b" fill="#fff">
+      <use xlink:href="#gf---french-guiana-a"/>
+    </mask>
+    <g mask="url(#gf---french-guiana-b)">
+      <rect width="32" height="24" fill="#5EAA22" rx="2"/>
+      <polygon fill="#FECA00" points="0 0 32 24 0 24"/>
+      <polygon fill="#E21835" points="15.931 14.406 12.445 16.824 13.559 12.683 11 10.038 14.465 9.895 15.931 5.8 17.397 9.895 20.855 9.895 18.302 12.683 19.581 16.58"/>
+    </g>
+  </g>
+</svg>

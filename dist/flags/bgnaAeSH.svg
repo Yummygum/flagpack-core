@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ni---nicaragua-a" width="32" height="24" x="0" y="0"/>
+    <rect id="ni---nicaragua-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="ni---nicaragua-e" points="2.738 .004 .002 4.735 5.518 4.735"/>
+    <circle id="ni---nicaragua-g" cx="2.764" cy="3.782" r="1.891"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ni---nicaragua-b" fill="#fff">
+      <use xlink:href="#ni---nicaragua-a"/>
+    </mask>
+    <g mask="url(#ni---nicaragua-b)">
+      <mask id="ni---nicaragua-d" fill="#fff">
+        <use xlink:href="#ni---nicaragua-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#ni---nicaragua-c"/>
+      <rect width="32" height="8" fill="#0080EC" mask="url(#ni---nicaragua-d)"/>
+      <rect width="32" height="8" y="16" fill="#0080EC" mask="url(#ni---nicaragua-d)"/>
+      <g mask="url(#ni---nicaragua-d)">
+        <g transform="translate(12 8)">
+          <path fill="#D0AB00" fill-rule="nonzero" d="M0.57679236,6.07035372 L1.83627778,5.63043369 C2.28764647,6.22849469 2.98123549,6.63349561 3.7711715,6.6995631 L3.7711715,7.99356431 C2.41576619,7.91712045 1.24076499,7.1658421 0.57679236,6.07035372 Z M0.00361070845,4.17151079 C0.00121162095,4.11463962 0,4.05746131 0,4 C0,2.30156405 1.05855674,0.850367278 2.55191094,0.27016894 L2.88577983,1.52991863 C1.95085931,1.95231037 1.2985928,2.88989796 1.2909765,3.98068519 L0.00361070845,4.17151079 Z M4.29630303,7.98919182 L4.29630303,6.69307298 C5.03697666,6.61250238 5.6880089,6.23338138 6.12654506,5.6785647 L7.51344824,5.91356731 C6.87957008,7.07495071 5.68662361,7.88739027 4.29630303,7.98919182 Z M7.9951617,4.19847708 L6.70764598,4.08932798 C6.70860679,4.05967 6.70909091,4.02989154 6.70909091,4 C6.70909091,2.78395591 5.90787262,1.75504637 4.80453917,1.41237451 L5.15211715,0.168413153 C6.79963629,0.663109955 8,2.19137499 8,4 C8,4.06655114 7.99837473,4.13272267 7.9951617,4.19847708 Z M4.55538375,0.0382460675 L4.35729033,1.31426042 C4.2403787,1.29885725 4.12111754,1.29090909 4,1.29090909 C3.8238599,1.29090909 3.65164599,1.30771913 3.48487503,1.33982244 L3.39230622,0.0458651547 C3.59046419,0.0156625991 3.793403,0 4,0 C4.18845591,0 4.37386787,0.0130327279 4.55538375,0.0382460675 Z"/>
+          <g transform="translate(1.236 .945)">
+            <mask id="ni---nicaragua-f" fill="#fff">
+              <use xlink:href="#ni---nicaragua-e"/>
+            </mask>
+            <use fill="#7CDFFF" xlink:href="#ni---nicaragua-e"/>
+            <g mask="url(#ni---nicaragua-f)">
+              <circle cx="2.764" cy="3.782" r="2.391" stroke="#E31D1C"/>
+              <circle cx="2.764" cy="3.782" r="2.391" stroke="#FFD018"/>
+              <circle cx="2.764" cy="3.782" r="2.391" stroke="#4EDD00"/>
+              <use stroke="#3D58DB" xlink:href="#ni---nicaragua-g"/>
+            </g>
+            <rect width="6.255" height="1.818" x="-.218" y="3.273" fill="#3D58DB" mask="url(#ni---nicaragua-f)"/>
+            <polygon fill="#97C923" points=".201 4.045 1.447 2.806 1.83 3.426 2.097 2.67 2.394 3.236 2.706 2.806 3.109 3.236 3.479 2.67 3.795 3.236 4.158 2.806 5.005 3.707 5.158 4.045 .201 4.297" mask="url(#ni---nicaragua-f)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
