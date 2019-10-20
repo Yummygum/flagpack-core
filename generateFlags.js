@@ -6,6 +6,7 @@ const countryList = require ('./countryCodeList.json');
 
 const writeFilePromise = promisify(fs.writeFile);
 const FLAGS_PATH = 'flags';
+const SIZES = ['l', 'm', 's'];
 
 writeToFlagsJsFiles(countryList);
 
@@ -18,35 +19,51 @@ function countryCode(country) {
 function codeToModule(code) {
   return code.replace('-', '_');
 }
+function flagsExist(code) {
+  const missing = SIZES
+    .map(size => `./svg/${size}/${code}.svg`)
+    .some(file => !fs.existsSync(file));
+  if (missing) {
+    console.warn(`Missing files for ${code}`);
+  }
+  return !missing;
+}
 
 function writeToFlagsJsFiles(countryList) {
   fs.mkdirSync(FLAGS_PATH, {recursive: true});
-  const sizes = ['l', 'm', 's'];
-  const countries = countryList.filter(hasCode);
-  countries.forEach(country => {
-    const code = countryCode(country);
+  const countries = countryList
+    .filter(hasCode)
+    .map(countryCode)
+    .filter(flagsExist);
+
+  // Flag modules
+  countries.forEach(code => {
     writeFilePromise(
       path.join(FLAGS_PATH, code + '.js'), 
       [
-        ...sizes.map(size =>  `import ${size} from '../svg/${size}/${code}.svg'`),
-        `export default {${sizes.join(',')}}`
+        ...SIZES.map(size =>  `import ${size} from '../svg/${size}/${code}.svg'`),
+        `export const ${codeToModule(code)} = {${SIZES.join(',')}}`
       ].join('\n'),
       'utf8'
     );
   });
+
+  // Whole flag library
   writeFilePromise(
     path.join(FLAGS_PATH, 'index.js'), 
-    [
-      ...countries
-        .map(countryCode)
-        .map(code => `import ${codeToModule(code)} from './${code}'`),
-      `export default {${
-        countries
-          .map(countryCode)
-          .map(codeToModule)
-          .join(',')
-        }}`
-    ].join('\n'), 
+    countries
+      .map(code => `export {${codeToModule(code)}} from './${code}'`)
+      .join('\n'), 
+    'utf8'
+  );
+
+  // Module list for Rollup
+  writeFilePromise(
+    'flagsModules.json', 
+    JSON.stringify([
+      path.join(FLAGS_PATH, 'index.js'),
+      ...countries.map(code => path.join(FLAGS_PATH, `${code}.js`))
+    ]),
     'utf8'
   );
 }

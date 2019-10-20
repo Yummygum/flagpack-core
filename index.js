@@ -1,5 +1,29 @@
 import codeList from './countryCodeList.json'
-import flags from './flags'
+
+/** Registered flags */
+const flags = {}
+
+/** Convert module name to country code */
+const toCountryCode = name => name.replace('_', '-')
+
+/**
+ * Register a flag
+ * 
+ * @param {string} code Country code or module name
+ * @param {*} data Flags
+ */
+function registerFlag(code, data) {
+  flags[toCountryCode(code)] = data;
+}
+
+/**
+ * Register a flag library
+ * 
+ * @param {*} lib Map of country codes/module names to flags
+ */
+function registerFlagLibrary(lib) {
+  Object.entries(lib).forEach(([code, data]) => registerFlag(code, data))
+}
 
 function isoToCountryCode(isoCode, keyToGet = 'alpha2') {
   if(isoCode !== undefined) {
@@ -22,4 +46,4 @@ function imageUrl(assetCode, size) {
   }
 }
 
-export { codeList, isoToCountryCode, imageUrl, flags }
+export { codeList, isoToCountryCode, imageUrl, registerFlag, registerFlagLibrary }
