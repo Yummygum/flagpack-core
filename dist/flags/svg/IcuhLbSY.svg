@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="ba---bosnia-and-herzegovina-a" width="21.25" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ba---bosnia-and-herzegovina-b" fill="#fff">
+      <use xlink:href="#ba---bosnia-and-herzegovina-a"/>
+    </mask>
+    <g mask="url(#ba---bosnia-and-herzegovina-b)">
+      <g transform="translate(0 -.25)">
+        <polygon fill="#2E42A5" points="0 .25 20.25 .25 20.25 15.25 0 15.25"/>
+        <polygon fill="#FECA00" points="6.25 .25 19 .25 19 15.25"/>
+        <g transform="translate(2.5)">
+          <polygon fill="#F7FCFF" points="1.943 1.996 1.208 2.382 1.348 1.564 .754 .985 1.575 .865 1.943 .121 2.31 .865 3.131 .985 2.537 1.564 2.677 2.382"/>
+          <polygon fill="#F7FCFF" points="4.122 4.671 3.387 5.057 3.527 4.239 2.933 3.66 3.754 3.541 4.122 2.796 4.489 3.541 5.311 3.66 4.716 4.239 4.856 5.057"/>
+          <polygon fill="#F7FCFF" points="6.165 7.274 5.43 7.66 5.57 6.842 4.976 6.263 5.797 6.143 6.165 5.399 6.532 6.143 7.353 6.263 6.759 6.842 6.899 7.66"/>
+          <polygon fill="#F7FCFF" points="8.166 9.768 7.431 10.155 7.571 9.336 6.977 8.757 7.798 8.638 8.166 7.893 8.533 8.638 9.355 8.757 8.76 9.336 8.901 10.155"/>
+          <polygon fill="#F7FCFF" points="10.322 12.335 9.587 12.722 9.727 11.904 9.133 11.324 9.954 11.205 10.322 10.46 10.689 11.205 11.51 11.324 10.916 11.904 11.056 12.722"/>
+          <polygon fill="#F7FCFF" points="12.704 14.819 11.97 15.206 12.11 14.388 11.515 13.808 12.337 13.689 12.704 12.944 13.072 13.689 13.893 13.808 13.299 14.388 13.439 15.206"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

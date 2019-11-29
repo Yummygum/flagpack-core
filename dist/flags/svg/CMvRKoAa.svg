@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="cg---republic-of-the-congo-a" width="32" height="24" x="0" y="0"/>
+    <polygon id="cg---republic-of-the-congo-c" points="30.492 .2 0 29.576 6.052 32.588 35.641 5.788"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cg---republic-of-the-congo-b" fill="#fff">
+      <use xlink:href="#cg---republic-of-the-congo-a"/>
+    </mask>
+    <g mask="url(#cg---republic-of-the-congo-b)">
+      <g transform="translate(-1 -6)">
+        <polygon fill="#FA1111" points="33 6 33 30 1 30"/>
+        <polygon fill="#07A907" points="33 6 33 30 1 30" transform="rotate(180 17 18)"/>
+        <use fill="#FBCD17" xlink:href="#cg---republic-of-the-congo-c"/>
+      </g>
+    </g>
+  </g>
+</svg>

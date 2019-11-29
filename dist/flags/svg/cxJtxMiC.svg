@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tn---tunisia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="tn---tunisia-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tn---tunisia-b" fill="#fff">
+      <use xlink:href="#tn---tunisia-a"/>
+    </mask>
+    <g mask="url(#tn---tunisia-b)">
+      <mask id="tn---tunisia-d" fill="#fff">
+        <use xlink:href="#tn---tunisia-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#tn---tunisia-c"/>
+      <circle cx="16" cy="12" r="8" fill="#F7FCFF" mask="url(#tn---tunisia-d)"/>
+      <path fill="#E31D1C" d="M13.1861894,11.9281681 C13.1071828,16.4544561 17.3028456,17.6782162 17.3028456,17.6782162 C15.6894688,18.3634544 10.4625894,17.2967874 10.5571,11.8822772 C10.6516107,6.46776688 15.771268,5.5215978 17.5027323,6.22671815 C17.5027323,6.22671815 13.2651961,7.4018801 13.1861894,11.9281681 Z M15.0821435,11.7404577 L17.1870186,11.0127628 L17.196128,8.93909531 L18.491822,10.6178764 L20.415004,10.0077063 L19.4027898,11.9054272 L21.0048719,13.2597451 L18.7519323,13.0602545 L17.3553297,14.6714037 L17.3163764,12.5654691 L15.0821435,11.7404577 Z" mask="url(#tn---tunisia-d)" transform="rotate(-1 15.78 11.943)"/>
+    </g>
+  </g>
+</svg>

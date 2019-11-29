@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="kn-sk---saint-kitts-and-nevis-a" width="32" height="24" x="0" y="0"/>
+    <polygon id="kn-sk---saint-kitts-and-nevis-c" points="4 4 4 28 36 4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="kn-sk---saint-kitts-and-nevis-b" fill="#fff">
+      <use xlink:href="#kn-sk---saint-kitts-and-nevis-a"/>
+    </mask>
+    <g mask="url(#kn-sk---saint-kitts-and-nevis-b)">
+      <g transform="translate(-4 -4)">
+        <rect width="32" height="24" x="4" y="4" fill="#C51918"/>
+        <use fill="#5EAA22" xlink:href="#kn-sk---saint-kitts-and-nevis-c"/>
+        <path fill="#272727" fill-rule="nonzero" stroke="#FFD018" stroke-width="2.5" d="M5.35927388,32.7590424 L-1.64726692,24.9428462 L36.7142321,-0.662718617 L43.7207729,7.15347764 L5.35927388,32.7590424 Z"/>
+        <polygon fill="#F7FCFF" points="15.182 21.154 13.311 22.283 13.738 20.079 12.18 18.43 14.289 18.341 15.182 16.283 16.074 18.341 18.18 18.341 16.626 20.079 17.094 22.283" transform="rotate(-29 15.18 19.283)"/>
+        <polygon fill="#F7FCFF" points="25.182 14.601 23.311 15.73 23.738 13.526 22.18 11.877 24.289 11.788 25.182 9.73 26.074 11.788 28.18 11.788 26.626 13.526 27.094 15.73" transform="rotate(-29 25.18 12.73)"/>
+      </g>
+    </g>
+  </g>
+</svg>

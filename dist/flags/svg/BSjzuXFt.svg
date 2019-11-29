@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="bg---bulgaria-a" width="20" height="15" x="0" y="0"/>
+    <rect id="bg---bulgaria-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bg---bulgaria-b" fill="#fff">
+      <use xlink:href="#bg---bulgaria-a"/>
+    </mask>
+    <g mask="url(#bg---bulgaria-b)">
+      <mask id="bg---bulgaria-d" fill="#fff">
+        <use xlink:href="#bg---bulgaria-c"/>
+      </mask>
+      <use fill="#5EAA22" xlink:href="#bg---bulgaria-c"/>
+      <rect width="20" height="5" fill="#F7FCFF" mask="url(#bg---bulgaria-d)"/>
+      <rect width="20" height="5" y="10" fill="#E22C18" mask="url(#bg---bulgaria-d)"/>
+    </g>
+  </g>
+</svg>

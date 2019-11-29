@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="lv---latvia-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="lv---latvia-b" fill="#fff">
+      <use xlink:href="#lv---latvia-a"/>
+    </mask>
+    <g mask="url(#lv---latvia-b)">
+      <rect width="20" height="6" y="9" fill="#C51918"/>
+      <polygon fill="#F7FCFF" points="0 5 20 5 20 8.75 0 8.75"/>
+      <rect width="20" height="6" fill="#C51918"/>
+    </g>
+  </g>
+</svg>

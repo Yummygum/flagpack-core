@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="ax---aland-islands-a" width="20" height="15" x="0" y="0"/>
+    <rect id="ax---aland-islands-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ax---aland-islands-b" fill="#fff">
+      <use xlink:href="#ax---aland-islands-a"/>
+    </mask>
+    <g mask="url(#ax---aland-islands-b)">
+      <mask id="ax---aland-islands-d" fill="#fff">
+        <use xlink:href="#ax---aland-islands-c"/>
+      </mask>
+      <use fill="#0061C1" xlink:href="#ax---aland-islands-c"/>
+      <g fill="#D21034" stroke="#FFCE00" mask="url(#ax---aland-islands-d)">
+        <path d="M9.5,5.5 L20.5,5.5 L20.5,9.5 L9.5,9.5 L9.5,15.5 L5.5,15.5 L5.5,9.5 L-0.5,9.5 L-0.5,5.5 L5.5,5.5 L5.5,-0.5 L9.5,-0.5 L9.5,5.5 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

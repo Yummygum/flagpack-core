@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="mv---maldives-a" width="16" height="12" x="0" y="0"/>
+    <polygon id="mv---maldives-c" points="3 3 13 3 13 9 3 9"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mv---maldives-b" fill="#fff">
+      <use xlink:href="#mv---maldives-a"/>
+    </mask>
+    <g mask="url(#mv---maldives-b)">
+      <path fill="#C51918" d="M0,0 L16,0 L16,11 C16,11.5522847 15.5522847,12 15,12 L1,12 C0.44771525,12 6.76353751e-17,11.5522847 0,11 L0,0 Z"/>
+      <polygon fill="#C51918" points="0 0 16 0 16 12 0 12"/>
+      <mask id="mv---maldives-d" fill="#fff">
+        <use xlink:href="#mv---maldives-c"/>
+      </mask>
+      <path stroke="#B6EB9A" stroke-opacity=".238" d="M3.5,3.5 L3.5,8.5 L12.5,8.5 L12.5,3.5 L3.5,3.5 Z"/>
+      <path fill="#F9FAFA" d="M8.01649555,6.23124373 C8.00799846,7.76409025 9.21473191,8.58135652 9.21473191,8.58135652 C7.83776673,8.7430342 6.92163866,7.49474825 6.92163866,6.24618365 C6.92163866,4.99761905 8.17043516,3.96624969 9.21473191,3.50052759 C9.21473191,3.50052759 8.02499264,4.69839721 8.01649555,6.23124373 Z" mask="url(#mv---maldives-d)"/>
+    </g>
+  </g>
+</svg>

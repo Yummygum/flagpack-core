@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="lt---lithuania-a" width="32" height="24" x="0" y="0"/>
+    <rect id="lt---lithuania-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="lt---lithuania-b" fill="#fff">
+      <use xlink:href="#lt---lithuania-a"/>
+    </mask>
+    <g mask="url(#lt---lithuania-b)">
+      <mask id="lt---lithuania-d" fill="#fff">
+        <use xlink:href="#lt---lithuania-c"/>
+      </mask>
+      <use fill="#55BA07" xlink:href="#lt---lithuania-c"/>
+      <rect width="32" height="8" fill="#FECA00" mask="url(#lt---lithuania-d)"/>
+      <rect width="32" height="8" y="16" fill="#C51918" mask="url(#lt---lithuania-d)"/>
+    </g>
+  </g>
+</svg>

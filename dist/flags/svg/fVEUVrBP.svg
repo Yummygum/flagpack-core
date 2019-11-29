@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="sd---sudan-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="sd---sudan-b" fill="#fff">
+      <use xlink:href="#sd---sudan-a"/>
+    </mask>
+    <g mask="url(#sd---sudan-b)">
+      <polygon fill="#F7FCFF" points="0 0 20 0 20 15 0 15"/>
+      <rect width="20" height="5" fill="#E31D1C"/>
+      <rect width="20" height="5" y="10" fill="#272727"/>
+      <polygon fill="#5EAA22" points="0 0 10 7.5 0 15"/>
+    </g>
+  </g>
+</svg>

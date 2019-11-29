@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="cf---central-african-republic-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cf---central-african-republic-b" fill="#fff">
+      <use xlink:href="#cf---central-african-republic-a"/>
+    </mask>
+    <g mask="url(#cf---central-african-republic-b)">
+      <g transform="translate(0 -1)">
+        <polygon fill="#3D58DB" points="0 1 32 1 32 7 0 7"/>
+        <polygon fill="#F7FCFF" points="0 7 32 7 32 13 0 13"/>
+        <polygon fill="#73BE4A" points="0 13 32 13 32 19 0 19"/>
+        <polygon fill="#FFD018" points="0 19 32 19 32 25 0 25"/>
+        <polygon fill="#FECA00" points="3.529 6.416 1.105 8.098 1.88 5.217 .1 3.377 2.51 3.278 3.529 .43 4.549 3.278 6.955 3.278 5.179 5.217 6.069 7.928" transform="translate(1)"/>
+        <rect width="8" height="24" x="12" y="1" fill="#E11C1B"/>
+      </g>
+    </g>
+  </g>
+</svg>

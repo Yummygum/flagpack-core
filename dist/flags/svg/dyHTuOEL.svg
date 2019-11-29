@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tz---tanzania-a" width="32" height="24" x="0" y="0"/>
+    <rect id="tz---tanzania-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tz---tanzania-b" fill="#fff">
+      <use xlink:href="#tz---tanzania-a"/>
+    </mask>
+    <g mask="url(#tz---tanzania-b)">
+      <mask id="tz---tanzania-d" fill="#fff">
+        <use xlink:href="#tz---tanzania-c"/>
+      </mask>
+      <use fill="#3195F9" xlink:href="#tz---tanzania-c"/>
+      <polygon fill="#73BE4A" points="0 0 0 24 32 0" mask="url(#tz---tanzania-d)"/>
+      <path fill="#272727" fill-rule="nonzero" stroke="#FFD018" stroke-width="2.5" d="M-1.127706,26.4788996 L-4.73630393,21.072605 L33.6039742,-4.51879529 L37.2125722,0.887499285 L-1.127706,26.4788996 Z" mask="url(#tz---tanzania-d)"/>
+    </g>
+  </g>
+</svg>

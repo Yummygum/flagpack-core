@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="pr---puerto-rico-a" width="32" height="24" x="0" y="0"/>
+    <rect id="pr---puerto-rico-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="pr---puerto-rico-e" points="0 0 0 24 18 12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="pr---puerto-rico-b" fill="#fff">
+      <use xlink:href="#pr---puerto-rico-a"/>
+    </mask>
+    <g mask="url(#pr---puerto-rico-b)">
+      <mask id="pr---puerto-rico-d" fill="#fff">
+        <use xlink:href="#pr---puerto-rico-c"/>
+      </mask>
+      <use fill="#EF0000" xlink:href="#pr---puerto-rico-c"/>
+      <rect width="36" height="8" x="-2" y="8" fill="#EF0000" stroke="#F7FCFF" stroke-width="4" mask="url(#pr---puerto-rico-d)"/>
+      <mask id="pr---puerto-rico-f" fill="#fff">
+        <use xlink:href="#pr---puerto-rico-e"/>
+      </mask>
+      <use fill="#3D58DB" xlink:href="#pr---puerto-rico-e"/>
+      <g fill="#F7FCFF" mask="url(#pr---puerto-rico-f)">
+        <polygon points="4.688 8.217 1.016 10.155 2.804 6.261 .526 4.181 3.338 4.077 4.688 .556 5.718 4.077 8.526 4.077 6.654 6.261 8.143 10.155" transform="translate(2 6)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="be---belgium-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="be---belgium-b" fill="#fff">
+      <use xlink:href="#be---belgium-a"/>
+    </mask>
+    <g mask="url(#be---belgium-b)">
+      <polygon fill="#FECA00" points="10 0 21 0 21 24 10 24"/>
+      <polygon fill="#E31D1C" points="21 0 32 0 32 24 21 24"/>
+      <polygon fill="#1D1D1D" points="0 0 11 0 11 24 0 24"/>
+    </g>
+  </g>
+</svg>

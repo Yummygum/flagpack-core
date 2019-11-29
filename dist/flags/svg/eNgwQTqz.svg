@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ga---gabon-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ga---gabon-b" fill="#fff">
+      <use xlink:href="#ga---gabon-a"/>
+    </mask>
+    <g mask="url(#ga---gabon-b)">
+      <polygon fill="#40A8FF" points="0 16 32 16 32 24 0 24"/>
+      <polygon fill="#FECA00" points="0 8 32 8 32 16 0 16"/>
+      <polygon fill="#73BE4A" points="0 0 32 0 32 8 0 8"/>
+    </g>
+  </g>
+</svg>

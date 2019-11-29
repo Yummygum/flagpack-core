@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="eh---western-sahara-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="eh---western-sahara-b" fill="#fff">
+      <use xlink:href="#eh---western-sahara-a"/>
+    </mask>
+    <g mask="url(#eh---western-sahara-b)">
+      <polygon fill="#F7FCFF" points="0 0 32 0 32 24 0 24"/>
+      <rect width="32" height="8" fill="#272727"/>
+      <rect width="32" height="8" y="16" fill="#5EAA22"/>
+      <polygon fill="#E31D1C" points="0 0 16 12 0 24"/>
+      <path fill="#E31D1C" d="M4.45809158,5.63399508 C5.38211847,7.70939346 8.01937551,8.04008433 8.01937551,8.04008433 C7.17921371,8.73780959 3.73880122,9.6092503 2.4108038,6.62651926 C1.08280638,3.64378822 3.9330927,1.365521 5.12603842,1.54154282 C5.12603842,1.54154282 3.53406469,3.55859669 4.45809158,5.63399508 Z M6.29294678,2.89222914 L8.00697745,3.48691525 L8.90919507,2.60262597 L9.04416422,3.88378948 L10.5855812,4.4546203 L9.02612735,4.77323517 L9.39854044,6.34444545 L8.07704929,5.05634819 L6.4312327,5.22846582 L7.3547454,4.15299198 L6.29294678,2.89222914 Z" transform="rotate(24 -2.64 43.911)"/>
+    </g>
+  </g>
+</svg>

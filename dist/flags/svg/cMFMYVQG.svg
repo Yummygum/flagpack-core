@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="ve---venezuela-a" width="16" height="12" x="0" y="0"/>
+    <rect id="ve---venezuela-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ve---venezuela-b" fill="#fff">
+      <use xlink:href="#ve---venezuela-a"/>
+    </mask>
+    <g mask="url(#ve---venezuela-b)">
+      <mask id="ve---venezuela-d" fill="#fff">
+        <use xlink:href="#ve---venezuela-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#ve---venezuela-c"/>
+      <rect width="16" height="4" fill="#FECA00" mask="url(#ve---venezuela-d)"/>
+      <rect width="16" height="4" y="8" fill="#E31D1C" mask="url(#ve---venezuela-d)"/>
+      <g fill="#F7FCFF" fill-rule="nonzero" mask="url(#ve---venezuela-d)">
+        <path d="M1.10743743,3.62021138 L0.195639246,3.20957277 C1.06359778,1.28232338 2.69481076,0.302263209 5,0.302263209 C7.30600825,0.302263209 8.93227306,1.28326971 9.78811888,3.2121025 L8.87405895,3.61768165 C8.18423252,2.06300929 6.92310472,1.30226321 5,1.30226321 C3.07607627,1.30226321 1.8083148,2.06395561 1.10743743,3.62021138 Z" transform="translate(3 4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

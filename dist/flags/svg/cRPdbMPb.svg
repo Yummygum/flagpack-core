@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gh---ghana-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gh---ghana-b" fill="#fff">
+      <use xlink:href="#gh---ghana-a"/>
+    </mask>
+    <g mask="url(#gh---ghana-b)">
+      <polygon fill="#5EAA22" points="0 16 32 16 32 24 0 24"/>
+      <polygon fill="#FECA00" points="0 8 32 8 32 16 0 16"/>
+      <polygon fill="#E11C1B" points="0 0 32 0 32 8 0 8"/>
+      <polygon fill="#1D1D1D" points="16.075 14.49 12.59 16.908 13.704 12.767 11.145 10.122 14.61 9.979 16.075 5.884 17.541 9.979 21 9.979 18.447 12.767 19.726 16.664" opacity=".9"/>
+    </g>
+  </g>
+</svg>

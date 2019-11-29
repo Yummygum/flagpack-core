@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="aw---aruba-a" width="20" height="15" x="0" y="0"/>
+    <rect id="aw---aruba-c" width="20" height="15" x="0" y="0"/>
+    <polygon id="aw---aruba-f" points="4.796 4.975 2.058 4.397 4.83 3.848 5.631 .98 6.264 3.825 8.738 4.4 6.293 4.975 5.587 7.315"/>
+    <filter id="aw---aruba-e" width="300.4%" height="279.9%" x="-104.7%" y="-96.5%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+      <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.2 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="aw---aruba-b" fill="#fff">
+      <use xlink:href="#aw---aruba-a"/>
+    </mask>
+    <g mask="url(#aw---aruba-b)">
+      <mask id="aw---aruba-d" fill="#fff">
+        <use xlink:href="#aw---aruba-c"/>
+      </mask>
+      <use fill="#5BA3DA" xlink:href="#aw---aruba-c"/>
+      <g mask="url(#aw---aruba-d)">
+        <g transform="translate(-1.25)">
+          <use fill="#000" filter="url(#aw---aruba-e)" xlink:href="#aw---aruba-f"/>
+          <use fill="#EF2929" xlink:href="#aw---aruba-f"/>
+          <use fill="red" xlink:href="#aw---aruba-f"/>
+          <path fill="#FAD615" d="M1.25,9 L21.25,9 L21.25,10 L1.25,10 L1.25,9 Z M1.25,11 L21.25,11 L21.25,12 L1.25,12 L1.25,11 Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

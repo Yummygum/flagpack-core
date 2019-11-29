@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="se---sweden-a" width="20" height="15" x="0" y="0"/>
+    <rect id="se---sweden-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="se---sweden-b" fill="#fff">
+      <use xlink:href="#se---sweden-a"/>
+    </mask>
+    <g mask="url(#se---sweden-b)">
+      <mask id="se---sweden-d" fill="#fff">
+        <use xlink:href="#se---sweden-c"/>
+      </mask>
+      <use fill="#3D58DB" xlink:href="#se---sweden-c"/>
+      <g fill="#FECA00" mask="url(#se---sweden-d)">
+        <polygon points="6.25 0 8.75 0 8.75 6.25 20 6.25 20 8.75 8.75 8.75 8.75 15 6.25 15 6.25 8.75 0 8.75 0 6.25 6.25 6.25"/>
+      </g>
+    </g>
+  </g>
+</svg>

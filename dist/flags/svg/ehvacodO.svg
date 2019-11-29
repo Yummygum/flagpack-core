@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="wf---wallis-and-futuna-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="wf---wallis-and-futuna-b" fill="#fff">
+      <use xlink:href="#wf---wallis-and-futuna-a"/>
+    </mask>
+    <g mask="url(#wf---wallis-and-futuna-b)">
+      <polygon fill="#C51918" points="13.75 0 20 0 20 15 13.75 15"/>
+      <polygon fill="#2E42A5" points="0 0 7.5 0 7.5 15 0 15"/>
+      <polygon fill="#F7FCFF" points="6.25 0 13.75 0 13.75 15 6.25 15"/>
+    </g>
+  </g>
+</svg>

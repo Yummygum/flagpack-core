@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tk---tokelau-a" width="32" height="24" x="0" y="0"/>
+    <rect id="tk---tokelau-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tk---tokelau-b" fill="#fff">
+      <use xlink:href="#tk---tokelau-a"/>
+    </mask>
+    <g mask="url(#tk---tokelau-b)">
+      <mask id="tk---tokelau-d" fill="#fff">
+        <use xlink:href="#tk---tokelau-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#tk---tokelau-c"/>
+      <polygon fill="#F7FCFF" points="3.294 10.063 2.409 10.611 2.753 9.691 2 8.995 2.913 8.995 3.294 8 3.586 8.995 4.5 8.995 3.841 9.691 4.164 10.611" mask="url(#tk---tokelau-d)"/>
+      <polygon fill="#F7FCFF" points="7.294 6.063 6.409 6.611 6.753 5.691 6 4.995 6.913 4.995 7.294 4 7.586 4.995 8.5 4.995 7.841 5.691 8.164 6.611" mask="url(#tk---tokelau-d)"/>
+      <polygon fill="#F7FCFF" points="11.294 10.063 10.409 10.611 10.753 9.691 10 8.995 10.913 8.995 11.294 8 11.586 8.995 12.5 8.995 11.841 9.691 12.164 10.611" mask="url(#tk---tokelau-d)"/>
+      <polygon fill="#F7FCFF" points="7.294 14.063 6.409 14.611 6.753 13.691 6 12.995 6.913 12.995 7.294 12 7.586 12.995 8.5 12.995 7.841 13.691 8.164 14.611" mask="url(#tk---tokelau-d)"/>
+      <path fill="#FECA00" d="M7.3412256,16.5451822 C16.2860841,10.5018854 22.1196669,6.80784927 24.8419738,5.46307373 C23.5193765,7.45098883 23.5193765,9.76231259 24.8419738,12.397045 C26.8258698,16.3491437 27.6038193,16.0783685 29.6923583,16.5451822 L7.3412256,16.5451822 Z M6.31005426,18.7250369 L6.61568637,17.965099 L29.3693593,18.0052616 L30,18.8402551 L29.3693593,20 L6.61568637,19.5600303 L6.31005426,18.7250369 Z" mask="url(#tk---tokelau-d)"/>
+    </g>
+  </g>
+</svg>

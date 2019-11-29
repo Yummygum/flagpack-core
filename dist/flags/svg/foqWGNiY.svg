@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="am---armenia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="am---armenia-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="am---armenia-b" fill="#fff">
+      <use xlink:href="#am---armenia-a"/>
+    </mask>
+    <g mask="url(#am---armenia-b)">
+      <mask id="am---armenia-d" fill="#fff">
+        <use xlink:href="#am---armenia-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#am---armenia-c"/>
+      <rect width="32" height="8" fill="#E31D1C" mask="url(#am---armenia-d)"/>
+      <rect width="32" height="8" y="16" fill="#FECA00" mask="url(#am---armenia-d)"/>
+    </g>
+  </g>
+</svg>

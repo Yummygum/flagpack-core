@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tt---trinidad-and-tobago-a" width="32" height="24" x="0" y="0"/>
+    <rect id="tt---trinidad-and-tobago-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tt---trinidad-and-tobago-b" fill="#fff">
+      <use xlink:href="#tt---trinidad-and-tobago-a"/>
+    </mask>
+    <g mask="url(#tt---trinidad-and-tobago-b)">
+      <mask id="tt---trinidad-and-tobago-d" fill="#fff">
+        <use xlink:href="#tt---trinidad-and-tobago-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#tt---trinidad-and-tobago-c"/>
+      <path fill="#272727" fill-rule="nonzero" stroke="#F7FCFF" stroke-width="1.5" d="M-2.9086888,25.1684742 L-5.96399824,20.5911 L33.8302751,-2.26903385 L36.8855845,2.30834029 L-2.9086888,25.1684742 Z" mask="url(#tt---trinidad-and-tobago-d)" transform="scale(-1 1) rotate(-17 0 114.9)"/>
+    </g>
+  </g>
+</svg>

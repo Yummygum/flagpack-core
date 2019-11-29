@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gw---guinea-bissau-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gw---guinea-bissau-b" fill="#fff">
+      <use xlink:href="#gw---guinea-bissau-a"/>
+    </mask>
+    <g mask="url(#gw---guinea-bissau-b)">
+      <rect width="16" height="12" x="16" fill="#FBCD17"/>
+      <rect width="16" height="12" x="16" y="12" fill="#0B9E7A"/>
+      <rect width="16" height="24" fill="#E11C1B"/>
+      <polygon fill="#1D1D1D" points="8.931 14.606 5.445 17.024 6.559 12.883 4 10.238 7.465 10.095 8.931 6 10.397 10.095 13.855 10.095 11.302 12.883 12.581 16.78"/>
+    </g>
+  </g>
+</svg>

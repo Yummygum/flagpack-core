@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="lc---saint-lucia-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="lc---saint-lucia-b" fill="#fff">
+      <use xlink:href="#lc---saint-lucia-a"/>
+    </mask>
+    <g mask="url(#lc---saint-lucia-b)">
+      <polygon fill="#7CCFF5" points="0 0 20 0 20 15 0 15"/>
+      <polygon fill="#F7FCFF" points="10 2.5 15 12.5 5 12.5"/>
+      <polygon fill="#272727" points="10 5 14.375 12.5 5.625 12.5"/>
+      <polygon fill="#FECA00" points="10 8.75 15 12.5 5 12.5"/>
+    </g>
+  </g>
+</svg>

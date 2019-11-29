@@ -1,7 +1,7 @@
 {
   "name": "flagpack-core",
   "description": "",
-  "version": "0.0.34",
+  "version": "0.0.37",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yummygum/flag-pack-core.git"
@@ -23,7 +23,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "node generateCodeList.js && rollup -cw",
+    "dev": "node generateCodeList.js && node generateFlags.js && rollup -cw",
     "test": "echo 'tests here'",
     "prepublish": "npm test && npm version patch",
     "publish": "npm run build && git add -A dist",
@@ -38,6 +38,7 @@
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-smart-asset": "^1.1.4",
     "tabletop": "^1.5.2"
   },
   "authors": [

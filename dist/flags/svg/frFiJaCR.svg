@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="gy---guyana-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gy---guyana-b" fill="#fff">
+      <use xlink:href="#gy---guyana-a"/>
+    </mask>
+    <g mask="url(#gy---guyana-b)">
+      <g transform="translate(-1.25 -1.25)">
+        <rect width="20" height="15" x="1.25" y="1.25" fill="#5EAA22"/>
+        <path fill="#FECA00" stroke="#F7FCFF" stroke-width="1.25" d="M1.875,2.1333734 L1.875,15.3666266 L20.6221087,8.75 L1.875,2.1333734 Z"/>
+        <path fill="#E11C1B" stroke="#272727" stroke-width="1.25" d="M0.625,1.2778996 L0.625,16.2221004 L10.2319862,8.75 L0.625,1.2778996 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

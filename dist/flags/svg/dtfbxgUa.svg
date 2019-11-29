@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="fo---faroe-islands-a" width="16" height="12" x="0" y="0"/>
+    <rect id="fo---faroe-islands-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="fo---faroe-islands-b" fill="#fff">
+      <use xlink:href="#fo---faroe-islands-a"/>
+    </mask>
+    <g mask="url(#fo---faroe-islands-b)">
+      <mask id="fo---faroe-islands-d" fill="#fff">
+        <use xlink:href="#fo---faroe-islands-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#fo---faroe-islands-c"/>
+      <g fill="#F50100" stroke="#2E42A5" mask="url(#fo---faroe-islands-d)">
+        <path d="M7.5,4.5 L16.5,4.5 L16.5,7.5 L7.5,7.5 L7.5,12.5 L4.5,12.5 L4.5,7.5 L-0.5,7.5 L-0.5,4.5 L4.5,4.5 L4.5,-0.5 L7.5,-0.5 L7.5,4.5 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

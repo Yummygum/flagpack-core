@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="cz---czech-republic-a" width="32" height="24" x="0" y="0"/>
+    <rect id="cz---czech-republic-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="cz---czech-republic-e" points="0 0 0 24 18 12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cz---czech-republic-b" fill="#fff">
+      <use xlink:href="#cz---czech-republic-a"/>
+    </mask>
+    <g mask="url(#cz---czech-republic-b)">
+      <mask id="cz---czech-republic-d" fill="#fff">
+        <use xlink:href="#cz---czech-republic-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#cz---czech-republic-c"/>
+      <rect width="32" height="14" y="-2" fill="#F7FCFF" mask="url(#cz---czech-republic-d)"/>
+      <use fill="#3D58DB" xlink:href="#cz---czech-republic-e"/>
+    </g>
+  </g>
+</svg>

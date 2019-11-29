@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="to---tonga-a" width="20" height="15" x="0" y="0"/>
+    <rect id="to---tonga-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="to---tonga-b" fill="#fff">
+      <use xlink:href="#to---tonga-a"/>
+    </mask>
+    <g mask="url(#to---tonga-b)">
+      <mask id="to---tonga-d" fill="#fff">
+        <use xlink:href="#to---tonga-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#to---tonga-c"/>
+      <rect width="11.25" height="10" fill="#F7FCFF" mask="url(#to---tonga-d)"/>
+      <path fill="#E31D1C" d="M7.5,3.75 L10,3.75 L10,6.25 L7.5,6.25 L7.5,8.75 L5,8.75 L5,6.25 L2.5,6.25 L2.5,3.75 L5,3.75 L5,1.25 L7.5,1.25 L7.5,3.75 Z" mask="url(#to---tonga-d)"/>
+    </g>
+  </g>
+</svg>

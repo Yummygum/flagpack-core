@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="cd---democratic-republic-of-the-congo-a" width="16" height="12" x="0" y="0"/>
+    <rect id="cd---democratic-republic-of-the-congo-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cd---democratic-republic-of-the-congo-b" fill="#fff">
+      <use xlink:href="#cd---democratic-republic-of-the-congo-a"/>
+    </mask>
+    <g mask="url(#cd---democratic-republic-of-the-congo-b)">
+      <mask id="cd---democratic-republic-of-the-congo-d" fill="#fff">
+        <use xlink:href="#cd---democratic-republic-of-the-congo-c"/>
+      </mask>
+      <use fill="#3195F9" xlink:href="#cd---democratic-republic-of-the-congo-c"/>
+      <path fill="#E31D1C" fill-rule="nonzero" stroke="#FECA00" stroke-width="1.25" d="M-0.563852998,13.2394498 L-2.36815196,10.5363025 L16.8019871,-2.25939764 L18.6062861,0.443749642 L-0.563852998,13.2394498 Z" mask="url(#cd---democratic-republic-of-the-congo-d)"/>
+      <g fill="#FECA00" mask="url(#cd---democratic-republic-of-the-congo-d)">
+        <polygon points="2.465 4.303 .723 5.512 1.279 3.442 0 2.119 1.732 2.047 2.465 0 3.198 2.047 4.928 2.047 3.651 3.442 4.291 5.39"/>
+      </g>
+    </g>
+  </g>
+</svg>

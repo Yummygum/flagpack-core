@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="nr---nauru-a" width="32" height="24" x="0" y="0" rx="2"/>
+    <rect id="nr---nauru-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="nr---nauru-b" fill="#fff">
+      <use xlink:href="#nr---nauru-a"/>
+    </mask>
+    <g mask="url(#nr---nauru-b)">
+      <mask id="nr---nauru-d" fill="#fff">
+        <use xlink:href="#nr---nauru-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#nr---nauru-c"/>
+      <rect width="32" height="4" y="8" fill="#FECA00" mask="url(#nr---nauru-d)"/>
+      <g fill="#F7FCFF" mask="url(#nr---nauru-d)">
+        <polygon points="4.83 7.58 3.285 9.585 3.213 7.054 .785 7.769 2.214 5.679 -.17 4.83 2.214 3.98 .785 1.891 3.213 2.605 3.285 .074 4.83 2.08 6.375 .074 6.446 2.605 8.875 1.891 7.445 3.98 9.83 4.83 7.445 5.679 8.875 7.769 6.446 7.054 6.375 9.585" transform="translate(4 12)"/>
+      </g>
+    </g>
+  </g>
+</svg>

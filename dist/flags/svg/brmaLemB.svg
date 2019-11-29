@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="dk---denmark-a" width="20" height="15" x="0" y="0"/>
+    <rect id="dk---denmark-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="dk---denmark-b" fill="#fff">
+      <use xlink:href="#dk---denmark-a"/>
+    </mask>
+    <g mask="url(#dk---denmark-b)">
+      <mask id="dk---denmark-d" fill="#fff">
+        <use xlink:href="#dk---denmark-c"/>
+      </mask>
+      <use fill="#C51918" xlink:href="#dk---denmark-c"/>
+      <g fill="#F7FCFF" mask="url(#dk---denmark-d)">
+        <polygon points="6 0 9 0 9 6 20 6 20 9 9 9 9 15 6 15 6 9 0 9 0 6 6 6"/>
+      </g>
+    </g>
+  </g>
+</svg>

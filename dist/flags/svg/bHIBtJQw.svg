@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="cv---cabo-verde-a" width="16" height="12" x="0" y="0"/>
+    <rect id="cv---cabo-verde-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cv---cabo-verde-b" fill="#fff">
+      <use xlink:href="#cv---cabo-verde-a"/>
+    </mask>
+    <g mask="url(#cv---cabo-verde-b)">
+      <mask id="cv---cabo-verde-d" fill="#fff">
+        <use xlink:href="#cv---cabo-verde-c"/>
+      </mask>
+      <use fill="#4141DB" xlink:href="#cv---cabo-verde-c"/>
+      <rect width="17" height="2" x="-.5" y="6.5" fill="#F90000" stroke="#F7FCFF" mask="url(#cv---cabo-verde-d)"/>
+      <circle cx="5.5" cy="7.5" r="3.5" stroke="#FFDE00" mask="url(#cv---cabo-verde-d)"/>
+    </g>
+  </g>
+</svg>

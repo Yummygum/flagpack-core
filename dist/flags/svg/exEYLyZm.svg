@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ee---estonia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="ee---estonia-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ee---estonia-b" fill="#fff">
+      <use xlink:href="#ee---estonia-a"/>
+    </mask>
+    <g mask="url(#ee---estonia-b)">
+      <mask id="ee---estonia-d" fill="#fff">
+        <use xlink:href="#ee---estonia-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#ee---estonia-c"/>
+      <rect width="32" height="8" fill="#40A8FF" mask="url(#ee---estonia-d)"/>
+      <rect width="32" height="8" y="8" fill="#272727" mask="url(#ee---estonia-d)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gb-ukm---united-kingdom-a" width="32" height="24" x="0" y="0"/>
+    <rect id="gb-ukm---united-kingdom-c" width="32" height="24" x="0" y="0"/>
+    <rect id="gb-ukm---united-kingdom-e" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gb-ukm---united-kingdom-b" fill="#fff">
+      <use xlink:href="#gb-ukm---united-kingdom-a"/>
+    </mask>
+    <g mask="url(#gb-ukm---united-kingdom-b)">
+      <mask id="gb-ukm---united-kingdom-d" fill="#fff">
+        <use xlink:href="#gb-ukm---united-kingdom-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#gb-ukm---united-kingdom-c"/>
+      <g mask="url(#gb-ukm---united-kingdom-d)">
+        <mask id="gb-ukm---united-kingdom-f" fill="#fff">
+          <use xlink:href="#gb-ukm---united-kingdom-e"/>
+        </mask>
+        <g mask="url(#gb-ukm---united-kingdom-f)">
+          <g transform="translate(-5.111 -2.429)">
+            <g transform="translate(1)">
+              <polygon fill="#FFF" fill-rule="nonzero" points=".548 3.224 7.59 .246 36.271 22.271 39.985 26.697 32.455 27.692 20.757 18.201 11.341 11.806" transform="matrix(1 0 0 -1 0 27.938)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points="1.512 2.558 5.099 .83 38.651 28.529 33.614 28.529" transform="matrix(1 0 0 -1 0 29.358)"/>
+            </g>
+            <g transform="matrix(-1 0 0 1 41.222 0)">
+              <polygon fill="#FFF" fill-rule="nonzero" points=".548 3.224 7.59 .246 36.271 22.271 39.985 26.697 32.455 27.692 20.757 18.201 11.341 11.806" transform="matrix(1 0 0 -1 0 27.938)"/>
+              <polygon fill="#F50100" fill-rule="nonzero" points=".788 2.984 4.376 1.256 18.662 13.115 22.898 14.44 40.343 27.94 35.305 27.94 17.871 14.761 13.24 13.172" transform="matrix(1 0 0 -1 0 29.196)"/>
+            </g>
+            <path fill="#F50100" stroke="#FFF" stroke-width="2" d="M1.02753508,11 L1.02753508,17 L15.2222222,17 L15.2222222,27 L20.7777778,27 L20.7777778,17 L35.0275351,17 L35.0275351,11 L20.7777778,11 L20.7777778,1 L15.2222222,1 L15.2222222,11 L1.02753508,11 Z" transform="translate(3.111 .429)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

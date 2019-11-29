@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="kw---kuwait-a" width="16" height="12" x="0" y="0"/>
+    <rect id="kw---kuwait-c" width="16" height="12" x="0" y="0"/>
+    <polygon id="kw---kuwait-e" points="0 0 0 12 6 8 6 4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="kw---kuwait-b" fill="#fff">
+      <use xlink:href="#kw---kuwait-a"/>
+    </mask>
+    <g mask="url(#kw---kuwait-b)">
+      <mask id="kw---kuwait-d" fill="#fff">
+        <use xlink:href="#kw---kuwait-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#kw---kuwait-c"/>
+      <rect width="16" height="4" fill="#093" mask="url(#kw---kuwait-d)"/>
+      <rect width="16" height="4" y="8" fill="#E31D1C" mask="url(#kw---kuwait-d)"/>
+      <use fill="#272727" xlink:href="#kw---kuwait-e"/>
+    </g>
+  </g>
+</svg>

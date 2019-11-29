@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="lr---liberia-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="lr---liberia-b" fill="#fff">
+      <use xlink:href="#lr---liberia-a"/>
+    </mask>
+    <g mask="url(#lr---liberia-b)">
+      <g transform="translate(-1)">
+        <polygon fill="#F7FCFF" points="1 0 33 0 33 24 1 24"/>
+        <rect width="32" height="3" x="1.027" y="5.5" fill="#E31D1C"/>
+        <rect width="32" height="3" x="1" fill="#E31D1C"/>
+        <rect width="32" height="3" x=".941" y="11" fill="#E31D1C"/>
+        <rect width="32" height="3" x="1.112" y="16.4" fill="#E31D1C"/>
+        <rect width="32" height="3" x="1.101" y="21.5" fill="#E31D1C"/>
+        <polygon fill="#3D58DB" points="1 0 17 0 17 14 1 14"/>
+        <polygon fill="#F7FCFF" points="9.132 9.213 6.211 11.239 7.145 7.769 5 5.552 7.904 5.432 9.132 2 10.361 5.432 13.26 5.432 11.12 7.769 12.192 11.035"/>
+      </g>
+    </g>
+  </g>
+</svg>

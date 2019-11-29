@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="ch---switzerland-a" width="16" height="12" x="0" y="0"/>
+    <rect id="ch---switzerland-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ch---switzerland-b" fill="#fff">
+      <use xlink:href="#ch---switzerland-a"/>
+    </mask>
+    <g mask="url(#ch---switzerland-b)">
+      <mask id="ch---switzerland-d" fill="#fff">
+        <use xlink:href="#ch---switzerland-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#ch---switzerland-c"/>
+      <path fill="#F1F9FF" d="M9,5 L11,5 L11,7 L9,7 L9,9 L7,9 L7,7 L5,7 L5,5 L7,5 L7,3 L9,3 L9,5 Z" mask="url(#ch---switzerland-d)"/>
+    </g>
+  </g>
+</svg>

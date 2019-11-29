@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="fi---finland-a" width="20" height="15" x="0" y="0"/>
+    <rect id="fi---finland-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="fi---finland-b" fill="#fff">
+      <use xlink:href="#fi---finland-a"/>
+    </mask>
+    <g mask="url(#fi---finland-b)">
+      <mask id="fi---finland-d" fill="#fff">
+        <use xlink:href="#fi---finland-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#fi---finland-c"/>
+      <g fill="#2E42A5" stroke="#2E42A5" mask="url(#fi---finland-d)">
+        <path d="M8.5,6.25 L20.5,6.25 L20.5,8.25 L8.5,8.25 L8.5,15.25 L6.5,15.25 L6.5,8.25 L-0.5,8.25 L-0.5,6.25 L6.5,6.25 L6.5,0.25 L8.5,0.25 L8.5,6.25 Z" transform="translate(0 .25)"/>
+      </g>
+    </g>
+  </g>
+</svg>

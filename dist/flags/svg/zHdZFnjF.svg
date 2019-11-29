@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="gb-eng---england-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gb-eng---england-b" fill="#fff">
+      <use xlink:href="#gb-eng---england-a"/>
+    </mask>
+    <g mask="url(#gb-eng---england-b)">
+      <rect width="20" height="15" fill="#F7FCFF"/>
+      <path fill="#F50302" d="M11,8.75 L11,15 L8.5,15 L8.5,8.75 L0,8.75 L0,6.25 L8.5,6.25 L8.5,0 L11,0 L11,6.25 L20,6.25 L20,8.75 L11,8.75 Z"/>
+    </g>
+  </g>
+</svg>

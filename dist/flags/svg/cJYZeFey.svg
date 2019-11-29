@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="st---sao-tome-and-principe-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="st---sao-tome-and-principe-b" fill="#fff">
+      <use xlink:href="#st---sao-tome-and-principe-a"/>
+    </mask>
+    <g mask="url(#st---sao-tome-and-principe-b)">
+      <rect width="32" height="24" fill="#FBCD17"/>
+      <rect width="32" height="8" fill="#73BE4A"/>
+      <rect width="32" height="8" y="16" fill="#73BE4A"/>
+      <polygon fill="#C51918" points="0 0 0 24 10 12"/>
+      <polygon fill="#272727" points="17.002 13.871 15.131 15 15.558 12.796 14 11.147 16.109 11.058 17.002 9 17.894 11.058 20 11.058 18.446 12.796 18.914 15"/>
+      <polygon fill="#272727" points="25.002 13.871 23.131 15 23.558 12.796 22 11.147 24.109 11.058 25.002 9 25.894 11.058 28 11.058 26.446 12.796 26.914 15"/>
+    </g>
+  </g>
+</svg>

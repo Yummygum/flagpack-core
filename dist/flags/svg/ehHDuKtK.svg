@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="dj---djibouti-a" width="32" height="24" x="0" y="0"/>
+    <rect id="dj---djibouti-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="dj---djibouti-e" points="0 0 0 24 18 12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="dj---djibouti-b" fill="#fff">
+      <use xlink:href="#dj---djibouti-a"/>
+    </mask>
+    <g mask="url(#dj---djibouti-b)">
+      <mask id="dj---djibouti-d" fill="#fff">
+        <use xlink:href="#dj---djibouti-c"/>
+      </mask>
+      <use fill="#73BE4A" xlink:href="#dj---djibouti-c"/>
+      <rect width="32" height="14" y="-2" fill="#69F" mask="url(#dj---djibouti-d)"/>
+      <mask id="dj---djibouti-f" fill="#fff">
+        <use xlink:href="#dj---djibouti-e"/>
+      </mask>
+      <use fill="#FFF" xlink:href="#dj---djibouti-e"/>
+      <polygon fill="#E31D1C" points="7.002 14.071 5.131 15.2 5.558 12.996 4 11.347 6.109 11.258 7.002 9.2 7.894 11.258 10 11.258 8.446 12.996 8.914 15.2" mask="url(#dj---djibouti-f)"/>
+    </g>
+  </g>
+</svg>

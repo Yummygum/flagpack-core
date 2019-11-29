@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="nz---new-zealand-(aotearoa)-a" width="20" height="15" x="0" y="0"/>
+    <rect id="nz---new-zealand-(aotearoa)-b" width="11" height="9" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" mask="url(#nz---new-zealand-(aotearoa)-b)">
+    <use fill="#2E42A5" xlink:href="#nz---new-zealand-(aotearoa)-a"/>
+    <g mask="url(#nz---new-zealand-(aotearoa)-d)">
+      <use fill="#2E42A5" xlink:href="#nz---new-zealand-(aotearoa)-b"/>
+      <g mask="url(#nz---new-zealand-(aotearoa)-f)">
+        <g transform="translate(-2.5 -1.25)">
+          <g transform="translate(1)">
+            <polygon fill="#F7FCFF" fill-rule="nonzero" points=".247 1.54 2.723 .454 12.806 8.484 14.112 10.098 11.465 10.461 7.352 7 4.042 4.669" transform="matrix(1 0 0 -1 0 10.915)"/>
+            <polygon fill="#F50100" fill-rule="nonzero" points=".586 1.297 1.847 .667 13.643 10.766 11.872 10.766" transform="matrix(1 0 0 -1 0 11.433)"/>
+          </g>
+          <g transform="matrix(-1 0 0 1 15.25 0)">
+            <polygon fill="#F7FCFF" fill-rule="nonzero" points=".247 1.85 2.444 .454 12.806 8.794 14.112 10.408 11.465 10.771 7.352 7.31 4.042 4.979" transform="matrix(1 0 0 -1 0 11.225)"/>
+            <polygon fill="#F50100" fill-rule="nonzero" points=".332 1.453 1.593 .823 6.616 5.146 8.105 5.629 14.238 10.551 12.467 10.551 6.337 5.746 4.709 5.167" transform="matrix(1 0 0 -1 0 11.373)"/>
+          </g>
+          <path fill="#F50100" stroke="#F7FCFF" stroke-width=".938" d="M4.53125,3.53125 L4.53125,-0.46875 L6.46875,-0.46875 L6.46875,3.53125 L11.46875,3.53125 L11.46875,5.46875 L6.46875,5.46875 L6.46875,9.46875 L4.53125,9.46875 L4.53125,5.46875 L-0.46875,5.46875 L-0.46875,3.53125 L4.53125,3.53125 Z" transform="translate(2.5 1.25)"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#F50100" stroke="#F7FCFF" stroke-width=".5" mask="url(#nz---new-zealand-(aotearoa)-d)">
+      <g transform="translate(11.25 2.5)">
+        <polygon points="4.283 10.313 3.181 10.892 3.392 9.665 2.5 8.796 3.732 8.617 4.283 7.5 4.834 8.617 6.066 8.796 5.175 9.665 5.385 10.892"/>
+        <polygon points="2 6.169 1.15 6.615 1.313 5.669 .625 4.999 1.575 4.861 2 4 2.425 4.861 3.375 4.999 2.688 5.669 2.85 6.615"/>
+        <polygon points="6.373 6.166 5.525 6.612 5.687 5.667 5 4.998 5.949 4.86 6.373 4 6.798 4.86 7.747 4.998 7.06 5.667 7.222 6.612"/>
+        <polygon points="4.5 2.669 3.65 3.115 3.813 2.169 3.125 1.499 4.075 1.361 4.5 .5 4.925 1.361 5.875 1.499 5.188 2.169 5.35 3.115"/>
+      </g>
+    </g>
+  </g>
+</svg>
