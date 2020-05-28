@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="vn---vietnam-a" width="20" height="15" x="0" y="0"/>
+    <rect id="vn---vietnam-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="vn---vietnam-b" fill="#fff">
+      <use xlink:href="#vn---vietnam-a"/>
+    </mask>
+    <g mask="url(#vn---vietnam-b)">
+      <polygon fill="#F7FCFF" points="0 0 20 0 20 15 0 15"/>
+      <mask id="vn---vietnam-d" fill="#fff">
+        <use xlink:href="#vn---vietnam-c"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#vn---vietnam-c"/>
+      <g fill="#FFD221" mask="url(#vn---vietnam-d)">
+        <polygon points="5.086 7.738 1.903 9.841 2.92 6.239 .583 3.939 3.747 3.814 5.086 .253 6.424 3.814 9.583 3.814 7.252 6.239 8.419 9.628" transform="rotate(1 -121.33 292.643)"/>
+      </g>
+    </g>
+  </g>
+</svg>

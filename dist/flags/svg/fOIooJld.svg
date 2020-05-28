@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="sy---syria-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="sy---syria-b" fill="#fff">
+      <use xlink:href="#sy---syria-a"/>
+    </mask>
+    <g mask="url(#sy---syria-b)">
+      <polygon fill="#F7FCFF" points="0 0 32 0 32 24 0 24"/>
+      <polygon fill="#409100" points="9.001 13.247 7.754 14 8.039 12.531 7 11.431 8.406 11.372 9.001 10 9.596 11.372 11 11.372 9.964 12.531 10.276 14"/>
+      <polygon fill="#409100" points="23.001 13.247 21.754 14 22.039 12.531 21 11.431 22.406 11.372 23.001 10 23.596 11.372 25 11.372 23.964 12.531 24.276 14"/>
+      <rect width="32" height="8" fill="#E31D1C"/>
+      <rect width="32" height="8" y="16" fill="#272727"/>
+    </g>
+  </g>
+</svg>

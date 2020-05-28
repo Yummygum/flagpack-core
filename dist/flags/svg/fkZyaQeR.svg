@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="pw---palau-a" width="32" height="24" x="0" y="0"/>
+    <rect id="pw---palau-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="pw---palau-b" fill="#fff">
+      <use xlink:href="#pw---palau-a"/>
+    </mask>
+    <g mask="url(#pw---palau-b)">
+      <mask id="pw---palau-d" fill="#fff">
+        <use xlink:href="#pw---palau-c"/>
+      </mask>
+      <use fill="#61C6F0" xlink:href="#pw---palau-c"/>
+      <circle cx="11.5" cy="11.5" r="6.5" fill="#FBCD17" mask="url(#pw---palau-d)"/>
+    </g>
+  </g>
+</svg>

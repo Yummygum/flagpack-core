@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="et---ethiopia-a" width="32" height="24" x="0" y="0"/>
+    <rect id="et---ethiopia-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="et---ethiopia-b" fill="#fff">
+      <use xlink:href="#et---ethiopia-a"/>
+    </mask>
+    <g mask="url(#et---ethiopia-b)">
+      <mask id="et---ethiopia-d" fill="#fff">
+        <use xlink:href="#et---ethiopia-c"/>
+      </mask>
+      <use fill="#FECA00" xlink:href="#et---ethiopia-c"/>
+      <rect width="32" height="8" fill="#5EAA22" mask="url(#et---ethiopia-d)"/>
+      <rect width="32" height="8" y="16" fill="#E31D1C" mask="url(#et---ethiopia-d)"/>
+      <g mask="url(#et---ethiopia-d)">
+        <g transform="translate(10 6)">
+          <circle cx="6" cy="6" r="6" fill="#2B77B8"/>
+          <polygon stroke="#FECA00" stroke-width="1.5" points="6 8 3.238 8.927 4.098 6.618 2.224 4.382 4.824 4.382 6 2 7.176 4.382 9.833 4.382 7.902 6.618 8.587 8.927"/>
+          <path stroke="#2B77B8" d="M5.69610744 6.03448771L3.61144586 10.3946201M5.36809058 5.47945267L1.36809058 5.47945267M6.1214614 6.83759504L10.030507 8.64173864M6.96667694 5.87368317L9.79626735 2.77649203"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

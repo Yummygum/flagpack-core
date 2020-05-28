@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="cw---curaçao-a" width="32" height="24" x="0" y="0"/>
+    <rect id="cw---curaçao-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cw---curaçao-b" fill="#fff">
+      <use xlink:href="#cw---curaçao-a"/>
+    </mask>
+    <g mask="url(#cw---curaçao-b)">
+      <mask id="cw---curaçao-d" fill="#fff">
+        <use xlink:href="#cw---curaçao-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#cw---curaçao-c"/>
+      <polygon fill="#F7FCFF" points="4.254 6.149 2.266 7.199 3.226 5.331 2 3.963 3.523 3.907 4.254 2 4.812 3.907 6.595 3.963 5.311 5.331 6.126 7.199" mask="url(#cw---curaçao-d)"/>
+      <polygon fill="#F7FCFF" points="11.352 11.077 8.898 12.105 9.861 9.528 7.726 7.799 10.284 7.799 11.352 5.012 12.168 7.799 14.729 7.799 12.909 9.528 13.813 12.105" mask="url(#cw---curaçao-d)"/>
+      <rect width="32" height="4" y="14" fill="#F9E813" mask="url(#cw---curaçao-d)"/>
+    </g>
+  </g>
+</svg>

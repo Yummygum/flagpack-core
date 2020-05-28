@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="sn---senegal-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="sn---senegal-b" fill="#fff">
+      <use xlink:href="#sn---senegal-a"/>
+    </mask>
+    <g mask="url(#sn---senegal-b)">
+      <rect width="12" height="24" x="10" fill="#FBCD17"/>
+      <polygon fill="#006923" points="16.075 14.49 12.59 16.908 13.704 12.767 11.145 10.122 14.61 9.979 16.075 5.884 17.541 9.979 21 9.979 18.447 12.767 19.726 16.664"/>
+      <rect width="10" height="24" x="22" fill="#E11C1B"/>
+      <rect width="10" height="24" fill="#006923"/>
+    </g>
+  </g>
+</svg>

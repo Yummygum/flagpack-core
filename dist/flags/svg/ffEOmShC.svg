@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ne---niger-a" width="32" height="24" x="0" y="0"/>
+    <rect id="ne---niger-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ne---niger-b" fill="#fff">
+      <use xlink:href="#ne---niger-a"/>
+    </mask>
+    <g mask="url(#ne---niger-b)">
+      <mask id="ne---niger-d" fill="#fff">
+        <use xlink:href="#ne---niger-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#ne---niger-c"/>
+      <rect width="32" height="8" fill="#FC6500" mask="url(#ne---niger-d)"/>
+      <rect width="32" height="8" y="16" fill="#5EAA22" mask="url(#ne---niger-d)"/>
+      <circle cx="16" cy="12" r="4" fill="#FC6500" mask="url(#ne---niger-d)"/>
+    </g>
+  </g>
+</svg>

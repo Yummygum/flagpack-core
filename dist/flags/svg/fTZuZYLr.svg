@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="za---south-africa-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="za---south-africa-b" fill="#fff">
+      <use xlink:href="#za---south-africa-a"/>
+    </mask>
+    <g mask="url(#za---south-africa-b)">
+      <g transform="translate(0 -45)">
+        <polygon fill="#F7FCFF" points="0 45 20 45 20 60 0 60"/>
+        <rect width="20" height="5" y="45" fill="#E31D1C"/>
+        <rect width="20" height="5" y="55" fill="#3D58DB"/>
+        <path fill="#5EAA22" stroke="#F7FCFF" stroke-width="1.25" d="M9.85729949,50.625 L20.625,50.625 L20.625,54.375 L9.85729949,54.375 L-0.625,62.5278996 L-0.625,42.4721004 L9.85729949,50.625 Z"/>
+        <path fill="#272727" stroke="#FECA00" stroke-width="1.25" d="M-0.625,47.5 L6.04166667,52.5 L-0.625,57.5 L-0.625,47.5 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="th---thailand-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="th---thailand-b" fill="#fff">
+      <use xlink:href="#th---thailand-a"/>
+    </mask>
+    <g mask="url(#th---thailand-b)">
+      <polygon fill="#F50101" points="0 16 32 16 32 24 0 24"/>
+      <polygon fill="#F50101" points="0 0 32 0 32 6 0 6"/>
+      <path fill="#3D58DB" stroke="#FFF" stroke-width="3" d="M-1.5,6.5 L33.5,6.5 L33.5,17.5 L-1.5,17.5 L-1.5,6.5 Z"/>
+    </g>
+  </g>
+</svg>

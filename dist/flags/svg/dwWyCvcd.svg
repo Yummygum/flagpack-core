@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="br---brazil-a" width="32" height="24" x="0" y="0"/>
+    <rect id="br---brazil-c" width="32" height="24" x="0" y="0"/>
+    <linearGradient id="br---brazil-g" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFC600"/>
+      <stop offset="100%" stop-color="#FFDE42"/>
+    </linearGradient>
+    <polygon id="br---brazil-f" points="15.927 3.704 28.129 12.208 15.761 20.171 3.809 12.043"/>
+    <filter id="br---brazil-e" width="76%" height="68.6%" x="11.9%" y="15.4%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.03137255   0 0 0 0 0.36862746   0 0 0 0 0  0 0 0 0.28 0"/>
+    </filter>
+    <circle id="br---brazil-h" cx="16" cy="12.2" r="5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="br---brazil-b" fill="#fff">
+      <use xlink:href="#br---brazil-a"/>
+    </mask>
+    <g mask="url(#br---brazil-b)">
+      <mask id="br---brazil-d" fill="#fff">
+        <use xlink:href="#br---brazil-c"/>
+      </mask>
+      <use fill="#093" xlink:href="#br---brazil-c"/>
+      <g mask="url(#br---brazil-d)">
+        <use fill="#000" filter="url(#br---brazil-e)" xlink:href="#br---brazil-f"/>
+        <use fill="#FFD221" xlink:href="#br---brazil-f"/>
+        <use fill="url(#br---brazil-g)" xlink:href="#br---brazil-f"/>
+        <mask id="br---brazil-i" fill="#fff">
+          <use xlink:href="#br---brazil-h"/>
+        </mask>
+        <use fill="#2E42A5" xlink:href="#br---brazil-h"/>
+        <polygon fill="#F7FCFF" points="14.38 14.57 14.157 14.687 14.199 14.439 14.019 14.263 14.268 14.226 14.38 14 14.492 14.226 14.741 14.263 14.561 14.439 14.603 14.687" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="16.38 14.57 16.157 14.687 16.199 14.439 16.019 14.263 16.268 14.226 16.38 14 16.492 14.226 16.741 14.263 16.561 14.439 16.603 14.687" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="16.38 15.77 16.157 15.887 16.199 15.639 16.019 15.463 16.268 15.426 16.38 15.2 16.492 15.426 16.741 15.463 16.561 15.639 16.603 15.887" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="15.38 11.57 15.157 11.687 15.199 11.439 15.019 11.263 15.268 11.226 15.38 11 15.492 11.226 15.741 11.263 15.561 11.439 15.603 11.687" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="15.38 13.57 15.157 13.687 15.199 13.439 15.019 13.263 15.268 13.226 15.38 13 15.492 13.226 15.741 13.263 15.561 13.439 15.603 13.687" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="13.98 12.57 13.757 12.687 13.799 12.439 13.619 12.263 13.868 12.226 13.98 12 14.092 12.226 14.341 12.263 14.161 12.439 14.203 12.687" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="12.58 13.37 12.357 13.487 12.399 13.239 12.219 13.063 12.468 13.026 12.58 12.8 12.692 13.026 12.941 13.063 12.761 13.239 12.803 13.487" mask="url(#br---brazil-i)"/>
+        <polygon fill="#F7FCFF" points="17.18 9.97 16.957 10.087 16.999 9.839 16.819 9.663 17.068 9.626 17.18 9.4 17.292 9.626 17.541 9.663 17.361 9.839 17.403 10.087" mask="url(#br---brazil-i)"/>
+        <path fill="#F7FCFF" fill-rule="nonzero" d="M9.92480906,10.9971692 L10.0751909,9.00283085 C14.8731319,9.36461672 18.6600319,10.9421863 21.388218,13.7484108 L19.9542057,15.1425446 C17.5896223,12.7103234 14.262381,11.3242412 9.92480906,10.9971692 Z" mask="url(#br---brazil-i)"/>
+        <path fill="#093" fill-rule="nonzero" d="M12.2894323,10.6027767 L12.3409493,10.1054378 C15.433916,10.425824 18.0868298,11.6105172 20.2917082,13.6569398 L19.9515688,14.0234165 C17.8269075,12.0514462 15.2755229,10.9120921 12.2894323,10.6027767 Z" mask="url(#br---brazil-i)"/>
+      </g>
+    </g>
+  </g>
+</svg>

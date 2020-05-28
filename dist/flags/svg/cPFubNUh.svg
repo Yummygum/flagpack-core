@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="co---colombia-a" width="20" height="15" x="0" y="0"/>
+    <rect id="co---colombia-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="co---colombia-b" fill="#fff">
+      <use xlink:href="#co---colombia-a"/>
+    </mask>
+    <g mask="url(#co---colombia-b)">
+      <mask id="co---colombia-d" fill="#fff">
+        <use xlink:href="#co---colombia-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#co---colombia-c"/>
+      <rect width="20" height="7" fill="#FECA00" mask="url(#co---colombia-d)"/>
+      <rect width="20" height="4" y="11" fill="#E31D1C" mask="url(#co---colombia-d)"/>
+    </g>
+  </g>
+</svg>

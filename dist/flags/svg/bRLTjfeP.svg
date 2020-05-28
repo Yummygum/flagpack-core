@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="is---iceland-a" width="32" height="24" x="0" y="0"/>
+    <rect id="is---iceland-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="is---iceland-b" fill="#fff">
+      <use xlink:href="#is---iceland-a"/>
+    </mask>
+    <g mask="url(#is---iceland-b)">
+      <mask id="is---iceland-d" fill="#fff">
+        <use xlink:href="#is---iceland-c"/>
+      </mask>
+      <use fill="#0061C1" xlink:href="#is---iceland-c"/>
+      <g fill="#D21034" stroke="#F1F9FF" stroke-width="2" mask="url(#is---iceland-d)">
+        <path d="M15,9 L33,9 L33,15 L15,15 L15,25 L9,25 L9,15 L-1,15 L-1,9 L9,9 L9,-1 L15,-1 L15,9 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

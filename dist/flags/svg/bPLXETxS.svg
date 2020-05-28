@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="bj---benin-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bj---benin-b" fill="#fff">
+      <use xlink:href="#bj---benin-a"/>
+    </mask>
+    <g mask="url(#bj---benin-b)">
+      <polygon fill="#DD2C2B" points="0 0 32 0 32 24 0 24"/>
+      <rect width="32" height="14" fill="#FECA00"/>
+      <rect width="14" height="24" fill="#5EAA22"/>
+    </g>
+  </g>
+</svg>

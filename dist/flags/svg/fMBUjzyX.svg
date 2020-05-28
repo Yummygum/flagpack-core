@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gr---greece-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gr---greece-b" fill="#fff">
+      <use xlink:href="#gr---greece-a"/>
+    </mask>
+    <g mask="url(#gr---greece-b)">
+      <polygon fill="#F7FCFF" points="0 0 32 0 32 24 0 24"/>
+      <path fill="#4564F9" d="M0,5.5 L32,5.5 L32,8.45683453 L0,8.45683453 L0,5.5 Z M0,10.815108 L32,10.815108 L32,13.7719425 L0,13.7719425 L0,10.815108 Z M0,15.943165 L32,15.943165 L32,18.9 L0,18.9 L0,15.943165 Z"/>
+      <polygon fill="#4564F9" points="0 0 32 0 32 3 0 3"/>
+      <rect width="32" height="3" y="21" fill="#4564F9"/>
+      <rect width="15" height="13.8" fill="#4564F9"/>
+      <polygon fill="#F7FCFF" points="6 0 9 0 9 5.504 15 5.504 15 8.439 9 8.439 9 14.5 6 14.5 6 8.439 0 8.439 0 5.504 6 5.504"/>
+    </g>
+  </g>
+</svg>

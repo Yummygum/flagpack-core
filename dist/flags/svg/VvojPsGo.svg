@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tl---timor-leste-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tl---timor-leste-b" fill="#fff">
+      <use xlink:href="#tl---timor-leste-a"/>
+    </mask>
+    <g mask="url(#tl---timor-leste-b)">
+      <path fill="#E31D1C" fill-rule="nonzero" stroke="#F7FCFF" stroke-width="2" d="M-1,-1 L33,-1 L33,25 L-1,25 L-1,-1 Z"/>
+      <polygon fill="#FECA00" points="0 0 24 12 0 24"/>
+      <polygon fill="#272727" points="0 0 16 12 0 24"/>
+      <polygon fill="#F7FCFF" points="6.002 14.494 3.508 16 4.077 13.062 2 10.863 4.812 10.744 6.002 8 7.192 10.744 10 10.744 7.928 13.062 8.552 16" transform="rotate(-15 6 12)"/>
+    </g>
+  </g>
+</svg>

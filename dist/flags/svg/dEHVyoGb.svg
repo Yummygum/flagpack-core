@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ws---samoa-a" width="32" height="24" x="0" y="0"/>
+    <rect id="ws---samoa-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ws---samoa-b" fill="#fff">
+      <use xlink:href="#ws---samoa-a"/>
+    </mask>
+    <g mask="url(#ws---samoa-b)">
+      <mask id="ws---samoa-d" fill="#fff">
+        <use xlink:href="#ws---samoa-c"/>
+      </mask>
+      <use fill="#C51918" xlink:href="#ws---samoa-c"/>
+      <g mask="url(#ws---samoa-d)">
+        <rect width="16" height="14" fill="#2E42A5"/>
+        <polygon fill="#FEFFFF" points="3.566 7.772 2.506 8.412 2.747 7.163 1.865 6.229 3.06 6.178 3.566 5.012 4.071 6.178 5.265 6.178 4.384 7.163 4.649 8.412"/>
+        <polygon fill="#FEFFFF" points="11.566 7.772 10.506 8.412 10.747 7.163 9.865 6.229 11.06 6.178 11.566 5.012 12.071 6.178 13.265 6.178 12.384 7.163 12.649 8.412"/>
+        <polygon fill="#FEFFFF" points="7.466 4.138 6.468 4.74 6.695 3.565 5.865 2.685 6.99 2.638 7.466 1.54 7.942 2.638 9.065 2.638 8.236 3.565 8.485 4.74"/>
+        <polygon fill="#FEFFFF" points="8.546 8.425 7.923 8.802 8.065 8.067 7.546 7.517 8.249 7.488 8.546 6.802 8.844 7.488 9.546 7.488 9.028 8.067 9.184 8.802"/>
+        <polygon fill="#FEFFFF" points="7.409 12.828 5.912 13.732 6.254 11.969 5.007 10.649 6.695 10.578 7.409 8.932 8.123 10.578 9.807 10.578 8.564 11.969 8.938 13.732"/>
+      </g>
+    </g>
+  </g>
+</svg>

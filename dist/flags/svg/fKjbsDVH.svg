@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="vc---saint-vincent-and-the-grenadines-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="vc---saint-vincent-and-the-grenadines-b" fill="#fff">
+      <use xlink:href="#vc---saint-vincent-and-the-grenadines-a"/>
+    </mask>
+    <g mask="url(#vc---saint-vincent-and-the-grenadines-b)">
+      <rect width="16" height="24" x="8" fill="#FFDC17"/>
+      <rect width="8" height="24" x="24" fill="#5FBF2B"/>
+      <rect width="8" height="24" fill="#2E42A5"/>
+      <path fill="#5FBF2B" d="M3.27722972,0.678845527 C3.27722972,0.678845527 4.21156292,2.14018888 6.08022932,5.06287559 L3.04011466,9.28922569 L0,5.06287559 C2.18481981,2.14018888 3.27722972,0.678845527 3.27722972,0.678845527 Z M10.7263892,0.6 C10.7263892,0.6 11.7397607,2.0876252 13.7665038,5.06287559 L10.7263892,9.36789869 L7.68627451,5.06287559 C9.71301762,2.0876252 10.7263892,0.6 10.7263892,0.6 Z M7.12036697,5.60477145 C7.12036697,5.60477145 8.05470017,7.06611481 9.92336657,9.98880152 L7.12036697,14.5011335 L3.84313725,9.98880152 C6.02795707,7.06611481 7.12036697,5.60477145 7.12036697,5.60477145 Z" transform="translate(9 5)"/>
+    </g>
+  </g>
+</svg>

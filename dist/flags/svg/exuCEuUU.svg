@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="kp---korea-(north)-a" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" mask="url(#kp---korea-(north)-b)">
+    <use fill="#3D58DB" xlink:href="#kp---korea-(north)-a"/>
+    <rect width="17" height="7" x="-.5" y="2.5" fill="#C51918" stroke="#F7FCFF" mask="url(#kp---korea-(north)-d)"/>
+    <g mask="url(#kp---korea-(north)-d)">
+      <g transform="translate(2.5 3.5)">
+        <circle cx="2.5" cy="2.5" r="2.5" fill="#F7FCFF"/>
+        <polygon fill="#C51918" points="2.498 3.435 1.139 4.38 1.619 2.796 .3 1.797 1.954 1.763 2.498 .2 3.041 1.763 4.695 1.797 3.377 2.796 3.856 4.38"/>
+      </g>
+    </g>
+  </g>
+</svg>

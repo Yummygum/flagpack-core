@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="bf---burkina-faso-a" width="20" height="15" x="0" y="0"/>
+    <rect id="bf---burkina-faso-c" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bf---burkina-faso-b" fill="#fff">
+      <use xlink:href="#bf---burkina-faso-a"/>
+    </mask>
+    <g mask="url(#bf---burkina-faso-b)">
+      <mask id="bf---burkina-faso-d" fill="#fff">
+        <use xlink:href="#bf---burkina-faso-c"/>
+      </mask>
+      <use fill="#5EAA22" xlink:href="#bf---burkina-faso-c"/>
+      <rect width="20" height="7.5" fill="#C51918" mask="url(#bf---burkina-faso-d)"/>
+      <polygon fill="#FECA00" points="10.022 9.857 7.083 12.081 8.023 8.458 5.266 6.252 8.552 6.252 10.022 3.036 11.491 6.252 14.777 6.252 11.991 8.461 12.961 12.081" mask="url(#bf---burkina-faso-d)"/>
+    </g>
+  </g>
+</svg>

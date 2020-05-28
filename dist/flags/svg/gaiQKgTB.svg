@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="hn---honduras-a" width="32" height="24" x="0" y="0"/>
+    <rect id="hn---honduras-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="hn---honduras-b" fill="#fff">
+      <use xlink:href="#hn---honduras-a"/>
+    </mask>
+    <g mask="url(#hn---honduras-b)">
+      <mask id="hn---honduras-d" fill="#fff">
+        <use xlink:href="#hn---honduras-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#hn---honduras-c"/>
+      <rect width="32" height="8" fill="#4564F9" mask="url(#hn---honduras-d)"/>
+      <rect width="32" height="8" y="16" fill="#4564F9" mask="url(#hn---honduras-d)"/>
+      <g fill="#4564F9" mask="url(#hn---honduras-d)">
+        <g transform="translate(8 8)">
+          <polygon points="8.402 4.671 7.536 5.118 7.701 4.171 7 3.431 7.969 3.431 8.402 2.5 8.835 3.431 9.804 3.431 9.103 4.171 9.269 5.118"/>
+          <polygon points="2.318 2.503 1.452 2.95 1.617 2.003 .916 1.263 1.885 1.263 2.318 .332 2.751 1.263 3.72 1.263 3.019 2.003 3.185 2.95"/>
+          <polygon points="2.318 6.703 1.452 7.15 1.617 6.203 .916 5.463 1.885 5.463 2.318 4.532 2.751 5.463 3.72 5.463 3.019 6.203 3.185 7.15"/>
+          <polygon points="14.318 2.503 13.452 2.95 13.617 2.003 12.916 1.263 13.885 1.263 14.318 .332 14.751 1.263 15.72 1.263 15.019 2.003 15.185 2.95"/>
+          <polygon points="14.318 6.703 13.452 7.15 13.617 6.203 12.916 5.463 13.885 5.463 14.318 4.532 14.751 5.463 15.72 5.463 15.019 6.203 15.185 7.15"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,11 +1,11 @@
 /* loaded by smart-asset */
-var l = require("./svg/bfRRESUP.svg");
+var l = require("./svg/TBewymbL.svg");
 
 /* loaded by smart-asset */
-var m = require("./svg/bOPMTBBd.svg");
+var m = require("./svg/ArDtdgey.svg");
 
 /* loaded by smart-asset */
-var s = require("./svg/fObdLRoy.svg");
+var s = require("./svg/EXyKuscP.svg");
 
 var BM = {
   l: l,

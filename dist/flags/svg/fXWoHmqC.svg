@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="il---isreal-a" width="32" height="24" x="0" y="0"/>
+    <rect id="il---isreal-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="il---isreal-b" fill="#fff">
+      <use xlink:href="#il---isreal-a"/>
+    </mask>
+    <g mask="url(#il---isreal-b)">
+      <mask id="il---isreal-d" fill="#fff">
+        <use xlink:href="#il---isreal-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#il---isreal-c"/>
+      <rect width="32" height="3" y="3" fill="#3D58DB" mask="url(#il---isreal-d)"/>
+      <rect width="32" height="3" y="18" fill="#3D58DB" mask="url(#il---isreal-d)"/>
+      <path fill="#3D58DB" fill-rule="nonzero" d="M13.0205383,13.9295344 L19.1532454,13.9295344 L16.1065688,8.45993352 L13.0205383,13.9295344 Z M20.7582031,14.9387627 L11.3812136,14.9387627 L16.1159313,6.62028792 L20.7582031,14.9387627 Z" mask="url(#il---isreal-d)"/>
+      <path fill="#3D58DB" fill-rule="nonzero" d="M13.0509864,16.1875497 L19.0453533,16.1875497 L16.1092315,10.7063653 L13.0509864,16.1875497 Z M20.680771,17.1614863 L11.2639824,17.1614863 L16.1358674,9.07604867 L20.680771,17.1614863 Z" mask="url(#il---isreal-d)" transform="matrix(1 0 0 -1 0 26.238)"/>
+    </g>
+  </g>
+</svg>

@@ -1,11 +1,11 @@
 /* loaded by smart-asset */
-var l = require("./svg/JJqnOjdw.svg");
+var l = require("./svg/cWatOWeb.svg");
 
 /* loaded by smart-asset */
-var m = require("./svg/lQYRHmuN.svg");
+var m = require("./svg/ZWIYtnyj.svg");
 
 /* loaded by smart-asset */
-var s = require("./svg/eGlgtbqO.svg");
+var s = require("./svg/MaVvqWEZ.svg");
 
 var GB_SCT = {
   l: l,

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="mm---myanmar-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mm---myanmar-b" fill="#fff">
+      <use xlink:href="#mm---myanmar-a"/>
+    </mask>
+    <g mask="url(#mm---myanmar-b)">
+      <polygon fill="#E31D1C" points="0 16 32 16 32 24 0 24"/>
+      <polygon fill="#5EAA22" points="0 8 32 8 32 16 0 16"/>
+      <polygon fill="#FFD018" points="0 0 32 0 32 8 0 8"/>
+      <polygon fill="#F7FCFF" points="8.137 12.976 3.044 16.34 4.672 10.578 .933 6.897 5.995 6.698 8.137 1 10.279 6.698 15.333 6.698 11.603 10.578 13.471 16" transform="rotate(1 -159.75 468.525)"/>
+    </g>
+  </g>
+</svg>

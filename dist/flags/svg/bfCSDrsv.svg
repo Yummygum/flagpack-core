@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="bq-se---sint-eustatius-a" width="16" height="12" x="0" y="0"/>
+    <polygon id="bq-se---sint-eustatius-c" points="8 3 13 6 8 9 3 6"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bq-se---sint-eustatius-b" fill="#fff">
+      <use xlink:href="#bq-se---sint-eustatius-a"/>
+    </mask>
+    <g mask="url(#bq-se---sint-eustatius-b)">
+      <polygon fill="#00268D" points="0 0 16 0 16 12 0 12"/>
+      <path fill="#00268D" stroke="#E31D1C" d="M0.5,0.5 L0.5,11.5 L15.5,11.5 L15.5,0.5 L0.5,0.5 Z"/>
+      <rect width="1" height="12" x="7.5" fill="#E31D1C" fill-rule="nonzero"/>
+      <rect width="1" height="16" x="7.5" y="-2" fill="#E31D1C" fill-rule="nonzero" transform="rotate(-90 8 6)"/>
+      <mask id="bq-se---sint-eustatius-d" fill="#fff">
+        <use xlink:href="#bq-se---sint-eustatius-c"/>
+      </mask>
+      <path stroke="#E31D1C" d="M8,2.41690481 L13.9718253,6 L8,9.58309519 L2.02817468,6 L8,2.41690481 Z"/>
+      <path fill="#059334" fill-rule="nonzero" d="M4.82255535,7.8 C4.94211364,7.8 7.91792852,7.8 13.75,7.8 L12.8060669,6.84288846 C11.5477064,5.58122218 10.8780404,4.9214782 10.7970691,4.8636565 C10.675612,4.77692396 10.4749384,4.73949125 10.246572,5.01515185 C10.0182056,5.29081244 9.88725284,4.8636565 9.69713339,4.8636565 C9.50701393,4.8636565 9.42661885,4.8636565 9.15076038,5.21733765 C8.96685474,5.45312508 8.54377629,5.99497535 7.88152502,6.84288846 L6.42168226,6.84288846 C6.25750407,6.70360527 6.12863287,6.65881224 6.03506867,6.70850937 C5.89472236,6.78305507 5.10415178,5.88393244 4.82255535,5.81675661 C4.54095892,5.74958078 4.35567885,6.06048399 4.35567885,6.30788496 C4.35567885,6.55528594 4.22317487,6.08117743 3.95374423,6.22034588 C3.77412381,6.31312486 3.71326808,6.47584602 3.77117706,6.70850937 C4.35253764,7.43616979 4.70299707,7.8 4.82255535,7.8 Z" mask="url(#bq-se---sint-eustatius-d)"/>
+      <polygon fill="#FEDA00" points="7.003 5.534 6.386 6 6.612 5.23 6 4.759 6.763 4.759 7.003 4 7.258 4.759 8 4.759 7.393 5.23 7.624 6" mask="url(#bq-se---sint-eustatius-d)"/>
+    </g>
+  </g>
+</svg>

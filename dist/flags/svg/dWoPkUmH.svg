@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="jo---jordan-a" width="32" height="24" x="0" y="0"/>
+    <rect id="jo---jordan-c" width="32" height="24" x="0" y="0"/>
+    <polygon id="jo---jordan-e" points="0 0 0 24 20 12"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="jo---jordan-b" fill="#fff">
+      <use xlink:href="#jo---jordan-a"/>
+    </mask>
+    <g mask="url(#jo---jordan-b)">
+      <mask id="jo---jordan-d" fill="#fff">
+        <use xlink:href="#jo---jordan-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#jo---jordan-c"/>
+      <rect width="32" height="8" fill="#272727" mask="url(#jo---jordan-d)"/>
+      <rect width="32" height="8" y="16" fill="#093" mask="url(#jo---jordan-d)"/>
+      <mask id="jo---jordan-f" fill="#fff">
+        <use xlink:href="#jo---jordan-e"/>
+      </mask>
+      <use fill="#E31D1C" xlink:href="#jo---jordan-e"/>
+      <polygon fill="#F7FCFF" points="9.002 13.871 7.131 15 7.558 12.796 6 11.147 8.109 11.058 9.002 9 9.894 11.058 12 11.058 10.446 12.796 10.914 15" mask="url(#jo---jordan-f)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="mg---madagascar-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mg---madagascar-b" fill="#fff">
+      <use xlink:href="#mg---madagascar-a"/>
+    </mask>
+    <g mask="url(#mg---madagascar-b)">
+      <rect width="20" height="12" x="12" y="12" fill="#78D843"/>
+      <rect width="20" height="12" x="12" fill="#EA1A1A"/>
+      <rect width="12" height="24" fill="#F7FCFF"/>
+    </g>
+  </g>
+</svg>

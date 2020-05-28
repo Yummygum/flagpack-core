@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="cl---chile-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="cl---chile-b" fill="#fff">
+      <use xlink:href="#cl---chile-a"/>
+    </mask>
+    <g mask="url(#cl---chile-b)">
+      <g transform="translate(0 -2)">
+        <polygon fill="#3D58DB" points="0 2 14 2 14 16 0 16"/>
+        <polygon fill="#F7FCFF" points="14 0 32 0 32 16 14 16"/>
+        <polygon fill="#E31D1C" points="0 16 32 16 32 26 0 26"/>
+        <polygon fill="#F7FCFF" points="6.014 7.783 2.211 10.055 4.088 6.19 .764 3.68 4.601 3.639 6.049 .211 6.981 3.639 10.613 3.656 7.851 6.111 9.285 10.055" transform="translate(1 4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

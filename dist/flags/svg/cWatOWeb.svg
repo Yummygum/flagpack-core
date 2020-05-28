@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="gb-sct---scotland-a" width="32" height="24" x="0" y="0"/>
+    <rect id="gb-sct---scotland-c" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gb-sct---scotland-b" fill="#fff">
+      <use xlink:href="#gb-sct---scotland-a"/>
+    </mask>
+    <g mask="url(#gb-sct---scotland-b)">
+      <mask id="gb-sct---scotland-d" fill="#fff">
+        <use xlink:href="#gb-sct---scotland-c"/>
+      </mask>
+      <use fill="#0067C3" xlink:href="#gb-sct---scotland-c"/>
+      <polygon fill="#FFF" fill-rule="nonzero" points="1.2 25.6 33.2 1.6 30.8 -1.6 -1.2 22.4" mask="url(#gb-sct---scotland-d)"/>
+      <polygon fill="#FFF" fill-rule="nonzero" points="-1.2 1.6 30.8 25.6 33.2 22.4 1.2 -1.6" mask="url(#gb-sct---scotland-d)"/>
+    </g>
+  </g>
+</svg>

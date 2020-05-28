@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="rainbow-a" width="16" height="12" x="0" y="0"/>
+    <rect id="rainbow-c" width="16" height="12" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="rainbow-b" fill="#fff">
+      <use xlink:href="#rainbow-a"/>
+    </mask>
+    <g mask="url(#rainbow-b)">
+      <mask id="rainbow-d" fill="#fff">
+        <use xlink:href="#rainbow-c"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#rainbow-c"/>
+      <rect width="16" height="2" fill="#FF0122" mask="url(#rainbow-d)"/>
+      <rect width="16" height="2" y="2" fill="#FF8C01" mask="url(#rainbow-d)"/>
+      <rect width="16" height="2" y="4" fill="#FECA00" mask="url(#rainbow-d)"/>
+      <rect width="16" height="2" y="6" fill="#73BE4A" mask="url(#rainbow-d)"/>
+      <rect width="16" height="2" y="8" fill="#5770ED" mask="url(#rainbow-d)"/>
+      <rect width="16" height="2" y="10" fill="#871FF0" mask="url(#rainbow-d)"/>
+    </g>
+  </g>
+</svg>

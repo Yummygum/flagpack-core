@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tg---togo-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tg---togo-b" fill="#fff">
+      <use xlink:href="#tg---togo-a"/>
+    </mask>
+    <g mask="url(#tg---togo-b)">
+      <path fill="#5EAA22" fill-rule="nonzero" stroke="#F7FCFF" stroke-width="2" d="M-1,-1 L33,-1 L33,25 L-1,25 L-1,-1 Z"/>
+      <rect width="32" height="4" y="6" fill="#FECA00"/>
+      <rect width="32" height="4" y="14" fill="#FECA00"/>
+      <rect width="16" height="14" fill="#F50101"/>
+      <polygon fill="#F7FCFF" points="8.25 10.144 4.531 12.446 5.975 8.582 3 5.979 6.648 5.979 8.25 2.13 9.473 5.979 13.077 5.979 10.545 8.582 11.791 12.256"/>
+    </g>
+  </g>
+</svg>

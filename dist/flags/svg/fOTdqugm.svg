@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="tf---french-southern-and-antarctic-lands-a" width="32" height="24" x="0" y="0"/>
+    <rect id="tf---french-southern-and-antarctic-lands-c" width="32" height="24" x="0" y="0"/>
+    <rect id="tf---french-southern-and-antarctic-lands-e" width="12" height="10" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="tf---french-southern-and-antarctic-lands-b" fill="#fff">
+      <use xlink:href="#tf---french-southern-and-antarctic-lands-a"/>
+    </mask>
+    <g mask="url(#tf---french-southern-and-antarctic-lands-b)">
+      <mask id="tf---french-southern-and-antarctic-lands-d" fill="#fff">
+        <use xlink:href="#tf---french-southern-and-antarctic-lands-c"/>
+      </mask>
+      <use fill="#2E42A5" xlink:href="#tf---french-southern-and-antarctic-lands-c"/>
+      <g fill="#F7FCFF" mask="url(#tf---french-southern-and-antarctic-lands-d)">
+        <path d="M7.81297989,0.2 L11.8371349,0.2 L11.0529756,1.70402293 L8.61128758,1.70402293 L8.61128758,2.51189139 L10.4831697,2.51189139 L9.72065386,3.91110897 L8.61128758,3.91110897 L8.61128758,6.70939714 L10.4384954,3.83011633 L12.8031826,7.92472763 L11.8371349,7.92472763 L11.4997189,7.4764018 L9.35937449,7.4764018 L7.85435353,10.2573326 L7.85474385,10.4109516 L7.81297989,10.3337815 L7.77121594,10.4109516 L7.77160626,10.2573326 L6.2665853,7.4764018 L4.12624093,7.4764018 L3.78882487,7.92472763 L2.82277718,7.92472763 L5.18746437,3.83011633 L7.01467221,6.70939714 L7.01467221,1.70402293 L4.57298423,1.70402293 L3.78882487,0.2 L7.81297989,0.2 Z M10.4855687,5.50950082 C10.1354541,6.04798179 9.96039684,6.31722228 9.96039684,6.31722228 L10.9546165,6.31722228 L10.4855687,5.50950082 Z M5.1403911,5.50950082 L4.67134325,6.31722228 L5.66556295,6.31722228 C5.66556295,6.31722228 5.49050566,6.04798179 5.1403911,5.50950082 Z M2.14464141,4.00056002 L1.31360732,4.6132394 L1.60678485,3.58654198 L0.8,2.93850124 L1.81222777,2.91664672 L2.14464141,1.90345614 L2.47705505,2.91664672 L3.48928282,2.93850124 L2.68249797,3.58654198 L2.9756755,4.6132394 L2.14464141,4.00056002 Z M13.4553586,4.00056002 L12.6243245,4.6132394 L12.917502,3.58654198 L12.1107172,2.93850124 L13.122945,2.91664672 L13.4553586,1.90345614 L13.7877722,2.91664672 L14.8,2.93850124 L13.9932152,3.58654198 L14.2863927,4.6132394 L13.4553586,4.00056002 Z M10.9104472,11.1906305 L10.0794131,11.8033098 L10.3725907,10.7766124 L9.56580581,10.1285717 L10.5780336,10.1067172 L10.9104472,9.09352659 L11.2428609,10.1067172 L12.2550886,10.1285717 L11.4483038,10.7766124 L11.7414813,11.8033098 L10.9104472,11.1906305 Z M4.68955278,11.1906305 L3.85851868,11.8033098 L4.15169621,10.7766124 L3.34491137,10.1285717 L4.35713914,10.1067172 L4.68955278,9.09352659 L5.02196641,10.1067172 L6.03419419,10.1285717 L5.22740934,10.7766124 L5.52058687,11.8033098 L4.68955278,11.1906305 Z M7.8,13.5873206 L6.96896591,14.2 L7.26214344,13.1733026 L6.45535859,12.5252618 L7.46758636,12.5034073 L7.8,11.4902167 L8.13241364,12.5034073 L9.14464141,12.5252618 L8.33785656,13.1733026 L8.63103409,14.2 L7.8,13.5873206 Z" transform="translate(15 6)"/>
+      </g>
+      <g mask="url(#tf---french-southern-and-antarctic-lands-d)">
+        <mask id="tf---french-southern-and-antarctic-lands-f" fill="#fff">
+          <use xlink:href="#tf---french-southern-and-antarctic-lands-e"/>
+        </mask>
+        <rect width="13" height="11" x="-.5" y="-.5" stroke="#FFF"/>
+        <polygon fill="#F50100" points="8 0 12 0 12 10 8 10" mask="url(#tf---french-southern-and-antarctic-lands-f)"/>
+        <polygon fill="#2E42A5" points="0 0 4 0 4 10 0 10" mask="url(#tf---french-southern-and-antarctic-lands-f)"/>
+        <polygon fill="#F7FCFF" points="4 0 8 0 8 10 4 10" mask="url(#tf---french-southern-and-antarctic-lands-f)"/>
+      </g>
+    </g>
+  </g>
+</svg>

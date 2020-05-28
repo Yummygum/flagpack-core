@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
+  <defs>
+    <rect id="ae---united-arab-emirates-a" width="20" height="15" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ae---united-arab-emirates-b" fill="#fff">
+      <use xlink:href="#ae---united-arab-emirates-a"/>
+    </mask>
+    <g mask="url(#ae---united-arab-emirates-b)">
+      <polygon fill="#F7FCFF" points="0 0 20 0 20 15 0 15"/>
+      <rect width="20" height="5" fill="#5EAA22"/>
+      <rect width="20" height="5" y="10" fill="#272727"/>
+      <rect width="6" height="15" fill="#E31D1C"/>
+    </g>
+  </g>
+</svg>

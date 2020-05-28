@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ag---antigua-and-barbuda-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ag---antigua-and-barbuda-b" fill="#fff">
+      <use xlink:href="#ag---antigua-and-barbuda-a"/>
+    </mask>
+    <g mask="url(#ag---antigua-and-barbuda-b)">
+      <polygon fill="#1B1B1B" points="0 0 32 0 32 24 0 24"/>
+      <g transform="translate(0 2)">
+        <polygon fill="#F9D313" points="16 12 13.997 15.799 14.048 11.604 10.389 14.255 12.482 10.494 7.891 11.471 11.613 8.89 7 8 11.613 7.11 7.891 4.529 12.482 5.506 10.389 1.745 14.048 4.396 13.997 .201 16 4 18.003 .201 17.952 4.396 21.611 1.745 19.518 5.506 24.109 4.529 20.387 7.11 25 8 20.387 8.89 24.109 11.471 19.518 10.494 21.611 14.255 17.952 11.604 18.003 15.799"/>
+        <rect width="20" height="10" x="6" y="12" fill="#F1F9FF"/>
+        <rect width="28" height="4" x="2" y="8" fill="#4A80E8"/>
+        <polygon fill="#E31D1C" points="0 4 16 22 32 4 32 22 0 22"/>
+      </g>
+    </g>
+  </g>
+</svg>

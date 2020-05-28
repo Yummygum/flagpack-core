@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <rect id="gl---greenland-a" width="16" height="12" x="0" y="0"/>
+    <polygon id="gl---greenland-c" points="0 0 16 0 16 6 0 6"/>
+    <polygon id="gl---greenland-e" points="0 0 16 0 16 6 0 6"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="gl---greenland-b" fill="#fff">
+      <use xlink:href="#gl---greenland-a"/>
+    </mask>
+    <g mask="url(#gl---greenland-b)">
+      <g transform="translate(0 6)">
+        <mask id="gl---greenland-d" fill="#fff">
+          <use xlink:href="#gl---greenland-c"/>
+        </mask>
+        <use fill="#C51918" xlink:href="#gl---greenland-c"/>
+        <circle cx="6" r="4" fill="#F7FCFF" mask="url(#gl---greenland-d)"/>
+      </g>
+      <mask id="gl---greenland-f" fill="#fff">
+        <use xlink:href="#gl---greenland-e"/>
+      </mask>
+      <use fill="#F7FCFF" xlink:href="#gl---greenland-e"/>
+      <circle cx="6" cy="6" r="4" fill="#C51918" mask="url(#gl---greenland-f)"/>
+    </g>
+  </g>
+</svg>

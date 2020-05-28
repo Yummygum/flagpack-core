@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="mt---malta-a" width="32" height="24" x="0" y="0"/>
+    <rect id="mt---malta-c" width="16" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="mt---malta-b" fill="#fff">
+      <use xlink:href="#mt---malta-a"/>
+    </mask>
+    <use fill="#F7FCFF" xlink:href="#mt---malta-a"/>
+    <path fill="#A0A0A0" stroke="#FECA00" d="M13.5,11.5 L13.5,8.5 L10.3138676,8.5 L10.3313612,7.98308838 C10.3316072,7.97436901 10.3316072,7.97436901 10.331657,7.96556156 C10.331657,7.72086344 10.1543735,7.51297393 9.91643127,7.47263747 L9.5,7.4020432 L9.5,4.5 L6.5,4.5 L6.5,7.38780438 L6.11540446,7.47903579 C5.8924178,7.53193133 5.73168145,7.73269425 5.73168145,7.96556156 C5.73173123,7.97436901 5.73173123,7.97436901 5.73197725,7.98308838 L5.74947088,8.5 L2.5,8.5 L2.5,11.5 L5.33073691,11.5 L5.64447183,11.5 L5.78094969,11.7824949 C5.84618077,11.9175165 5.96972832,12.0175065 6.11540446,12.0520629 L6.5,12.1432943 L6.5,15.5 L9.5,15.5 L9.5,12.1290555 L9.91643127,12.0584612 C10.0754389,12.031506 10.2122807,11.9276113 10.2823888,11.7824949 L10.4188666,11.5 L10.7326016,11.5 L13.5,11.5 Z" mask="url(#mt---malta-b)"/>
+    <g mask="url(#mt---malta-b)">
+      <g transform="translate(16)">
+        <mask id="mt---malta-d" fill="#fff">
+          <use xlink:href="#mt---malta-c"/>
+        </mask>
+        <use fill="#E31D1C" xlink:href="#mt---malta-c"/>
+        <rect width="12" height="24" x="-16" fill="#FFF" mask="url(#mt---malta-d)"/>
+      </g>
+    </g>
+  </g>
+</svg>

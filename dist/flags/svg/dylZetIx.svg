@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="jm---jamaica-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="jm---jamaica-b" fill="#fff">
+      <use xlink:href="#jm---jamaica-a"/>
+    </mask>
+    <g mask="url(#jm---jamaica-b)">
+      <g transform="translate(-1)">
+        <polygon fill="#093" points="1 0 33 0 33 24 1 24"/>
+        <path fill="#272727" stroke="#FECA00" stroke-width="2.7" d="M-1.35,-2.86483791 L16.6584757,12 L-1.35,26.8648379 L-1.35,-2.86483791 Z"/>
+        <path fill="#272727" stroke="#FECA00" stroke-width="2.7" d="M17.4311589,-2.78365482 L36.1803334,12 L17.4311589,26.7836548 L17.4311589,-2.78365482 Z" transform="matrix(-1 0 0 1 52.781 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

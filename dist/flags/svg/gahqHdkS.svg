@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <rect id="ss---south-sudan-a" width="32" height="24" x="0" y="0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ss---south-sudan-b" fill="#fff">
+      <use xlink:href="#ss---south-sudan-a"/>
+    </mask>
+    <g mask="url(#ss---south-sudan-b)">
+      <polygon fill="#F7FCFF" points="0 0 32 0 32 24 0 24"/>
+      <rect width="32" height="8" fill="#272727"/>
+      <rect width="32" height="8" y="16" fill="#4E8B1D"/>
+      <rect width="34" height="10" x="-1" y="7" fill="#E31D1C" fill-rule="nonzero" stroke="#F7FCFF" stroke-width="2"/>
+      <polygon fill="#3D58DB" points="0 0 20 12 0 24"/>
+      <polygon fill="#FECA00" points="6.002 14.494 3.508 16 4.077 13.062 2 10.863 4.812 10.744 6.002 8 7.192 10.744 10 10.744 7.928 13.062 8.552 16" transform="rotate(-15 6 12)"/>
+    </g>
+  </g>
+</svg>
