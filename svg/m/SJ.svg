@@ -1,20 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="15" viewBox="0 0 20 15">
-  <defs>
-    <rect id="sj---svalbard-and-jan-mayen-a" width="20" height="15" x="0" y="0"/>
-    <rect id="sj---svalbard-and-jan-mayen-c" width="20" height="15" x="0" y="0"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <mask id="sj---svalbard-and-jan-mayen-b" fill="#fff">
-      <use xlink:href="#sj---svalbard-and-jan-mayen-a"/>
-    </mask>
-    <g mask="url(#sj---svalbard-and-jan-mayen-b)">
-      <mask id="sj---svalbard-and-jan-mayen-d" fill="#fff">
-        <use xlink:href="#sj---svalbard-and-jan-mayen-c"/>
-      </mask>
-      <use fill="#E31D1C" xlink:href="#sj---svalbard-and-jan-mayen-c"/>
-      <g fill="#2E42A5" stroke="#F7FCFF" stroke-width="1.25" mask="url(#sj---svalbard-and-jan-mayen-d)">
-        <path d="M9.375,5.625 L20.625,5.625 L20.625,9.375 L9.375,9.375 L9.375,15.625 L5.625,15.625 L5.625,9.375 L-0.625,9.375 L-0.625,5.625 L5.625,5.625 L5.625,-0.625 L9.375,-0.625 L9.375,5.625 Z"/>
-      </g>
-    </g>
-  </g>
+<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<rect width="20" height="15" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="#E31D1C"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M6.25 -0.625H5.625V0V5.625H0H-0.625V6.25V8.75V9.375H0H5.625V15V15.625H6.25H8.75H9.375V15V9.375H20H20.625V8.75V6.25V5.625H20H9.375V0V-0.625H8.75H6.25Z" fill="#2E42A5" stroke="#F7FCFF" stroke-width="1.25"/>
+</g>
+</g>
 </svg>

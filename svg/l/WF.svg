@@ -1,15 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
-  <defs>
-    <rect id="wf---wallis-and-futuna-a" width="32" height="24" x="0" y="0"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <mask id="wf---wallis-and-futuna-b" fill="#fff">
-      <use xlink:href="#wf---wallis-and-futuna-a"/>
-    </mask>
-    <g mask="url(#wf---wallis-and-futuna-b)">
-      <polygon fill="#C51918" points="22 0 32 0 32 24 22 24"/>
-      <polygon fill="#2E42A5" points="0 0 12 0 12 24 0 24"/>
-      <polygon fill="#F7FCFF" points="10 0 22 0 22 24 10 24"/>
-    </g>
-  </g>
+<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
+<rect width="32" height="24" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 0H32V24H22V0Z" fill="#C51918"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H12V24H0V0Z" fill="#2E42A5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 0H22V24H10V0Z" fill="#F7FCFF"/>
+</g>
 </svg>

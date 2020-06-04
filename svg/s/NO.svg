@@ -1,20 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="12" viewBox="0 0 16 12">
-  <defs>
-    <rect id="no---norway-a" width="16" height="12" x="0" y="0"/>
-    <rect id="no---norway-c" width="16" height="12" x="0" y="0"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <mask id="no---norway-b" fill="#fff">
-      <use xlink:href="#no---norway-a"/>
-    </mask>
-    <g mask="url(#no---norway-b)">
-      <mask id="no---norway-d" fill="#fff">
-        <use xlink:href="#no---norway-c"/>
-      </mask>
-      <use fill="#E31D1C" xlink:href="#no---norway-c"/>
-      <g fill="#2E42A5" stroke="#F7FCFF" mask="url(#no---norway-d)">
-        <path d="M7.5,4.5 L16.5,4.5 L16.5,7.5 L7.5,7.5 L7.5,12.5 L4.5,12.5 L4.5,7.5 L-0.5,7.5 L-0.5,4.5 L4.5,4.5 L4.5,-0.5 L7.5,-0.5 L7.5,4.5 Z"/>
-      </g>
-    </g>
-  </g>
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+<rect width="16" height="12" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="#E31D1C"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M5 -0.5H4.5V0V4.5H0H-0.5V5V7V7.5H0H4.5V12V12.5H5H7H7.5V12V7.5H16H16.5V7V5V4.5H16H7.5V0V-0.5H7H5Z" fill="#2E42A5" stroke="#F7FCFF"/>
+</g>
+</g>
 </svg>
