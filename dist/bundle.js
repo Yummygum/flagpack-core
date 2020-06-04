@@ -4149,8 +4149,10 @@ function isoToCountryCode(isoCode) {
 }
 
 function imageUrl(assetCode, size) {
+  var formatAssetCode = assetCode.replace('-', '_');
+
   try {
-    return flags[assetCode][size];
+    return flags[formatAssetCode][size];
   } catch (_unused) {
     console.error('No flag found for ' + assetCode + ' / size ' + size);
   }

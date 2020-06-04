@@ -15,8 +15,9 @@ function isoToCountryCode(isoCode, keyToGet = 'alpha2') {
 }
 
 function imageUrl(assetCode, size) {
+  const formatAssetCode = assetCode.replace('-', '_')
   try {
-    return flags[assetCode][size]
+    return flags[formatAssetCode][size]
   } catch {
     console.error('No flag found for ' + assetCode + ' / size ' + size)
   }
