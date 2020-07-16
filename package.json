@@ -1,7 +1,7 @@
 {
   "name": "flagpack-core",
   "description": "",
-  "version": "0.0.43",
+  "version": "0.0.42",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yummygum/flag-pack-core.git"
@@ -23,10 +23,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "node generateCodeList.js && node generateFlags.js && rollup -cw",
-    "prepublish": "npm version patch",
-    "publish": "npm run build && git add -A dist",
-    "postpublish": "git push && git push --tags"
+    "dev": "node generateCodeList.js && node generateFlags.js && rollup -cw"
   },
   "license": "ISC",
   "devDependencies": {
