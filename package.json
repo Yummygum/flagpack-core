@@ -4,7 +4,7 @@
   "version": "0.0.42",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yummygum/flag-pack-core.git"
+    "url": "git+https://github.com/Yummygum/flagpack-core.git"
   },
   "keywords": [
     "flagpack",
