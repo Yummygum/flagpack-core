@@ -44,8 +44,8 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
-jspm_packages/
+node_modules
+jspm_packages
 
 # TypeScript v1 declaration files
 typings/
@@ -92,5 +92,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# VSCode configs
+.vscode
 
 # End of https://www.gitignore.io/api/node

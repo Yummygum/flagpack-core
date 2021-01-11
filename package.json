@@ -17,13 +17,13 @@
   ],
   "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",
   "bugs": {
-    "url": "https://github.com/Yummygum/flag-pack-core/issues"
+    "url": "https://github.com/Yummygum/flagpack-core/issues"
   },
   "homepage": "https://github.com/yummygum",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "node generateCodeList.js && node generateFlags.js && rollup -cw"
+    "dev": "node generateCodeList.js && node generateFlags.js && rm -rf dist && rollup -cw"
   },
   "license": "ISC",
   "devDependencies": {
