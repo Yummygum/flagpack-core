@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { promisify } = require('util');
+const { promisify } = require('util')
 const Tabletop = require('tabletop')
 
 const writeFilePromise = promisify(fs.writeFile)
@@ -14,11 +14,11 @@ function writeToJsonFile(countryList) {
 }
 
 function promisifyTableTop() {
-  return new Promise(resolve => {
-    Tabletop.init({ 
+  return new Promise((resolve) => {
+    Tabletop.init({
       key: SPREADSHEET_KEY,
       simpleSheet: true,
-      callback: data => resolve(data)
+      callback: (data) => resolve(data)
     })
   })
 }
