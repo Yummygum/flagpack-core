@@ -1,0 +1,182 @@
+/**
+ * Copyright (c) 2021 Yummygum - CC BY-NC-ND
+ * This file is licensed separately from the rest of the project.
+ * This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+ */
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "plugins": [
+    "react",
+    "import",
+    "jest"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest/globals": true
+  },
+  "root": true,
+  "globals": {},
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "rules": {
+    "jsx-a11y": 0,
+    "semi": [
+      2,
+      "never"
+    ],
+    "brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "camelcase": 2,
+    "comma-style": [
+      2,
+      "last"
+    ],
+    "curly": 2,
+    "eqeqeq": 2,
+    "func-names": 2,
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ],
+    "guard-for-in": 2,
+    "wrap-iife": 2,
+    "no-undef": 2,
+
+    "new-cap": 2,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "no-trailing-spaces": 2,
+    "comma-dangle": 0,
+    "max-len": [
+      2,
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "no-underscore-dangle": 0,
+    "strict": 0,
+    "no-shadow": 0,
+    "no-var": 2,
+    "no-useless-rename": 2,
+    "no-new-object": 2,
+    "no-array-constructor": 2,
+    "no-unused-vars": 1,
+    "array-callback-return": 0,
+    "global-require": 0,
+    "prefer-spread": 1,
+    "prefer-arrow-callback": 2,
+    "prefer-const": 1,
+    "react/prop-types": 2,
+    "react/boolean-prop-naming": [
+      "warn",
+      {
+        "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+"
+      }
+    ],
+    "react/button-has-type": 0,
+    "react/self-closing-comp": 1,
+    "react/default-props-match-prop-types": 1,
+    "react/no-deprecated": 1,
+    "react/require-default-props": 0,
+    "react/jsx-pascal-case": 2,
+    "react/jsx-key": 1,
+    "react/no-danger": 0,
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/no-direct-mutation-state": 1,
+    "react/no-typos": 2,
+    "react/no-string-refs": 1,
+    "react/jsx-equals-spacing": [
+      2,
+      "never"
+    ],
+
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": 0,
+    "react/no-array-index-key": 0,
+    "no-console": [
+      1,
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "no-extend-native": 2,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "react/jsx-max-props-per-line": [
+      2,
+      {
+        "maximum": 1,
+        "when": "multiline"
+      }
+    ],
+    "function-paren-newline": [
+      2,
+      "multiline"
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true,
+        "minProperties": 3,
+        "consistent": true
+      }
+    ],
+    "import/no-dynamic-require": 2,
+    "no-nested-ternary": 0,
+    "jsx-a11y/mouse-events-have-key-events": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/media-has-caption": 0,
+    "react/no-did-update-set-state": 0,
+    "no-use-before-define": 0,
+    "react/forbid-prop-types": 0,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  }
+}
