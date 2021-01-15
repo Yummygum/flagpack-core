@@ -1523,7 +1523,7 @@ var HK = {
 var l$1B = require("./flags/bIAwCKeU.svg");
 
 /* loaded by smart-asset */
-var m$1B = require("./flags/eKNAvFJL.svg");
+var m$1B = require("./flags/fwMZpOdl.svg");
 
 /* loaded by smart-asset */
 var s$1B = require("./flags/eHFWndcP.svg");
@@ -4145,7 +4145,7 @@ function isoToCountryCode(isoCode) {
     return alpha2Code;
   }
 
-  console.error('This code returns undefined, see www.flagpack.xyz/docs/flag-index for all the available codes.');
+  throw new Error('This code returns undefined, see https://www.flagpack.xyz/docs/flag-index for all the available codes.');
 }
 
 function imageUrl(assetCode, size) {
@@ -4154,7 +4154,7 @@ function imageUrl(assetCode, size) {
   try {
     return flags[formatAssetCode][size];
   } catch (_unused) {
-    console.error('No flag found for ' + assetCode + ' / size ' + size);
+    throw new Error("No flag found for ".concat(assetCode, " / size ").concat(size));
   }
 }
 
