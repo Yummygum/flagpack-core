@@ -63,4 +63,4 @@ If you're interested in contributing to this project, great! Please see the [con
 
 ## License
 
-Flagpack is an open source project published under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+Flagpack is an open source project published under a [MIT license](LICENSE).
