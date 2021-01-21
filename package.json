@@ -22,27 +22,30 @@
   "homepage": "https://github.com/yummygum",
   "main": "dist/bundle.js",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "node generateCodeList.js && node generateFlags.js && rollup -cw"
+    "build": " NODE_ENV=production rollup -c",
+    "dev": "node generateCodeList.js && node generateFlags.js && NODE_ENV=development rollup -cw"
   },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/eslint-parser": "7.11.3",
     "@babel/preset-env": "^7.5.2",
+    "dotenv": "^8.2.0",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.5",
+    "node-fetch": "^2.6.1",
+    "papaparse": "^5.3.0",
     "rollup": "^1.16.6",
     "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-babel-minify": "^10.0.0",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-smart-asset": "^1.1.4",
-    "tabletop": "^1.5.2"
+    "rollup-plugin-smart-asset": "^1.1.4"
   },
   "authors": [
     {
