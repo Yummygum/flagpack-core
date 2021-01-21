@@ -19,6 +19,9 @@ npm install ../path/to/flagpack-core
 ```
 
 ## Build Dist
+You'll need an `.env` file with a `SPREADSHEET_KEY` and `API_KEY` to be able to build the `generateCodeList.js` script to make the request to the GoogleAPI to fetch the flags data.
+
+If you just want to make changes to the `generateFlags.js`, the `.env` is not needed, just use the current `countryCodeList.json`.
 
 ```bash
 # install dependencies
