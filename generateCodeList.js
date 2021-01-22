@@ -1,24 +1,43 @@
 const fs = require('fs')
 const { promisify } = require('util')
-const Tabletop = require('tabletop')
+const PapaParse = require('papaparse')
+const fetch = require('node-fetch')
 
 const writeFilePromise = promisify(fs.writeFile)
 const WRITE_PATH = 'countryCodeList.json'
-const SPREADSHEET_KEY = '1RpyCWefa5ugVbQJGtcOEAtBzYvcNYIBNlIgoTXBIwVw'
 
-promisifyTableTop()
-  .then(writeToJsonFile)
+const { SPREADSHEET_KEY } = process.env
+const { API_KEY } = process.env
 
 function writeToJsonFile(countryList) {
   writeFilePromise(WRITE_PATH, JSON.stringify(countryList), 'utf8')
 }
 
-function promisifyTableTop() {
+function fetchSheet({
+  spreadsheetId, sheetName, apiKey, complete
+}) {
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${sheetName}?key=${apiKey}`
+
+  return fetch(url).then((response) => response.json().then((result) => {
+    const data = PapaParse.parse(PapaParse.unparse(result.values), {
+      header: true
+    })
+
+    complete(data)
+  }))
+}
+
+function promisifyFetchSheetData() {
   return new Promise((resolve) => {
-    Tabletop.init({
-      key: SPREADSHEET_KEY,
-      simpleSheet: true,
-      callback: (data) => resolve(data)
+    fetchSheet({
+      spreadsheetId: SPREADSHEET_KEY,
+      sheetName: 'Main',
+      apiKey: API_KEY,
+      complete(results) {
+        resolve(results.data)
+      }
     })
   })
 }
+
+promisifyFetchSheetData().then(writeToJsonFile)

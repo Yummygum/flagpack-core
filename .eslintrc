@@ -29,6 +29,9 @@
     "plugin:react/recommended",
     "airbnb"
   ],
+  "ignorePatterns": [
+    "dist"
+  ],
   "rules": {
     "jsx-a11y": 0,
     "semi": [
