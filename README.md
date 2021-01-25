@@ -14,7 +14,7 @@ Flagpack contains 260+ flag icons to easily use within your code project. Flagpa
   <a href="https://www.npmjs.com/package/flagpack-core" target="_blank">
     <img src="https://img.shields.io/npm/dt/flagpack-core.svg?style=flat" />
   </a>
-  <a href="https://github.com/yummygum/support" target="_blank">
+  <a href="https://github.com/sponsors/Yummygum" target="_blank">
     <img src="https://img.shields.io/badge/Support-♥-E94AAA"  />
   </a>
   <a href="https://twitter.com/flagpack" target="_blank">
