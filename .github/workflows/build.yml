@@ -1,24 +1,25 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: build
 
 on:
   push:
-    branches: [ main ]
+    tags: 
+      - v*
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [14.x, 15.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: ['14.x']
 
     steps:
     - uses: actions/checkout@v2
+    - name: Set tag in env...
+      run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -26,5 +27,27 @@ jobs:
       env:
         API_KEY: ${{ secrets.API_KEY }}
         SPREADSHEET_KEY: ${{ secrets.SPREADSHEET_KEY }}
-    - run: npm ci
-    - run: npm run build --if-present
+    - run: npm install
+    - run: npm run build
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: build
+        path: ./
+
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: build
+    - uses: JS-DevTools/npm-publish@v1
+      with:
+        token: ${{ secrets.NPM_AUTH_TOKEN }}
+

@@ -2,6 +2,7 @@ const fs = require('fs')
 const { promisify } = require('util')
 const PapaParse = require('papaparse')
 const fetch = require('node-fetch')
+require('dotenv').config()
 
 const writeFilePromise = promisify(fs.writeFile)
 const WRITE_PATH = 'countryCodeList.json'
@@ -19,6 +20,12 @@ function fetchSheet({
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${sheetName}?key=${apiKey}`
 
   return fetch(url).then((response) => response.json().then((result) => {
+    if (result.error) {
+      const { error: { message } } = result
+
+      return console.error(message)
+    }
+
     const data = PapaParse.parse(PapaParse.unparse(result.values), {
       header: true
     })
