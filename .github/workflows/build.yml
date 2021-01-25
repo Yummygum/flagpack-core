@@ -33,7 +33,9 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: build
-        path: ./
+        path: |
+          ./
+          !./node_modules
 
   publish:
     needs: build
