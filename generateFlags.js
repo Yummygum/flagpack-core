@@ -39,13 +39,13 @@ function writeToFlagsJsFiles(countryList) {
     [
       ...countries
         .map(countryCode)
-        .map((code) => `import ${codeToModule(code)} from './${code}'`),
-      `export default {${
-        countries
-          .map(countryCode)
-          .map(codeToModule)
-          .join(',')
-      }}`
+        .map((code) => `export { default as ${codeToModule(code)} } from './${code}'`)
+      // `export default {${
+      //   countries
+      //     .map(countryCode)
+      //     .map(codeToModule)
+      //     .join(',')
+      // }}`
     ].join('\n'),
     'utf8'
   )
