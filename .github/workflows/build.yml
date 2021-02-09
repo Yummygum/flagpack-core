@@ -28,6 +28,8 @@ jobs:
         API_KEY: ${{ secrets.API_KEY }}
         SPREADSHEET_KEY: ${{ secrets.SPREADSHEET_KEY }}
     - run: npm install
+    # Need to update version automatically
+    # - run: npm version ${{ env.RELEASE_VERSION }}
     - run: npm run build
     - name: Upload artifact
       uses: actions/upload-artifact@v2
