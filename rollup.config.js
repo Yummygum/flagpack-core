@@ -5,6 +5,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import smartAsset from 'rollup-plugin-smart-asset'
 import minify from 'rollup-plugin-babel-minify'
 import pkg from './package.json'
+import flagsModules from './flagsModules.json'
 
 const dev = 'development'
 const prod = 'production'
@@ -26,14 +27,13 @@ const plugins = [
 ]
 
 if (env === prod) {
-  // plugins.push(minify())
+  plugins.push(minify())
 }
 
-export default {
+export default [{
   plugins,
   input: [
-    'index.js',
-    'flags/allFlags.js'
+    'index.js'
   ],
   output: [
     {
@@ -41,14 +41,39 @@ export default {
       format: 'cjs',
       name: 'flagpack-core',
       dir: 'dist',
-      entryFileNames: '[name].[format].js'
+      entryFileNames: '[name].[format].js',
+      preserveModules: true
     },
     {
       // file: pkg.module,
       format: 'es',
       name: 'flagpack-core',
       dir: 'dist',
-      entryFileNames: '[name].esm.js'
+      entryFileNames: '[name].esm.js',
+      preserveModules: true
+    },
+  ]
+},
+{
+  plugins,
+  input: flagsModules,
+  output: [
+    {
+      // file: pkg.main,
+      format: 'cjs',
+      name: 'flagpack-core',
+      dir: 'dist/flags',
+      entryFileNames: '[name].[format].js',
+      preserveModules: true
+    },
+    {
+      // file: pkg.module,
+      format: 'es',
+      name: 'flagpack-core',
+      dir: 'dist/flags',
+      entryFileNames: '[name].esm.js',
+      preserveModules: true
     },
   ]
 }
+]

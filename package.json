@@ -27,7 +27,8 @@
     "dist"
   ],
   "scripts": {
-    "build": " NODE_ENV=production rollup -c",
+    "build-windows": "set NODE_ENV=production && rollup -c",
+    "build": "NODE_ENV=production rollup -c",
     "dev": "node generateCodeList.js && node generateFlags.js && NODE_ENV=development rollup -cw"
   },
   "license": "MIT",

@@ -10,7 +10,7 @@ function isoToCountryCode(isoCode, keyToGet = 'alpha2') {
     return alpha2Code
   }
 
-  throw new Error('This code returns undefined, see https://www.flagpack.xyz/docs/flag-index for all the available codes.')
+  throw new Error(`The code ${isoCode} returns undefined, see https://www.flagpack.xyz/docs/flag-index for all the available codes.`)
 }
 
 export { isoToCountryCode }

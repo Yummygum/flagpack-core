@@ -12,9 +12,11 @@ writeToFlagsJsFiles(countryList)
 function hasCode(country) {
   return !!countryCode(country)
 }
+
 function countryCode(country) {
   return country.alpha2
 }
+
 function codeToModule(code) {
   return code.replace('-', '_')
 }
@@ -47,6 +49,16 @@ function writeToFlagsJsFiles(countryList) {
       //     .join(',')
       // }}`
     ].join('\n'),
+    'utf8'
+  )
+
+  // Module list for Rollup
+  writeFilePromise(
+    'flagsModules.json',
+    JSON.stringify([
+      path.join(FLAGS_PATH, 'index.js'),
+      ...countries.map((code) => path.join(FLAGS_PATH, `${countryCode(code)}.js`))
+    ]),
     'utf8'
   )
 }
