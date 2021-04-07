@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/yummygum",
   "main": "dist/bundle.js",
+  "types": "types.d.ts",
   "scripts": {
     "build": " NODE_ENV=production rollup -c",
     "dev": "node generateCodeList.js && node generateFlags.js && NODE_ENV=development rollup -cw"
