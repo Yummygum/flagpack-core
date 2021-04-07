@@ -36,7 +36,7 @@ function promisifyFetchSheetData() {
       apiKey: API_KEY,
       complete(results) {
         resolve(results.data)
-        console.log(`Code list generated: ${results.data.length} flags`)
+        console.log(`Code list generated: ${results.data.length + 1} flags`)
       }
     })
   })
