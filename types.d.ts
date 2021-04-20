@@ -1,8 +1,8 @@
 export declare const codeList: Array<{
   countryName: string;
   alpha2: string;
-  alpha3: string;
-  numeric: number;
+  alpha3?: string;
+  numeric?: number;
 }>;
 
 export declare function isoToCountryCode(isoCode: string, keyToGet?: string): string;
