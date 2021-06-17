@@ -1,0 +1,21 @@
+<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<rect width="20" height="15" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="#F7FCFF"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<rect y="2.5" width="20" height="1.25" fill="#2E42A5"/>
+<rect y="5" width="20" height="1.25" fill="#2E42A5"/>
+<rect y="7.5" width="20" height="1.25" fill="#2E42A5"/>
+<rect y="10" width="20" height="1.25" fill="#2E42A5"/>
+<rect y="12.5" width="20" height="1.25" fill="#2E42A5"/>
+<rect width="10" height="8.75" fill="#F7FCFF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.76722 6.89823C5.76722 6.89823 5.12853 8.22242 4.56719 8.49391C4.80949 7.88656 4.89867 6.64735 4.89867 6.64735C4.89867 6.64735 3.44122 7.22519 2.92968 7.11987C3.54479 6.69004 4.39859 5.8939 4.39859 5.8939C4.39859 5.8939 2.5122 5.27719 2.55848 5.01472C3.41003 5.16747 4.5811 5.00096 4.5811 5.00096C4.5811 5.00096 3.25773 3.41393 3.39194 3.29592C3.59366 3.49199 5.17963 4.32044 5.17963 4.32044C5.17963 4.32044 5.29469 2.90844 5.63601 2.43237C5.67695 2.76842 6.15601 4.2899 6.15601 4.2899C6.15601 4.2899 7.11906 3.32629 7.65358 3.32629C7.4188 3.61739 6.86286 4.89611 6.86286 4.89611C6.86286 4.89611 8.24836 4.8743 8.77507 5.13362C8.13702 5.22437 7.01917 5.78557 7.01917 5.78557C7.01917 5.78557 8.47507 6.88996 8.34233 7.11987C7.56065 6.73749 6.65694 6.60942 6.65694 6.60942C6.65694 6.60942 6.90673 8.14634 6.70482 8.49391C6.50789 7.98228 5.76722 6.89823 5.76722 6.89823Z" fill="#FFD018" stroke="#F19900" stroke-opacity="0.98" stroke-width="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.68347 6.18237C6.02865 6.18237 6.30847 5.90255 6.30847 5.55737C6.30847 5.2122 6.02865 4.93237 5.68347 4.93237C5.33829 4.93237 5.05847 5.2122 5.05847 5.55737C5.05847 5.90255 5.33829 6.18237 5.68347 6.18237Z" fill="#FFD018" stroke="#F19900" stroke-opacity="0.98" stroke-width="0.5"/>
+</g>
+</g>
+</svg>

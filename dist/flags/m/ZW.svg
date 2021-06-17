@@ -1,0 +1,24 @@
+<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<rect width="20" height="15" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="#F7FCFF"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.25V13.75H20V1.25H0Z" fill="#FECA00"/>
+<path d="M0 5.15625H-1.09375V6.25V8.75V9.84375H0H20H21.0938V8.75V6.25V5.15625H20H0Z" fill="#272727" stroke="#E31D1C" stroke-width="2.1875"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.5V0H20V2.5H0ZM0 15V12.5H20V15H0Z" fill="#5EAA22"/>
+</g>
+<path d="M0.373101 -0.501419L-0.625 -1.2441V0V15V16.2256L0.367014 15.5059L10.5741 8.10086L11.2626 7.60135L10.5802 7.09355L0.373101 -0.501419Z" fill="#F7FCFF" stroke="#272727" stroke-width="1.25"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="-2" y="-3" width="15" height="21">
+<path d="M0.373101 -0.501419L-0.625 -1.2441V0V15V16.2256L0.367014 15.5059L10.5741 8.10086L11.2626 7.60135L10.5802 7.09355L0.373101 -0.501419Z" fill="white" stroke="white" stroke-width="1.25"/>
+</mask>
+<g mask="url(#mask2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.67404 8.92389L2.31221 10.8304L3.39557 8.28254L1.53406 6.4899H3.73131L4.63293 4.32812L5.59054 6.4899H7.78406L5.82421 8.28254L6.80506 10.8304L4.67404 8.92389Z" fill="#E31D1C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.13601 5.26341C3.13601 5.26341 3.10172 5.18075 3.30411 5.10766C3.5065 5.03458 3.56824 4.87971 3.72689 4.99369C3.88554 5.10766 3.9848 4.87851 4.03032 5.20718C4.07584 5.53584 4.20131 6.05411 4.20131 6.05411L6.25604 7.59827H5.86999C5.86999 7.59827 5.26884 8.48151 5.36809 9.25648C5.36809 9.25648 4.95331 9.19339 4.39112 9.19339C3.82893 9.19339 3.4607 9.32812 3.4607 9.32812L3.13601 8.12582C3.13601 8.12582 3.25357 7.92384 3.30411 7.76105C3.35465 7.59827 3.56391 7.56822 3.56391 7.43872C3.56391 7.30923 3.3575 7.20067 3.4607 6.86546C3.56391 6.53025 3.56391 5.5275 3.56391 5.5275C3.56391 5.5275 3.23774 5.38407 3.30411 5.38407C3.37049 5.38407 3.52179 5.26341 3.41295 5.26341C3.30411 5.26341 3.13601 5.26341 3.13601 5.26341Z" fill="#FECA00"/>
+</g>
+</g>
+</svg>
