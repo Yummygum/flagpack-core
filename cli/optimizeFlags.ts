@@ -82,7 +82,7 @@ async function optimizeFlag(flag: string): Promise<void> {
  */
 async function optimizeFlags() {
   // Get all files in the flags folder
-  const files = shell.ls(`./dist/flags/**/*.svg`)
+  const files = shell.ls(`./lib/flags/**/*.svg`)
 
   // Loop through flags and optimize each
   for (let i = 0; i < files.length; i += 1) {

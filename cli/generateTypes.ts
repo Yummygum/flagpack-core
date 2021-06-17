@@ -2,7 +2,7 @@ import fs from 'fs'
 import ora from 'ora'
 import { promisify } from 'util'
 
-import { countryCodeList } from './countryCodeList'
+import { countryCodeList } from '../src/countryCodeList'
 
 // Convert to promises
 const writeFile = promisify(fs.writeFile)

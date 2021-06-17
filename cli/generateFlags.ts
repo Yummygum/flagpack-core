@@ -1,19 +1,9 @@
 import shell from 'shelljs'
-import { countryCodeList } from './countryCodeList'
+import { countryCodeList, IFlagEntry } from '../src/countryCodeList'
 import ora from 'ora'
 
 // The output directory of the flags
-const distDir = './dist/flags'
-
-/**
- * A flag object
- */
-interface IFlagEntry {
-  countryName: string
-  alpha2: string
-  alpha3?: string
-  numeric?: string
-}
+const distDir = './lib/flags'
 
 /**
  * Object containing all flags, with Alpha 2 as key

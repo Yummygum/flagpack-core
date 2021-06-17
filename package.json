@@ -20,11 +20,16 @@
     "url": "https://github.com/Yummygum/flag-pack-core/issues"
   },
   "homepage": "https://github.com/yummygum",
-  "main": "dist/bundle.js",
-  "types": "types.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "build": " NODE_ENV=production rollup -c",
-    "dev": "node generateCodeList.js && node generateFlags.js && NODE_ENV=development rollup -cw",
+    "build": "npm run build:generateTypes && npm run build:generateFlags && npm run build:optimizeFlags && npm run build:code",
+    "build:code": "tsc",
+    "build:generateCodeList": "node generateCodeList.js",
+    "build:generateBaseFlags": "node generateFlags.js",
     "build:generateTypes": "ts-node-dev cli/generateTypes.ts --no-notify --respawn --transpileOnly",
     "build:generateFlags": "ts-node-dev cli/generateFlags.ts --no-notify --respawn --transpileOnly",
     "build:optimizeFlags": "ts-node-dev cli/optimizeFlags.ts --no-notify --respawn --transpileOnly"
