@@ -1,17 +1,1 @@
-<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-<rect width="16" height="12" fill="white"/>
-</mask>
-<g mask="url(#mask0)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="#F7FCFF"/>
-<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="white"/>
-</mask>
-<g mask="url(#mask1)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0V6H16V0H8Z" fill="#E31D1C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5104 9.57486L10.3592 10.2872L10.8061 9.09135L9.82761 8.18601H11.0145L11.5104 6.89246L11.8889 8.18601H13.0776L12.2209 9.09135L12.6404 10.2872L11.5104 9.57486Z" fill="#E31D1C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.51043 4.1824L3.35921 4.89476L3.80614 3.69889L2.82761 2.79355H4.0145L4.51043 1.5L4.88888 2.79355H6.07761L5.22092 3.69889L5.64036 4.89476L4.51043 4.1824Z" fill="#2E42A5"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6V12H8V6H0Z" fill="#2E42A5"/>
-</g>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12"><mask id="591_svg__a" width="16" height="12" x="0" y="0" mask-type="alpha" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0H16V12H0z"/></mask><g mask="url(#591_svg__a)"><path fill="#F7FCFF" fill-rule="evenodd" d="M0 0V12H16V0H0Z" clip-rule="evenodd"/><mask id="591_svg__b" width="16" height="12" x="0" y="0" mask-type="alpha" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0V12H16V0H0Z" clip-rule="evenodd"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#591_svg__b)"><path fill="#E31D1C" d="M8 0V6H16V0H8zM11.5104 9.57486 10.3592 10.2872 10.8061 9.09135 9.82761 8.18601H11.0145L11.5104 6.89246 11.8889 8.18601H13.0776L12.2209 9.09135 12.6404 10.2872 11.5104 9.57486z"/><path fill="#2E42A5" d="M4.51043 4.1824 3.35921 4.89476 3.80614 3.69889 2.82761 2.79355H4.0145L4.51043 1.5 4.88888 2.79355H6.07761L5.22092 3.69889 5.64036 4.89476 4.51043 4.1824zM0 6V12H8V6H0z"/></g></g></svg>
