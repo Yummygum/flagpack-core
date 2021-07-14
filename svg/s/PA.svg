@@ -1,17 +1,15 @@
-<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-<rect width="16" height="12" fill="white"/>
-</mask>
-<g mask="url(#mask0)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="#F7FCFF"/>
-<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="white"/>
-</mask>
-<g mask="url(#mask1)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0V6H16V0H8Z" fill="#E31D1C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5104 9.57486L10.3592 10.2872L10.8061 9.09135L9.82761 8.18601H11.0145L11.5104 6.89246L11.8889 8.18601H13.0776L12.2209 9.09135L12.6404 10.2872L11.5104 9.57486Z" fill="#E31D1C"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.51043 4.1824L3.35921 4.89476L3.80614 3.69889L2.82761 2.79355H4.0145L4.51043 1.5L4.88888 2.79355H6.07761L5.22092 3.69889L5.64036 4.89476L4.51043 4.1824Z" fill="#2E42A5"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6V12H8V6H0Z" fill="#2E42A5"/>
-</g>
-</g>
+<svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+    <path fill="#fff" d="M0 0h16v12H0z"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12h16V0H0z" fill="#F7FCFF"/>
+    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12h16V0H0z" fill="#fff"/>
+    </mask>
+    <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
+      <path d="M8 0v6h8V0H8zm3.51 9.575l-1.15.712.446-1.196-.978-.905h1.187l.495-1.294.379 1.294h1.189l-.857.905.42 1.196-1.13-.712z" fill="#E31D1C"/>
+      <path d="M4.51 4.182l-1.15.713.446-1.196-.978-.905h1.187L4.51 1.5l.379 1.294h1.189l-.857.905.42 1.196-1.13-.713zM0 6v6h8V6H0z" fill="#2E42A5"/>
+    </g>
+  </g>
 </svg>

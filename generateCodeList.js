@@ -23,7 +23,7 @@ function fetchSheet({
 }) {
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${sheetName}?key=${apiKey}`
 
-  return fetch(url).then((response) => response.json().then((result) => {
+  return fetchNode(url).then((response) => response.json().then((result) => {
     const data = PapaParse.parse(PapaParse.unparse(result.values), {
       header: true
     })
