@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12"><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#CIV_svg__CI_-_Côte_d'Ivoire_(Ivory_Coast)"><path fill="#67BD38" d="M11 0h5v12h-5V0z"/><path fill="#E47E00" d="M0 0h5v12H0V0z"/><path fill="#F7FCFF" d="M5 0h6v12H5V0z"/></g></svg>
+<svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g mask="url(#CI_-_Côte_d'Ivoire_(Ivory_Coast)__a)" fill-rule="evenodd" clip-rule="evenodd">
+    <path d="M11 0h5v12h-5V0z" fill="#67BD38"/>
+    <path d="M0 0h5v12H0V0z" fill="#E47E00"/>
+    <path d="M5 0h6v12H5V0z" fill="#F7FCFF"/>
+  </g>
+</svg>

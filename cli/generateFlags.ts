@@ -1,5 +1,6 @@
 import shell from 'shelljs'
-import { countryCodeList, IFlagEntry } from '../src/countryCodeList'
+import { IFlagEntry } from '../src/countryCodeList'
+import { countryCodeList } from './countryCodeList'
 import ora from 'ora'
 
 // The output directory of the flags

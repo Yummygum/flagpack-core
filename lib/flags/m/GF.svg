@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 15"><mask id="GF_svg__a" width="20" height="15" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h20v15H0z"/></mask><g mask="url(#GF_svg__a)"><path fill="#5EAA22" d="M0 0h20v15H0z"/><path fill="#FECA00" fill-rule="evenodd" d="M0 0l20 15H0V0z" clip-rule="evenodd"/><path fill="#E21835" fill-rule="evenodd" d="M9.957 9.004l-2.179 1.511.696-2.588-1.599-1.653 2.165-.09.917-2.559.916 2.56h2.162l-1.596 1.742.8 2.435-2.282-1.358z" clip-rule="evenodd"/></g></svg>
+<svg width="20" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+    <path fill="#fff" d="M0 0h20v15H0z"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill="#5EAA22" d="M0 0h20v15H0z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0l20 15H0V0z" fill="#FECA00"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.957 9.004l-2.179 1.511.696-2.588-1.599-1.653 2.165-.09.917-2.559.916 2.56h2.162l-1.596 1.742.8 2.435-2.282-1.358z" fill="#E21835"/>
+  </g>
+</svg>

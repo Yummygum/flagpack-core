@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24"><mask id="174_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h32v24H0z"/></mask><g mask="url(#174_svg__a)"><path fill="#5196ED" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/><mask id="174_svg__b" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#174_svg__b)"><path fill="#AF0100" d="M0 12v6h32v-6H0z"/><path fill="#F7FCFF" d="M0 6v6h32V6H0z"/><path fill="#FECA00" d="M0 0v6h32V0H0z"/><path fill="#5EAA22" d="M0 0l19 12L0 24V0z"/><path fill="#F7FCFF" d="M7.305 16.501S3.72 15.278 3.848 11.45c.127-3.83 3.775-4.58 3.775-4.58-1.277-.923-5.85.159-5.996 4.58-.146 4.42 4.315 5.402 5.678 5.051zm.107-6.692l.112-.654-.475-.464.657-.096L8 8l.294.595.657.096-.475.464.112.654L8 9.5l-.588.309zm.112 1.346l-.112.654L8 11.5l.588.309-.112-.654.475-.464-.657-.096L8 10l-.294.595-.657.096.475.463zm-.112 2.654l.112-.654-.475-.464.657-.096L8 12l.294.595.657.096-.475.463.112.655L8 13.5l-.588.309zm0 2l.112-.654-.475-.464.657-.096L8 14l.294.595.657.096-.475.463.112.655L8 15.5l-.588.309z"/></g></g></svg>
+<svg width="32" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
+    <path fill="#fff" d="M0 0h32v24H0z"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#5196ED"/>
+    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#fff"/>
+    </mask>
+    <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
+      <path d="M0 12v6h32v-6H0z" fill="#AF0100"/>
+      <path d="M0 6v6h32V6H0z" fill="#F7FCFF"/>
+      <path d="M0 0v6h32V0H0z" fill="#FECA00"/>
+      <path d="M0 0l19 12L0 24V0z" fill="#5EAA22"/>
+      <path d="M7.305 16.501S3.72 15.278 3.848 11.45c.127-3.83 3.775-4.58 3.775-4.58-1.277-.923-5.85.159-5.996 4.58-.146 4.42 4.315 5.402 5.678 5.051zm.107-6.692l.112-.654-.475-.464.657-.096L8 8l.294.595.657.096-.475.464.112.654L8 9.5l-.588.309zm.112 1.346l-.112.654L8 11.5l.588.309-.112-.654.475-.464-.657-.096L8 10l-.294.595-.657.096.475.463zm-.112 2.654l.112-.654-.475-.464.657-.096L8 12l.294.595.657.096-.475.463.112.655L8 13.5l-.588.309zm0 2l.112-.654-.475-.464.657-.096L8 14l.294.595.657.096-.475.463.112.655L8 15.5l-.588.309z" fill="#F7FCFF"/>
+    </g>
+  </g>
+</svg>

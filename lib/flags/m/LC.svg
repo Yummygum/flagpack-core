@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 15"><mask id="LC_svg__a" width="20" height="15" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h20v15H0z"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#LC_svg__a)"><path fill="#7CCFF5" d="M0 0h20v15H0V0z"/><path fill="#F7FCFF" d="M10 2.5l5 10H5l5-10z"/><path fill="#272727" d="M10 5l4.375 7.5h-8.75L10 5z"/><path fill="#FECA00" d="M10 8.75l5 3.75H5l5-3.75z"/></g></svg>
+<svg width="20" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+    <path fill="#fff" d="M0 0h20v15H0z"/>
+  </mask>
+  <g mask="url(#a)" fill-rule="evenodd" clip-rule="evenodd">
+    <path d="M0 0h20v15H0V0z" fill="#7CCFF5"/>
+    <path d="M10 2.5l5 10H5l5-10z" fill="#F7FCFF"/>
+    <path d="M10 5l4.375 7.5h-8.75L10 5z" fill="#272727"/>
+    <path d="M10 8.75l5 3.75H5l5-3.75z" fill="#FECA00"/>
+  </g>
+</svg>

@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24"><mask id="462_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h32v24H0z"/></mask><g mask="url(#462_svg__a)"><path fill="#C51918" fill-rule="evenodd" d="M0 0h32v22a2 2 0 01-2 2H2a2 2 0 01-2-2V0z" clip-rule="evenodd"/><path fill="#C51918" fill-rule="evenodd" d="M0 0h32v24H0V0z" clip-rule="evenodd"/><path fill="#579D20" fill-rule="evenodd" d="M6 6h20v12H6V6z" clip-rule="evenodd"/><path stroke="#B6EB9A" stroke-opacity=".238" stroke-width="2" d="M7 7h18v10H7V7z"/><mask id="462_svg__b" width="20" height="12" x="6" y="6" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M6 6h20v12H6V6z" clip-rule="evenodd"/><path stroke="#fff" stroke-width="2" d="M7 7h18v10H7V7z"/></mask><g mask="url(#462_svg__b)"><path fill="#F9FAFA" fill-rule="evenodd" d="M16.033 12.463c-.017 3.065 2.396 4.7 2.396 4.7-2.753.323-4.586-2.174-4.586-4.67 0-2.498 2.498-4.56 4.586-5.492 0 0-2.379 2.396-2.396 5.462z" clip-rule="evenodd"/></g></g></svg>
+<svg width="32" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
+    <path fill="#fff" d="M0 0h32v24H0z"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h32v22a2 2 0 01-2 2H2a2 2 0 01-2-2V0z" fill="#C51918"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h32v24H0V0z" fill="#C51918"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6 6h20v12H6V6z" fill="#579D20"/>
+    <path d="M7 7h18v10H7V7z" stroke="#B6EB9A" stroke-opacity=".238" stroke-width="2"/>
+    <mask id="b" maskUnits="userSpaceOnUse" x="6" y="6" width="20" height="12">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M6 6h20v12H6V6z" fill="#fff"/>
+      <path d="M7 7h18v10H7V7z" stroke="#fff" stroke-width="2"/>
+    </mask>
+    <g mask="url(#b)">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.033 12.463c-.017 3.065 2.396 4.7 2.396 4.7-2.753.323-4.586-2.174-4.586-4.67 0-2.498 2.498-4.56 4.586-5.492 0 0-2.379 2.396-2.396 5.462z" fill="#F9FAFA"/>
+    </g>
+  </g>
+</svg>

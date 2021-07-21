@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24"><mask id="356_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h32v24H0z"/></mask><g mask="url(#356_svg__a)"><path fill="#F7FCFF" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/><mask id="356_svg__b" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#356_svg__b)"><path fill="#FF8C1A" d="M0 0v8h32V0H0z"/><path fill="#5EAA22" d="M0 16v8h32v-8H0z"/><path fill="#3D58DB" d="M12 12a4 4 0 108 0 4 4 0 00-8 0zm7 0a3 3 0 11-6 0 3 3 0 016 0z"/><path fill="#3D58DB" d="M15.995 12.86l-.571 3.121.331-3.155-1.427 2.834 1.207-2.934-2.167 2.316 1.984-2.474-2.732 1.612 2.602-1.816-3.076.777 3.007-1.009-3.17-.121 3.17-.12-3.007-1.01 3.076.777-2.602-1.815 2.732 1.612-1.984-2.475 2.167 2.316-1.207-2.934 1.427 2.834-.331-3.155.57 3.12.571-3.12-.331 3.155 1.427-2.834-1.207 2.934L18.62 8.98l-1.984 2.475 2.732-1.612-2.602 1.815 3.076-.777-3.008 1.01 3.17.12-3.17.121 3.008 1.01-3.076-.778 2.602 1.816-2.732-1.612 1.984 2.474-2.167-2.316 1.207 2.934-1.427-2.834.331 3.155-.57-3.12z"/></g></g></svg>
+<svg width="32" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
+    <path fill="#fff" d="M0 0h32v24H0z"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#F7FCFF"/>
+    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#fff"/>
+    </mask>
+    <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
+      <path d="M0 0v8h32V0H0z" fill="#FF8C1A"/>
+      <path d="M0 16v8h32v-8H0z" fill="#5EAA22"/>
+      <path d="M12 12a4 4 0 108 0 4 4 0 00-8 0zm7 0a3 3 0 11-6 0 3 3 0 016 0z" fill="#3D58DB"/>
+      <path d="M15.995 12.86l-.571 3.121.331-3.155-1.427 2.834 1.207-2.934-2.167 2.316 1.984-2.474-2.732 1.612 2.602-1.816-3.076.777 3.007-1.009-3.17-.121 3.17-.12-3.007-1.01 3.076.777-2.602-1.815 2.732 1.612-1.984-2.475 2.167 2.316-1.207-2.934 1.427 2.834-.331-3.155.57 3.12.571-3.12-.331 3.155 1.427-2.834-1.207 2.934L18.62 8.98l-1.984 2.475 2.732-1.612-2.602 1.815 3.076-.777-3.008 1.01 3.17.12-3.17.121 3.008 1.01-3.076-.778 2.602 1.816-2.732-1.612 1.984 2.474-2.167-2.316 1.207 2.934-1.427-2.834.331 3.155-.57-3.12z" fill="#3D58DB"/>
+    </g>
+  </g>
+</svg>
