@@ -1,0 +1,1 @@
+{"version":3,"file":"countryCodeList.d.ts","sourceRoot":"","sources":["../src/countryCodeList.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,WAAW,UAAU;IACzB,WAAW,EAAE,MAAM,CAAC;IACpB,MAAM,EAAE,MAAM,CAAC;IACf,MAAM,CAAC,EAAE,MAAM,CAAC;IAChB,OAAO,CAAC,EAAE,MAAM,CAAC;CAClB;AAED,eAAO,MAAM,eAAe,EAAE,UAAU,EA6fvC,CAAC"}
