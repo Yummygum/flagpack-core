@@ -1,10 +1,1 @@
-<svg width="32" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
-    <path fill="#fff" d="M0 0h32v24H0z"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h32v24H0V0z" fill="#093"/>
-    <path d="M-.14-1.041l-2.21-1.824v29.73l2.21-1.824 14.537-12L15.658 12l-1.26-1.041-14.539-12z" fill="#272727" stroke="#FECA00" stroke-width="2.7"/>
-    <path d="M32.164-1.06l2.186-1.724v29.568l-2.186-1.724-15.219-12L15.601 12l1.344-1.06 15.22-12z" fill="#272727" stroke="#FECA00" stroke-width="2.7"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24"><mask id="JAM_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h32v24H0z"/></mask><g mask="url(#JAM_svg__a)"><path fill="#093" fill-rule="evenodd" d="M0 0h32v24H0V0z" clip-rule="evenodd"/><path fill="#272727" stroke="#FECA00" stroke-width="2.7" d="M-.14-1.041l-2.21-1.824v29.73l2.21-1.824 14.537-12L15.658 12l-1.26-1.041-14.539-12z"/><path fill="#272727" stroke="#FECA00" stroke-width="2.7" d="M32.164-1.06l2.186-1.724v29.568l-2.186-1.724-15.219-12L15.601 12l1.344-1.06 15.22-12z"/></g></svg>

@@ -1,16 +1,1 @@
-<svg width="32" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
-    <path fill="#fff" d="M0 0h32v24H0z"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#093"/>
-    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#fff"/>
-    </mask>
-    <g mask="url(#b)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24L32 0H0z" fill="#3195F9"/>
-      <path d="M-1.012 27.094l.53.96.908-.617 34.832-23.71.702-.477-.358-.77-2.342-5.04-.491-1.057-.97.647-35.356 23.556-.766.51.445.805 2.866 5.193z" fill="#E31D1C" stroke="#F7FCFF" stroke-width="2"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.23 9.245l-1.294 1.614-.314-2.045-1.928.751.751-1.928L1.4 7.324 3.015 6.03 1.4 4.736l2.045-.314-.75-1.928 1.927.751.314-2.045L6.23 2.815 7.524 1.2l.313 2.045 1.928-.75-.751 1.927 2.045.314L9.445 6.03l1.614 1.294-2.045.313.751 1.928-1.928-.751-.313 2.045L6.23 9.245zm0-.715a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm2-2.5a2 2 0 11-4 0 2 2 0 014 0z" fill="#FECA00"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24"><mask id="NA_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h32v24H0z"/></mask><g mask="url(#NA_svg__a)"><path fill="#093" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/><mask id="NA_svg__b" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/></mask><g mask="url(#NA_svg__b)"><path fill="#3195F9" fill-rule="evenodd" d="M0 0v24L32 0H0z" clip-rule="evenodd"/><path fill="#E31D1C" stroke="#F7FCFF" stroke-width="2" d="M-1.012 27.094l.53.96.908-.617 34.832-23.71.702-.477-.358-.77-2.342-5.04-.491-1.057-.97.647-35.356 23.556-.766.51.445.805 2.866 5.193z"/><path fill="#FECA00" fill-rule="evenodd" d="M6.23 9.245l-1.294 1.614-.314-2.045-1.928.751.751-1.928L1.4 7.324 3.015 6.03 1.4 4.736l2.045-.314-.75-1.928 1.927.751.314-2.045L6.23 2.815 7.524 1.2l.313 2.045 1.928-.75-.751 1.927 2.045.314L9.445 6.03l1.614 1.294-2.045.313.751 1.928-1.928-.751-.313 2.045L6.23 9.245zm0-.715a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm2-2.5a2 2 0 11-4 0 2 2 0 014 0z" clip-rule="evenodd"/></g></g></svg>

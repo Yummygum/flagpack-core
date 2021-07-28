@@ -1,18 +1,1 @@
-<svg width="20" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
-    <path fill="#fff" d="M0 0h20v15H0z"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v15h20V0H0z" fill="#FECA00"/>
-    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v15h20V0H0z" fill="#fff"/>
-    </mask>
-    <g mask="url(#b)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v5h20V0H0z" fill="#5EAA22"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10v5h20v-5H0z" fill="#E31D1C"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.25a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z" fill="#2B77B8"/>
-      <path clip-rule="evenodd" d="M10 8.75l-1.726.58.537-1.444-1.17-1.397h1.624L10 5l.735 1.489h1.66L11.19 7.886l.428 1.443L10 8.75z" stroke="#FECA00" stroke-width=".938"/>
-      <path d="M9.81 7.522l-1.303 2.725m1.098-3.072h-2.5m2.971.849l2.443 1.127m-1.915-1.73l1.769-1.936" stroke="#2B77B8" stroke-width=".625"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 15"><mask id="ET_svg__a" width="20" height="15" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h20v15H0z"/></mask><g mask="url(#ET_svg__a)"><path fill="#FECA00" fill-rule="evenodd" d="M0 0v15h20V0H0z" clip-rule="evenodd"/><mask id="ET_svg__b" width="20" height="15" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v15h20V0H0z" clip-rule="evenodd"/></mask><g mask="url(#ET_svg__b)"><path fill="#5EAA22" fill-rule="evenodd" d="M0 0v5h20V0H0z" clip-rule="evenodd"/><path fill="#E31D1C" fill-rule="evenodd" d="M0 10v5h20v-5H0z" clip-rule="evenodd"/><path fill="#2B77B8" fill-rule="evenodd" d="M10 11.25a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z" clip-rule="evenodd"/><path stroke="#FECA00" stroke-width=".938" d="M10 8.75l-1.726.58.537-1.444-1.17-1.397h1.624L10 5l.735 1.489h1.66L11.19 7.886l.428 1.443L10 8.75z" clip-rule="evenodd"/><path stroke="#2B77B8" stroke-width=".625" d="M9.81 7.522l-1.303 2.725m1.098-3.072h-2.5m2.971.849l2.443 1.127m-1.915-1.73l1.769-1.936"/></g></g></svg>

@@ -1,16 +1,1 @@
-<svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-    <path fill="#fff" d="M0 0h16v12H0z"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12h16V0H0z" fill="#5BA3DA"/>
-    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12h16V0H0z" fill="#fff"/>
-    </mask>
-    <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
-      <path d="M2.78 4.29L.242 3.536l2.595-.74.633-2.36.731 2.433 2.4.641-2.407.724-.718 2.324L2.78 4.29z" fill="#EF2929"/>
-      <path d="M2.78 4.29L.242 3.536l2.595-.74.633-2.36.731 2.433 2.4.641-2.407.724-.718 2.324L2.78 4.29z" fill="red"/>
-      <path d="M16 7H0v1h16V7zm0 2H0v1h16V9z" fill="#FAD615"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12"><mask id="ABW_svg__a" width="16" height="12" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h16v12H0z"/></mask><g mask="url(#ABW_svg__a)"><path fill="#5BA3DA" fill-rule="evenodd" d="M0 0v12h16V0H0z" clip-rule="evenodd"/><mask id="ABW_svg__b" width="16" height="12" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v12h16V0H0z" clip-rule="evenodd"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#ABW_svg__b)"><path fill="#EF2929" d="M2.78 4.29L.242 3.536l2.595-.74.633-2.36.731 2.433 2.4.641-2.407.724-.718 2.324L2.78 4.29z"/><path fill="red" d="M2.78 4.29L.242 3.536l2.595-.74.633-2.36.731 2.433 2.4.641-2.407.724-.718 2.324L2.78 4.29z"/><path fill="#FAD615" d="M16 7H0v1h16V7zm0 2H0v1h16V9z"/></g></g></svg>

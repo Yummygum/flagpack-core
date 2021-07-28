@@ -1,18 +1,1 @@
-<svg width="32" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
-    <path fill="#fff" d="M0 0h32v24H0z"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#FECA00"/>
-    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="24">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#fff"/>
-    </mask>
-    <g mask="url(#b)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v8h32V0H0z" fill="#5EAA22"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16v8h32v-8H0z" fill="#E31D1C"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16 18a6 6 0 100-12 6 6 0 000 12z" fill="#2B77B8"/>
-      <path clip-rule="evenodd" d="M16 14l-2.762.927.86-2.309-1.874-2.236h2.6L16 8l1.176 2.382h2.657l-1.93 2.236.684 2.309L16 14z" stroke="#FECA00" stroke-width="1.5"/>
-      <path d="M15.696 12.034l-2.085 4.36m1.757-4.914h-4m4.754 1.358l3.909 1.804m-3.064-2.768l2.83-3.098" stroke="#2B77B8"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24"><mask id="ET_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h32v24H0z"/></mask><g mask="url(#ET_svg__a)"><path fill="#FECA00" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/><mask id="ET_svg__b" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v24h32V0H0z" clip-rule="evenodd"/></mask><g mask="url(#ET_svg__b)"><path fill="#5EAA22" fill-rule="evenodd" d="M0 0v8h32V0H0z" clip-rule="evenodd"/><path fill="#E31D1C" fill-rule="evenodd" d="M0 16v8h32v-8H0z" clip-rule="evenodd"/><path fill="#2B77B8" fill-rule="evenodd" d="M16 18a6 6 0 100-12 6 6 0 000 12z" clip-rule="evenodd"/><path stroke="#FECA00" stroke-width="1.5" d="M16 14l-2.762.927.86-2.309-1.874-2.236h2.6L16 8l1.176 2.382h2.657l-1.93 2.236.684 2.309L16 14z" clip-rule="evenodd"/><path stroke="#2B77B8" d="M15.696 12.034l-2.085 4.36m1.757-4.914h-4m4.754 1.358l3.909 1.804m-3.064-2.768l2.83-3.098"/></g></g></svg>

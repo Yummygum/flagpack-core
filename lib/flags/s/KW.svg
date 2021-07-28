@@ -1,16 +1,1 @@
-<svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-    <path fill="#fff" d="M0 0h16v12H0z"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12h16V0H0z" fill="#F7FCFF"/>
-    <mask id="b" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12h16V0H0z" fill="#fff"/>
-    </mask>
-    <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
-      <path d="M0 0v4h16V0H0z" fill="#093"/>
-      <path d="M0 8v4h16V8H0z" fill="#E31D1C"/>
-    </g>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v12l6-4V4L0 0z" fill="#272727"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12"><mask id="KW_svg__a" width="16" height="12" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h16v12H0z"/></mask><g mask="url(#KW_svg__a)"><path fill="#F7FCFF" fill-rule="evenodd" d="M0 0v12h16V0H0z" clip-rule="evenodd"/><mask id="KW_svg__b" width="16" height="12" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" fill-rule="evenodd" d="M0 0v12h16V0H0z" clip-rule="evenodd"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#KW_svg__b)"><path fill="#093" d="M0 0v4h16V0H0z"/><path fill="#E31D1C" d="M0 8v4h16V8H0z"/></g><path fill="#272727" fill-rule="evenodd" d="M0 0v12l6-4V4L0 0z" clip-rule="evenodd"/></g></svg>
