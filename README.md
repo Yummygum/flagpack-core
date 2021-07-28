@@ -22,7 +22,7 @@ Flagpack contains 250+ flag icons to easily use within your code project. Flagpa
   </a>
 </p>
 
-Flagpack core has been created to provide and share the flag assets used in [Flagpack](https://flagpack.xyz/). It also provides some logic to help with building on top. For example, it can also be used to map over the `countryCodeList.json` to display all flags.
+Flagpack core has been created to provide and share the flag assets used in [Flagpack](https://flagpack.xyz/). It also provides some logic to help with building on top of this package. For example, it can also be used to map over the `countryCodeList.json` to display all flags.
 
 
 ## Installation
@@ -57,7 +57,7 @@ For more information on the use of installing a local package, we'd recommend ch
 
 ## Use
 
-With the release of Flagpack `2.0.0`, flagpack no longer serves all of the images in a single file. This is done to only serve the flags it requires, in other words: to preform 'treeshaking'. You'll have to import each flag separately using dynamic imports.  
+With the release of Flagpack [`2.0.0`](https://github.com/Yummygum/flagpack-core/releases/tag/v2.0.0), Flagpack no longer serves all of the images in a single file. This is done to only serve the flags it requires, in other words: to preform 'treeshaking'. You'll have to import each flag separately, using the `flags` directory in `flagpack-core`. For an example to how to set this up dynamically, check out our [`react-flagpack` package](https://github.com/Yummygum/react-flagpack).  
 
 ## Flag Policy
 
