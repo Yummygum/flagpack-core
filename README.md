@@ -55,6 +55,10 @@ $ npm link flagpack-core
 
 For more information on the use of installing a local package, we'd recommend checking [the npm link documentation](https://docs.npmjs.com/cli/v7/commands/npm-link).
 
+## Use
+
+With the release of Flagpack `2.0.0`, flagpack no longer serves all of the images in a single file. This is done to only serve the flags it requires, in other words: to preform 'treeshaking'. You'll have to import each flag separately using dynamic imports.  
+
 ## Flag Policy
 
 Which flags should be included is an ongoing point of discussion within a project such as Flagpack. To provide some form of consistency, as of the 2.0 release Flagpack will be using the ISO 3166 standard as our baseline for our flag selection. In other words: Flagpack will provide flags for all ISO 3166 countries. 
