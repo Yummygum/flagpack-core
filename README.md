@@ -28,8 +28,8 @@ Flagpack core has been created to provide and share the flag assets used in [Fla
 ## Installation
 Flagpack is available as a ready-to-use package through our framework packages. See the repo for more information about installing those.
 - [Flagpack for React](https://github.com/Yummygum/react-flagpack)
-- [Flagpack for Vue](https://github.com/Yummygum/react-vue)
-- [Flagpack for Svelte](https://github.com/Yummygum/react-svelte)
+- [Flagpack for Vue](https://github.com/Yummygum/vue-flagpack)
+- [Flagpack for Svelte](https://github.com/Yummygum/svelte-flagpack)
 
 ### Installing flagpack-core
 You can setup flagpack-core by cloning the repo through `git clone`
