@@ -37,7 +37,7 @@ export const countryCodeList: IFlagEntry[] = [
     numeric: "016",
   },
   { countryName: "Austria", alpha2: "AT", alpha3: "AUT", numeric: "040" },
-  { countryName: "Australia", alpha2: "AU", alpha3: "AUS", numeric: "016" },
+  { countryName: "Australia", alpha2: "AU", alpha3: "AUS", numeric: "036" },
   { countryName: "Aruba", alpha2: "AW", alpha3: "ABW", numeric: "533" },
   { countryName: "Åland Islands", alpha2: "AX", alpha3: "ALA", numeric: "248" },
   { countryName: "Azerbaijan", alpha2: "AZ", alpha3: "AZE", numeric: "031" },
