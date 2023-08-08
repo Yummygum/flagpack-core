@@ -1,7 +1,13 @@
-<svg width="20" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g mask="url(#CI_-_Côte_d'Ivoire_(Ivory_Coast)__a)" fill-rule="evenodd" clip-rule="evenodd">
-    <path d="M13.75 0H20v15h-6.25V0z" fill="#67BD38"/>
-    <path d="M0 0h6.25v15H0V0z" fill="#E47E00"/>
-    <path d="M6.25 0h7.5v15h-7.5V0z" fill="#F7FCFF"/>
-  </g>
+<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_270_60979)">
+<rect width="20" height="15" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0H20V15H13.75V0Z" fill="#67BD38"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H6.25V15H0V0Z" fill="#E47E00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.25 0H13.75V15H6.25V0Z" fill="#F7FCFF"/>
+</g>
+<defs>
+<clipPath id="clip0_270_60979">
+<rect width="20" height="15" fill="white"/>
+</clipPath>
+</defs>
 </svg>
