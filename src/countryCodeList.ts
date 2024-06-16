@@ -180,7 +180,7 @@ export const countryCodeList: IFlagEntry[] = [
   },
   { countryName: "Greece", alpha2: "GR", alpha3: "GRC", numeric: "300" },
   {
-    countryName: "South Gerogia and the South Sandwich Islands",
+    countryName: "South Georgia and the South Sandwich Islands",
     alpha2: "GS",
     alpha3: "SGS",
     numeric: "239",
@@ -342,7 +342,7 @@ export const countryCodeList: IFlagEntry[] = [
     numeric: "598",
   },
   {
-    countryName: "Phillippines (the)",
+    countryName: "Philippines (the)",
     alpha2: "PH",
     alpha3: "PHL",
     numeric: "608",
