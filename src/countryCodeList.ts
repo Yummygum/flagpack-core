@@ -76,7 +76,7 @@ export const countryCodeList: IFlagEntry[] = [
   { countryName: "Canada", alpha2: "CA", alpha3: "CAN", numeric: "124" },
   { countryName: "Cocos Islands", alpha2: "CC", alpha3: "CCK", numeric: "166" },
   {
-    countryName: "Democratis Republic of Congo",
+    countryName: "Democratic Republic of Congo",
     alpha2: "CD",
     alpha3: "COD",
     numeric: "180",
