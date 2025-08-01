@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12"><mask id="SY_svg__a" width="16" height="12" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h16v12H0z"/></mask><g fill-rule="evenodd" clip-rule="evenodd" mask="url(#SY_svg__a)"><path fill="#F7FCFF" d="M0 0h16v12H0V0z"/><path fill="#409100" d="M4.5 6.935l-.934.565.213-1.102L3 5.573l1.055-.044L4.5 4.5l.446 1.029H6l-.777.87.234 1.101-.956-.565zm7 0l-.934.565.213-1.102L10 5.573l1.055-.044L11.5 4.5l.446 1.029H13l-.777.87.234 1.101-.956-.565z"/><path fill="#E31D1C" d="M0 0v4h16V0H0z"/><path fill="#272727" d="M0 8v4h16V8H0z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 24">
+  <mask id="SY_svg__a" width="32" height="24" x="0" y="0" maskUnits="userSpaceOnUse">
+    <path fill="#fff" d="M0 0h32v24H0z"/>
+  </mask>
+  <g fill-rule="evenodd" clip-rule="evenodd" mask="url(#SY_svg__a)">
+    <path fill="#F7FCFF" d="M0 0h32v24H0V0z"/>
+    <path d="M0 0v8h32V0H0z" style="fill: rgb(0, 122, 61);"/>
+    <path d="M0 16v8h32v-8H0z" style="fill: rgb(0, 0, 0);"/>
+  </g>
+  <path d="M 6.783 14.297 L 8.493 9.02 L 10.211 14.297 L 5.723 11.035 L 11.272 11.035 M 22.615 14.297 L 24.325 9.02 L 26.043 14.297 L 21.555 11.035 L 27.103 11.035 M 14.699 14.297 L 16.417 9.02 L 18.127 14.297 L 13.639 11.035 L 19.187 11.035" fill="#ce1126" style=""/>
+</svg>
