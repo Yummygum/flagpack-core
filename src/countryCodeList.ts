@@ -17,6 +17,7 @@ export const countryCodeList: IFlagEntry[] = [
     numeric: "784",
   },
   { countryName: "African Union", alpha2: "AFRUN" },
+  { countryName: "Algeria", alpha2: "DZ", alpha3: "DZA", numeric: "012" },
   {
     countryName: "Antigua and Barbuda",
     alpha2: "AG",
