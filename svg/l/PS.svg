@@ -8,4 +8,9 @@
     <path d="M0 16v8h32v-8H0z" fill="#5EAA22"/>
     <path d="M0 2l16 10L0 22V2z" fill="#E31D1C"/>
   </g>
+<defs>
+<clipPath id="clip0_270_67477">
+<rect width="32" height="24" fill="white"/>
+</clipPath>
+</defs>
 </svg>

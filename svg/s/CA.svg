@@ -1,9 +1,14 @@
-<svg width="16" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-    <path fill="#fff" d="M0 0h16v12H0z"/>
-  </mask>
-  <g mask="url(#a)" fill-rule="evenodd" clip-rule="evenodd">
-    <path d="M4 0h8.5v12H4V0z" fill="#F7FCFF"/>
-    <path d="M7.164 4.201L7.987 3 8 10h-.343l.21-1.732s-2.305.423-2.115.21c.191-.214.3-.606.3-.606L4 6.474s.324-.004.587-.164c.264-.16-.263-1.109-.263-1.109l1.036.154.392-.435.782.836h.352l-.352-1.914.63.36zM8 10V3l.836 1.201.63-.359-.352 1.914h.352l.782-.836.392.435 1.036-.154s-.527.949-.263 1.109c.263.16.587.164.587.164L9.947 7.872s.11.392.3.606c.191.213-2.115-.21-2.115-.21L8.342 10H8zm4-10h4v12h-4V0zM0 0h4v12H0V0z" fill="#E31D1C"/>
-  </g>
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_270_55097)">
+<rect width="16" height="12" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H12.5V12H4V0Z" fill="#F7FCFF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.16447 4.20127L7.98652 3L8 10H7.65742L7.86761 8.2677C7.86761 8.2677 5.56179 8.69124 5.75241 8.4776C5.94304 8.26397 6.05283 7.87204 6.05283 7.87204L4 6.47393C4 6.47393 4.32382 6.46978 4.58726 6.30984C4.8507 6.1499 4.32382 5.20134 4.32382 5.20134L5.36027 5.35527L5.75241 4.92023L6.53439 5.7557H6.8859L6.53439 3.842L7.16447 4.20127ZM8 10V3L8.83553 4.20127L9.46561 3.842L9.1141 5.7557H9.46561L10.2476 4.92023L10.6397 5.35527L11.6762 5.20134C11.6762 5.20134 11.1493 6.1499 11.4127 6.30984C11.6762 6.46978 12 6.47393 12 6.47393L9.94717 7.87204C9.94717 7.87204 10.057 8.26397 10.2476 8.4776C10.4382 8.69124 8.13239 8.2677 8.13239 8.2677L8.34258 10H8Z" fill="#E31D1C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 0H16V12H12V0Z" fill="#E31D1C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H4V12H0V0Z" fill="#E31D1C"/>
+</g>
+<defs>
+<clipPath id="clip0_270_55097">
+<rect width="16" height="12" fill="white"/>
+</clipPath>
+</defs>
 </svg>
