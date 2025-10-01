@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="15px" viewBox="0 0 20 15" version="1.1">
-<g id="surface1">
-<rect x="0" y="0" width="20" height="15" style="fill:rgb(0%,0%,0%);fill-opacity:1;stroke:none;"/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 0 0 L 20 0 L 20 10 L 0 10 Z M 0 0 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,47.843137%,23.921569%);fill-opacity:1;" d="M 0 0 L 20 0 L 20 5 L 0 5 Z M 0 0 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784315%,6.666667%,14.901961%);fill-opacity:1;" d="M 3.917969 9.375 L 5 5.625 L 6.082031 9.375 L 3.246094 7.058594 L 6.753906 7.058594 M 13.917969 9.375 L 15 5.625 L 16.082031 9.375 L 13.246094 7.058594 L 16.753906 7.058594 M 8.917969 9.375 L 10 5.625 L 11.082031 9.375 L 8.246094 7.058594 L 11.753906 7.058594 "/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" version="1.1">
+  <g id="surface1">
+    <rect x="0" y="0" width="20" height="15" fill="rgb(0%,0%,0%)" fill-opacity="1" stroke="none"/>
+    <path fill="rgb(100%,100%,100%)" fill-opacity="1" stroke="none" fill-rule="nonzero" d="M 0 0 L 20 0 L 20 10 L 0 10 Z M 0 0"/>
+    <path fill="rgb(0%,47.843137%,23.921569%)" fill-opacity="1" stroke="none" fill-rule="nonzero" d="M 0 0 L 20 0 L 20 5 L 0 5 Z M 0 0"/>
+    <path fill="rgb(80.784315%,6.666667%,14.901961%)" fill-opacity="1" stroke="none" fill-rule="nonzero" d="M 3.917969 9.375 L 5 5.625 L 6.082031 9.375 L 3.246094 7.058594 L 6.753906 7.058594 M 13.917969 9.375 L 15 5.625 L 16.082031 9.375 L 13.246094 7.058594 L 16.753906 7.058594 M 8.917969 9.375 L 10 5.625 L 11.082031 9.375 L 8.246094 7.058594 L 11.753906 7.058594"/>
+  </g>
 </svg>
