@@ -152,6 +152,12 @@ export const countryCodeList: IFlagEntry[] = [
   { countryName: "Faroe Island", alpha2: "FO", alpha3: "FRO", numeric: "234" },
   { countryName: "France", alpha2: "FR", alpha3: "FRA", numeric: "250" },
   { countryName: "Gabon", alpha2: "GA", alpha3: "GAB", numeric: "266" },
+  {
+    countryName: "United Kingdom",
+    alpha2: "GB",
+    alpha3: "GBR",
+    numeric: "836",
+  },
   { countryName: "England", alpha2: "GB-ENG" },
   { countryName: "Scotland", alpha2: "GB-SCT" },
   {
